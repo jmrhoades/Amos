@@ -1,15 +1,32 @@
 // !$*UTF8*$!
 {
+	1D3623250D0F684500981E51 /* AmosAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {810, 1014}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 284}";
+		};
+	};
 	1D6058900D05DD3D006BFB54 /* Amos */ = {
 		activeExec = 0;
 		executables = (
 			8DB45B41126A2CB900A470D2 /* Amos */,
 		);
 	};
+	28D7ACF70DDB3853001CB0EB /* AmosViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 767}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 319}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 8DB45B41126A2CB900A470D2 /* Amos */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Amos */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Amos */,
+		);
 		codeSenseManager = 8DB45B53126A2CCE00A470D2 /* Code sense */;
 		executables = (
 			8DB45B41126A2CB900A470D2 /* Amos */,
@@ -20,9 +37,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					364,
+					480,
 					20,
-					48.16259765625,
+					48,
 					43,
 					43,
 					20,
@@ -37,8 +54,13 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 308948153;
-			PBXWorkspaceStateSaveDate = 308948153;
+			PBXPerProjectTemplateStateSaveDate = 308948660;
+			PBXWorkspaceStateSaveDate = 308948660;
+		};
+		perUserProjectItems = {
+			8DB45BF6126AA81200A470D2 /* PBXTextBookmark */ = 8DB45BF6126AA81200A470D2 /* PBXTextBookmark */;
+			8DB45BF7126AA81200A470D2 /* PBXTextBookmark */ = 8DB45BF7126AA81200A470D2 /* PBXTextBookmark */;
+			8DB45BF8126AA81200A470D2 /* PBXTextBookmark */ = 8DB45BF8126AA81200A470D2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 8DB45B52126A2CCE00A470D2 /* Source Control */;
 		userBuildSettings = {
@@ -60,6 +82,7 @@
 		dataTipSortType = 0;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
@@ -84,5 +107,35 @@
 	8DB45B53126A2CCE00A470D2 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
+	};
+	8DB45BF6126AA81200A470D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* AmosViewController.m */;
+		name = "AmosViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 0;
+	};
+	8DB45BF7126AA81200A470D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AmosAppDelegate.m */;
+		name = "AmosAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 284;
+		vrLoc = 0;
+	};
+	8DB45BF8126AA81200A470D2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* AmosAppDelegate.m */;
+		name = "AmosAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 284;
+		vrLoc = 0;
 	};
 }

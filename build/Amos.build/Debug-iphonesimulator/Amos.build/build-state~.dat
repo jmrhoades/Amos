@@ -1,0 +1,256 @@
+TAmos
+v7
+r0
+t308948667.798047
+cCheck dependencies
+cProcessInfoPlistFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist Amos-Info.plist
+cCompileXIB /Users/justinrhoades/Dropbox/Amos/Amos/MainWindow.xib
+cCompileXIB /Users/justinrhoades/Dropbox/Amos/Amos/AmosViewController.xib
+cProcessPCH /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o /Users/justinrhoades/Dropbox/Amos/Amos/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosViewController.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos normal i386
+cGenerateDSYMFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+cTouch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CAC155A0000000000000110
+t1286346074
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CAC0218000000000029B310
+t1286341144
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CAC0237000000000029D5D0
+t1286341175
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CAC02230000000000001466
+t1286341155
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CAC13700000000000000AA1
+t1286345584
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CAC141C000000000074B110
+t1286345756
+s7647504
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/AmosViewController.xib
+c000000004CB9F5390000000000003ED5
+t1287255353
+s16085
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch
+c000000004CB9F53900000000000000B1
+t1287255353
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.h
+c000000004CB9F53900000000000001D0
+t1287255353
+s464
+i<UIKit/UIKit.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m
+c000000004CB9F53900000000000007A8
+t1287255353
+s1960
+i"AmosAppDelegate.h"
+i"AmosViewController.h"
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.h
+c000000004CB9F53900000000000000E8
+t1287255353
+s232
+i<UIKit/UIKit.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.m
+c000000004CB9F539000000000000054F
+t1287255353
+s1359
+i"AmosViewController.h"
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/MainWindow.xib
+c000000004CB9F5390000000000004CEB
+t1287255353
+s19691
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/Amos.LinkFileList
+c000000004CB9F7380000000000000175
+t1287255864
+s373
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o
+t1287255867
+s49900
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosViewController.o
+t1287255867
+s37960
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o
+t1287255867
+s6304
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+t1287255867
+s238
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM
+t1287255867
+s102
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+t1287255867
+s16772
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/AmosViewController.nib
+t1287255865
+s764
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist
+t1287255864
+s786
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/MainWindow.nib
+t1287255865
+s1117
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/PkgInfo
+t1287255864
+s8
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/main.m
+c000000004CB9F5390000000000000169
+t1287255353
+s361
+i<UIKit/UIKit.h>
+
+N/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch.gch
+t1287255866
+s15453392
+
+NAmos-Info.plist
+c000000004CB9F53900000000000004D6
+t1287255353
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies308948664#308948664#0(0"0(0#1#0"3343187568374212096#0"0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308948667.096343
+e308948667.284778
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m308948667#308948667#0(0"0(0#0#64"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m8607239392#1884"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosViewController.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308948667.284901
+e308948667.405787
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosViewController.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.m308948667#308948667#0(0"0(0#0#67"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.m8602303360#1890"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosViewController.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosViewController.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o /Users/justinrhoades/Dropbox/Amos/Amos/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s308948667.094082
+e308948667.340034
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/justinrhoades/Dropbox/Amos/Amos/main.m308948667#308948667#0(0"0(0#0#45"/Users/justinrhoades/Dropbox/Amos/Amos/main.m8605246016#1854"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/main.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/justinrhoades/Dropbox/Amos/Amos/AmosViewController.xib
+s308948664.511862
+e308948665.870652
+r1
+xCompileXIB
+x/Users/justinrhoades/Dropbox/Amos/Amos/AmosViewController.xib
+lSLF07#2@33"CompileXIB AmosViewController.xib308948664#308948665#0(0"0(0#0#61"/Users/justinrhoades/Dropbox/Amos/Amos/AmosViewController.xib8605320608#583"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/AmosViewController.nib /Users/justinrhoades/Dropbox/Amos/Amos/AmosViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/justinrhoades/Dropbox/Amos/Amos/MainWindow.xib
+s308948664.510434
+e308948665.749864
+r1
+xCompileXIB
+x/Users/justinrhoades/Dropbox/Amos/Amos/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib308948664#308948665#0(0"0(0#0#53"/Users/justinrhoades/Dropbox/Amos/Amos/MainWindow.xib8605403488#567"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/MainWindow.nib /Users/justinrhoades/Dropbox/Amos/Amos/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CGenerateDSYMFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+s308948667.714979
+e308948667.793962
+r1
+xGenerateDSYMFile
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Amos.app.dSYM build/Debug-iphonesimulator/Amos.app/Amos308948667#308948667#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos8605255712#374"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM0#
+
+CLd /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos normal i386
+s308948667.405872
+e308948667.714888
+r1
+xLd
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+xnormal
+xi386
+lSLF07#2@85"Link /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos308948667#308948667#0(0"0(0#0#0"8600150912#885"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -filelist /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/Amos.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos0#
+
+CProcessInfoPlistFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist Amos-Info.plist
+s308948664.489057
+e308948664.510334
+r1
+xProcessInfoPlistFile
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist
+xAmos-Info.plist
+lSLF07#2@23"Process Amos-Info.plist308948664#308948664#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos-Info.plist31244169098821736#470"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Amos-Info.plist -genpkginfo /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist0#
+
+CProcessPCH /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s308948665.870812
+e308948667.093898
+r1
+xProcessPCH
+x/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch.gch
+xAmos_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Amos_Prefix.pch308948665#308948667#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch8607309376#1749"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -c /Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch -o /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-aomyktuxtskptlcizndwkjncsxcy/Amos_Prefix.pch.gch0#
+
+CTouch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+s308948667.794044
+e308948667.797996
+r1
+xTouch
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+lSLF07#2@81"Touch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app308948667#308948667#0(0"0(0#0#0"8604979232#275"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app0#
+
