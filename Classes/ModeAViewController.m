@@ -144,32 +144,39 @@
 	// Define the dynamic body.
 	b2BodyDef bodyDef;
 	bodyDef.type = b2_dynamicBody;
-	
 	CGPoint p = uiView.center;
-	CGPoint boxDimensions = CGPointMake(uiView.bounds.size.width/PTM_RATIO/2.0,uiView.bounds.size.height/PTM_RATIO/2.0);
-	
 	bodyDef.position.Set(p.x/PTM_RATIO, (self.view.bounds.size.height-p.y)/PTM_RATIO);
 	bodyDef.userData = uiView;
-	
 	// Tell the physics world to create the body
 	b2Body *body = world->CreateBody(&bodyDef);
-	
-	// Define another box shape for our dynamic body.
-	b2PolygonShape dynamicBox;
-	
-	dynamicBox.SetAsBox(boxDimensions.x, boxDimensions.y);
-	
-	// Define the dynamic body fixture.
-	b2FixtureDef fixtureDef;
-	fixtureDef.shape = &dynamicBox;	
-	fixtureDef.density = 3.0f;
-	fixtureDef.friction = 0.3f;
-	fixtureDef.restitution = 0.5f; // 0 is a lead ball, 1 is a super bouncy ball
-	body->CreateFixture(&fixtureDef);
-	
+
+	if (uiView == ballA || uiView == ballB || uiView == ballC) {
+		
+		// Define another box shape for our dynamic body.
+		b2CircleShape shape;
+		shape.m_radius = uiView.bounds.size.width/PTM_RATIO/2.0;
+		b2FixtureDef fixtureDef;
+		fixtureDef.shape = &shape;	
+		fixtureDef.density = 3.0f;
+		fixtureDef.friction = 0.3f;
+		fixtureDef.restitution = 0.5f; // 0 is a lead ball, 1 is a super bouncy ball
+		body->CreateFixture(&fixtureDef);
+	} else {
+		// Define another box shape for our dynamic body.
+		b2PolygonShape shape;
+		CGPoint boxDimensions = CGPointMake(uiView.bounds.size.width/PTM_RATIO/2.0,uiView.bounds.size.height/PTM_RATIO/2.0);	
+		shape.SetAsBox(boxDimensions.x, boxDimensions.y);
+		// Define the dynamic body fixture.
+		b2FixtureDef fixtureDef;
+		fixtureDef.shape = &shape;	
+		fixtureDef.density = 3.0f;
+		fixtureDef.friction = 0.3f;
+		fixtureDef.restitution = 0.5f; // 0 is a lead ball, 1 is a super bouncy ball
+		body->CreateFixture(&fixtureDef);
+	}
+		
 	// a dynamic body reacts to forces right away
 	body->SetType(b2_dynamicBody);
-	
 	// we abuse the tag property as pointer to the physical body
 	uiView.tag = (int)body;
 }

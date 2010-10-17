@@ -28,7 +28,7 @@
 -(void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
 -(void) panBallA:(UIPanGestureRecognizer *)gestureRecognizer;
 -(void) panBallB:(UIPanGestureRecognizer *)gestureRecognizer;
-- (void)panBallC:(UIPanGestureRecognizer *)gestureRecognizer;
+-(void) panBallC:(UIPanGestureRecognizer *)gestureRecognizer;
 -(CGPoint) convertToGL:(CGPoint)uiPoint;
 
 @end

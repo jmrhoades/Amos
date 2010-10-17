@@ -1,1877 +1,0 @@
-TAmos
-v7
-r0
-t309046919.206704
-cCheck dependencies
-cCpResource build/Debug-iphoneos/Amos.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-cProcessInfoPlistFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Info.plist Amos-Info.plist
-cCpResource build/Debug-iphoneos/Amos.app/Box2DConfig.cmake Box2D/Box2DConfig.cmake
-cCpResource build/Debug-iphoneos/Amos.app/CMakeLists.txt Box2D/CMakeLists.txt
-cProcessPCH /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-buejsjdqulacjuehdjdwqjzajmtx/Amos_Prefix.pch.gch Amos_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch.gch Amos_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-cProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch.gch Amos_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/main.o /Users/justinrhoades/Dropbox/Amos/Amos/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/AmosAppDelegate.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAViewController.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BroadPhase.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideCircle.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideEdge.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollidePolygon.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Collision.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Distance.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DynamicTree.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2TimeOfImpact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BlockAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Math.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Settings.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2StackAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Body.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactManager.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Fixture.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Island.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2World.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WorldCallbacks.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Contact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactSolver.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DistanceJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2FrictionJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2GearJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Joint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LineJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2MouseJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PrismaticJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PulleyJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2RevoluteJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WeldJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/NoteBallA.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-cCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAContactListener.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-cLd /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos normal armv7
-cGenerateDSYMFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app.dSYM /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos
-cProcessProductPackaging "/Users/justinrhoades/Library/MobileDevice/Provisioning Profiles/086FA8EA-A409-486F-B55C-3C828E279611.mobileprovision" /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/embedded.mobileprovision
-cTouch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app
-cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent
-cCodeSign /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CB05A750000000000000110
-t1286625909
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-c000000004CABEFF700000000000001A7
-t1286336503
-s423
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-c000000004CABEFF700000000000001E5
-t1286336503
-s485
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CAC027A00000000003532B0
-t1286341242
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CAC039400000000003E1F20
-t1286341524
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CAC037B0000000000001466
-t1286341499
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CAC06D900000000000000C4
-t1286342361
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CAC135C0000000000000AA1
-t1286345564
-s2721
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004CAC160A0000000000C743B0
-t1286346250
-s13058992
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch
-c000000004CB9F53900000000000000B1
-t1287255353
-s177
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2D.h
-c000000004C96723F000000000000092B
-t1284928063
-s2347
-i<Box2D/Common/b2Settings.h>
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<Box2D/Collision/Shapes/b2LoopShape.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-i<Box2D/Collision/b2BroadPhase.h>
-i<Box2D/Collision/b2Distance.h>
-i<Box2D/Collision/b2DynamicTree.h>
-i<Box2D/Collision/b2TimeOfImpact.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2WorldCallbacks.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-i<Box2D/Dynamics/b2World.h>
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-i<Box2D/Dynamics/Joints/b2DistanceJoint.h>
-i<Box2D/Dynamics/Joints/b2FrictionJoint.h>
-i<Box2D/Dynamics/Joints/b2GearJoint.h>
-i<Box2D/Dynamics/Joints/b2LineJoint.h>
-i<Box2D/Dynamics/Joints/b2MouseJoint.h>
-i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
-i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
-i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
-i<Box2D/Dynamics/Joints/b2WeldJoint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2DConfig.cmake
-c000000004C96723F00000000000000BF
-t1284928063
-s191
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/CMakeLists.txt
-c000000004C96723F000000000000158C
-t1284928063
-s5516
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp
-c000000004C96723F0000000000000C83
-t1284928063
-s3203
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.h
-c000000004C96723F0000000000000A45
-t1284928063
-s2629
-i<Box2D/Collision/Shapes/b2Shape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp
-c000000004C96723F0000000000000D8C
-t1284928063
-s3468
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.h
-c000000004C96723F0000000000000922
-t1284928063
-s2338
-i<Box2D/Collision/Shapes/b2Shape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp
-c000000004C96723F0000000000000CB9
-t1284928063
-s3257
-i<Box2D/Collision/Shapes/b2LoopShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<new>
-i<cstring>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.h
-c000000004C96723F000000000000099D
-t1284928063
-s2461
-i<Box2D/Collision/Shapes/b2Shape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp
-c000000004C96723F0000000000002C46
-t1284928063
-s11334
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.h
-c000000004C96723F000000000000103B
-t1284928063
-s4155
-i<Box2D/Collision/Shapes/b2Shape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2Shape.h
-c000000004C96723F0000000000000E47
-t1284928063
-s3655
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Common/b2Math.h>
-i<Box2D/Collision/b2Collision.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp
-c000000004C96723F0000000000000C70
-t1284928063
-s3184
-i<Box2D/Collision/b2BroadPhase.h>
-i<cstring>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.h
-c000000004C96723F0000000000001928
-t1284928063
-s6440
-i<Box2D/Common/b2Settings.h>
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/b2DynamicTree.h>
-i<algorithm>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp
-c000000004C96723F00000000000011A5
-t1284928063
-s4517
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp
-c000000004C96723F0000000000006410
-t1284928063
-s25616
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp
-c000000004C96723F000000000000236B
-t1284928063
-s9067
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp
-c000000004C96723F000000000000197D
-t1284928063
-s6525
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/b2Distance.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.h
-c000000004C96723F0000000000002431
-t1284928063
-s9265
-i<Box2D/Common/b2Math.h>
-i<climits>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp
-c000000004C96723F00000000000035D9
-t1284928063
-s13785
-i<Box2D/Collision/b2Distance.h>
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<Box2D/Collision/Shapes/b2LoopShape.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.h
-c000000004C96723F0000000000000F51
-t1284928063
-s3921
-i<Box2D/Common/b2Math.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp
-c000000004C96723F000000000000284D
-t1284928063
-s10317
-i<Box2D/Collision/b2DynamicTree.h>
-i<cstring>
-i<cfloat>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.h
-c000000004C96723F0000000000001CBF
-t1284928063
-s7359
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Common/b2GrowableStack.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp
-c000000004C96723F0000000000002F7E
-t1284928063
-s12158
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/b2Distance.h>
-i<Box2D/Collision/b2TimeOfImpact.h>
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-i<cstdio>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.h
-c000000004C96723F0000000000000784
-t1284928063
-s1924
-i<Box2D/Common/b2Math.h>
-i<Box2D/Collision/b2Distance.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp
-c000000004C96723D00000000000013B1
-t1284928061
-s5041
-i<Box2D/Common/b2BlockAllocator.h>
-i<cstdlib>
-i<climits>
-i<cstring>
-i<memory>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.h
-c000000004C96723D000000000000072E
-t1284928061
-s1838
-i<Box2D/Common/b2Settings.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2GrowableStack.h
-c000000004C96723D00000000000007EB
-t1284928061
-s2027
-i<Box2D/Common/b2Settings.h>
-i<cstring>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp
-c000000004C96723D00000000000007CB
-t1284928061
-s1995
-i<Box2D/Common/b2Math.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.h
-c000000004C96723D0000000000003D33
-t1284928061
-s15667
-i<Box2D/Common/b2Settings.h>
-i<cmath>
-i<cfloat>
-i<cstddef>
-i<limits>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp
-c000000004C96723D000000000000049C
-t1284928061
-s1180
-i<Box2D/Common/b2Settings.h>
-i<cstdlib>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.h
-c000000004C96723D00000000000015A7
-t1284928061
-s5543
-i<cassert>
-i<cmath>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp
-c000000004C96723D0000000000000857
-t1284928061
-s2135
-i<Box2D/Common/b2StackAllocator.h>
-i<Box2D/Common/b2Math.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.h
-c000000004C96723D00000000000006C7
-t1284928061
-s1735
-i<Box2D/Common/b2Settings.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp
-c000000004C96723D000000000000085A
-t1284928061
-s2138
-i<Box2D/Dynamics/Contacts/b2CircleContact.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2WorldCallbacks.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Collision/b2TimeOfImpact.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.h
-c000000004C96723D00000000000005E5
-t1284928061
-s1509
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp
-c000000004C96723D0000000000001D94
-t1284928061
-s7572
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-i<Box2D/Dynamics/Contacts/b2CircleContact.h>
-i<Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h>
-i<Box2D/Dynamics/Contacts/b2PolygonContact.h>
-i<Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h>
-i<Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h>
-i<Box2D/Dynamics/Contacts/b2LoopAndCircleContact.h>
-i<Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.h>
-i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/b2TimeOfImpact.h>
-i<Box2D/Collision/Shapes/b2Shape.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2World.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.h
-c000000004C96723D0000000000001CC9
-t1284928061
-s7369
-i<Box2D/Common/b2Math.h>
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/Shapes/b2Shape.h>
-i<Box2D/Dynamics/b2Fixture.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp
-c000000004C96723D00000000000053E5
-t1284928061
-s21477
-i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2World.h>
-i<Box2D/Common/b2StackAllocator.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.h
-c000000004C96723D000000000000093B
-t1284928061
-s2363
-i<Box2D/Common/b2Math.h>
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Dynamics/b2Island.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp
-c000000004C96723D0000000000000830
-t1284928061
-s2096
-i<Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h
-c000000004C96723D000000000000060C
-t1284928061
-s1548
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp
-c000000004C96723D000000000000083E
-t1284928061
-s2110
-i<Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h
-c000000004C96723D0000000000000611
-t1284928061
-s1553
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp
-c000000004C96723D0000000000000924
-t1284928061
-s2340
-i<Box2D/Dynamics/Contacts/b2LoopAndCircleContact.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Collision/Shapes/b2LoopShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.h
-c000000004C96723D0000000000000628
-t1284928061
-s1576
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp
-c000000004C96723D0000000000000933
-t1284928061
-s2355
-i<Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Collision/Shapes/b2LoopShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.h
-c000000004C96723D000000000000062D
-t1284928061
-s1581
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp
-c000000004C96723D000000000000085A
-t1284928061
-s2138
-i<Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h
-c000000004C96723D0000000000000611
-t1284928061
-s1553
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp
-c000000004C96723D000000000000086D
-t1284928061
-s2157
-i<Box2D/Dynamics/Contacts/b2PolygonContact.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Collision/b2TimeOfImpact.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2WorldCallbacks.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.h
-c000000004C96723D00000000000005EA
-t1284928061
-s1514
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp
-c000000004C96723D0000000000001805
-t1284928061
-s6149
-i<Box2D/Dynamics/Joints/b2DistanceJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.h
-c000000004C96723D000000000000104E
-t1284928061
-s4174
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp
-c000000004C96723D0000000000001881
-t1284928061
-s6273
-i<Box2D/Dynamics/Joints/b2FrictionJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.h
-c000000004C96723D0000000000000B38
-t1284928061
-s2872
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp
-c000000004C96723D0000000000001C6E
-t1284928061
-s7278
-i<Box2D/Dynamics/Joints/b2GearJoint.h>
-i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
-i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.h
-c000000004C96723D0000000000000CE4
-t1284928061
-s3300
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp
-c000000004C96723D000000000000129D
-t1284928061
-s4765
-i<Box2D/Dynamics/Joints/b2Joint.h>
-i<Box2D/Dynamics/Joints/b2DistanceJoint.h>
-i<Box2D/Dynamics/Joints/b2LineJoint.h>
-i<Box2D/Dynamics/Joints/b2MouseJoint.h>
-i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
-i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
-i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
-i<Box2D/Dynamics/Joints/b2GearJoint.h>
-i<Box2D/Dynamics/Joints/b2WeldJoint.h>
-i<Box2D/Dynamics/Joints/b2FrictionJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2World.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.h
-c000000004C96723D000000000000172F
-t1284928061
-s5935
-i<Box2D/Common/b2Math.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp
-c000000004C96723D0000000000003AA1
-t1284928061
-s15009
-i<Box2D/Dynamics/Joints/b2LineJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.h
-c000000004C96723D0000000000001493
-t1284928061
-s5267
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp
-c000000004C96723D0000000000001493
-t1284928061
-s5267
-i<Box2D/Dynamics/Joints/b2MouseJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.h
-c000000004C96723D0000000000000DE9
-t1284928061
-s3561
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp
-c000000004C96723D0000000000003EB7
-t1284928061
-s16055
-i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.h
-c000000004C96723D000000000000154E
-t1284928061
-s5454
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp
-c000000004C96723D0000000000002B94
-t1284928061
-s11156
-i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.h
-c000000004C96723D0000000000001148
-t1284928061
-s4424
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp
-c000000004C96723D000000000000327D
-t1284928061
-s12925
-i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.h
-c000000004C96723D000000000000164D
-t1284928061
-s5709
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp
-c000000004C96723D000000000000198D
-t1284928061
-s6541
-i<Box2D/Dynamics/Joints/b2WeldJoint.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.h
-c000000004C96723D0000000000000A29
-t1284928061
-s2601
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp
-c000000004C96723D00000000000028A8
-t1284928061
-s10408
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2World.h>
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-i<Box2D/Dynamics/Joints/b2Joint.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.h
-c000000004C96723D00000000000055B5
-t1284928061
-s21941
-i<Box2D/Common/b2Math.h>
-i<Box2D/Collision/Shapes/b2Shape.h>
-i<memory>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp
-c000000004C96723D0000000000001ACA
-t1284928061
-s6858
-i<Box2D/Dynamics/b2ContactManager.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2WorldCallbacks.h>
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.h
-c000000004C96723D0000000000000637
-t1284928061
-s1591
-i<Box2D/Collision/b2BroadPhase.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp
-c000000004C96723D0000000000001589
-t1284928061
-s5513
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-i<Box2D/Collision/Shapes/b2LoopShape.h>
-i<Box2D/Collision/b2BroadPhase.h>
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Common/b2BlockAllocator.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.h
-c000000004C96723D0000000000002449
-t1284928061
-s9289
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/Shapes/b2Shape.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp
-c000000004C96723D0000000000004013
-t1284928061
-s16403
-i<Box2D/Collision/b2Distance.h>
-i<Box2D/Dynamics/b2Island.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2World.h>
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
-i<Box2D/Dynamics/Joints/b2Joint.h>
-i<Box2D/Common/b2StackAllocator.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.h
-c000000004C96723D0000000000000A60
-t1284928061
-s2656
-i<Box2D/Common/b2Math.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2TimeStep.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2TimeStep.h
-c000000004C96723D00000000000004F4
-t1284928061
-s1268
-i<Box2D/Common/b2Settings.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp
-c000000004C96723D0000000000006B9E
-t1284928061
-s27550
-i<Box2D/Dynamics/b2World.h>
-i<Box2D/Dynamics/b2Body.h>
-i<Box2D/Dynamics/b2Fixture.h>
-i<Box2D/Dynamics/b2Island.h>
-i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
-i<Box2D/Dynamics/Contacts/b2Contact.h>
-i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
-i<Box2D/Collision/b2Collision.h>
-i<Box2D/Collision/b2BroadPhase.h>
-i<Box2D/Collision/Shapes/b2CircleShape.h>
-i<Box2D/Collision/Shapes/b2EdgeShape.h>
-i<Box2D/Collision/Shapes/b2LoopShape.h>
-i<Box2D/Collision/Shapes/b2PolygonShape.h>
-i<Box2D/Collision/b2TimeOfImpact.h>
-i<new>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.h
-c000000004C96723D00000000000025E4
-t1284928061
-s9700
-i<Box2D/Common/b2Math.h>
-i<Box2D/Common/b2BlockAllocator.h>
-i<Box2D/Common/b2StackAllocator.h>
-i<Box2D/Dynamics/b2ContactManager.h>
-i<Box2D/Dynamics/b2WorldCallbacks.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp
-c000000004C96723D00000000000007C2
-t1284928061
-s1986
-i<Box2D/Dynamics/b2WorldCallbacks.h>
-i<Box2D/Dynamics/b2Fixture.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.h
-c000000004C96723D0000000000001EC4
-t1284928061
-s7876
-i<Box2D/Common/b2Settings.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.h
-c000000004CBB2D8D00000000000001AD
-t1287335309
-s429
-i<UIKit/UIKit.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m
-c000000004CBB2D9700000000000007C9
-t1287335319
-s1993
-i"AmosAppDelegate.h"
-i"ModeAViewController.h"
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.h
-c000000004CBB45820000000000000380
-t1287341442
-s896
-i<Foundation/Foundation.h>
-i"Box2D.h"
-i<vector>
-i<algorithm>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.m
-c000000004CBB458E00000000000005D3
-t1287341454
-s1491
-i"ModeAContactListener.h"
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.h
-c000000004CBB74C70000000000000336
-t1287353543
-s822
-i<UIKit/UIKit.h>
-i<Box2D/Box2D.h>
-i"ModeAContactListener.h"
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m
-c000000004CBB76CF00000000000021ED
-t1287354063
-s8685
-i<QuartzCore/QuartzCore.h>
-i"ModeAViewController.h"
-i"NoteBallA.h"
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.h
-c000000004CBB486F000000000000012F
-t1287342191
-s303
-i<UIKit/UIKit.h>
-i<Box2D/Box2D.h>
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m
-c000000004CBB485B0000000000000575
-t1287342171
-s1397
-i"NoteBallA.h"
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent
-t1287354118
-s414
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/Amos.LinkFileList
-c000000004CBB76F8000000000000157E
-t1287354104
-s5502
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/AmosAppDelegate.o
-t1287354107
-s99404
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAContactListener.o
-t1287354118
-s89228
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAViewController.o
-t1287354108
-s136356
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/NoteBallA.o
-t1287354118
-s87712
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BlockAllocator.o
-t1287354111
-s23056
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Body.o
-t1287354112
-s78028
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BroadPhase.o
-t1287354108
-s27924
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleContact.o
-t1287354113
-s44064
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleShape.o
-t1287354110
-s23248
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideCircle.o
-t1287354108
-s20660
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideEdge.o
-t1287354109
-s44812
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollidePolygon.o
-t1287354108
-s26700
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Collision.o
-t1287354109
-s25988
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Contact.o
-t1287354113
-s60264
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactManager.o
-t1287354112
-s80948
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactSolver.o
-t1287354114
-s83424
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Distance.o
-t1287354109
-s39884
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DistanceJoint.o
-t1287354115
-s52564
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DynamicTree.o
-t1287354109
-s28620
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndCircleContact.o
-t1287354114
-s43652
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndPolygonContact.o
-t1287354114
-s43688
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeShape.o
-t1287354110
-s25976
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Fixture.o
-t1287354112
-s53760
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2FrictionJoint.o
-t1287354115
-s58336
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2GearJoint.o
-t1287354116
-s64008
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Island.o
-t1287354112
-s69868
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Joint.o
-t1287354116
-s53748
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LineJoint.o
-t1287354116
-s66040
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndCircleContact.o
-t1287354114
-s48768
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndPolygonContact.o
-t1287354114
-s48804
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopShape.o
-t1287354110
-s25940
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Math.o
-t1287354111
-s12508
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2MouseJoint.o
-t1287354116
-s61188
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonAndCircleContact.o
-t1287354115
-s43764
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonContact.o
-t1287354115
-s44100
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonShape.o
-t1287354111
-s38472
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PrismaticJoint.o
-t1287354117
-s71136
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PulleyJoint.o
-t1287354117
-s61040
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2RevoluteJoint.o
-t1287354117
-s70064
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Settings.o
-t1287354111
-s5804
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2StackAllocator.o
-t1287354111
-s9320
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2TimeOfImpact.o
-t1287354110
-s38660
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WeldJoint.o
-t1287354117
-s53772
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2World.o
-t1287354113
-s128636
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WorldCallbacks.o
-t1287354112
-s36768
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/main.o
-t1287354107
-s6680
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app
-t1287354119
-s374
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app.dSYM
-t1287354118
-s102
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos
-t1287354118
-s260836
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Box2DConfig.cmake
-t1287354104
-s191
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/CMakeLists.txt
-t1287354104
-s5516
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Info.plist
-t1287354104
-s947
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/PkgInfo
-t1287354104
-s8
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/ResourceRules.plist
-t1287354104
-s485
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/embedded.mobileprovision
-t1287354118
-s7422
-
-N/Users/justinrhoades/Dropbox/Amos/Amos/main.m
-c000000004CBA9DF40000000000000177
-t1287298548
-s375
-i<UIKit/UIKit.h>
-
-N/Users/justinrhoades/Library/MobileDevice/Provisioning Profiles/086FA8EA-A409-486F-B55C-3C828E279611.mobileprovision
-c000000004C9696F70000000000001CFE
-t1284937463
-s7422
-
-N/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch.gch
-t1287354106
-s11048552
-
-N/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-buejsjdqulacjuehdjdwqjzajmtx/Amos_Prefix.pch.gch
-t1287354106
-s10442456
-
-N/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch.gch
-t1287354106
-s1966308
-
-NAmos-Info.plist
-c000000004CBA9EEB0000000000000474
-t1287298795
-s1140
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies309046904#309046904#0(0"0(0#1#0"8674996640#0"0#
-
-CCodeSign /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app
-s309046918.710621
-e309046919.206653
-r1
-xCodeSign
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app
-lSLF07#2@38"CodeSign build/Debug-iphoneos/Amos.app309046918#309046919#0(0"0(0#0#68"/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app8610441088#635"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Justin Rhoades (B8R432KDUD)" --resource-rules=/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/ResourceRules.plist --entitlements /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/AmosAppDelegate.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-s309046907.025770
-e309046907.950237
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/AmosAppDelegate.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m309046907#309046907#0(0"0(0#0#64"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m8675075520#1756"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/AmosAppDelegate.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAContactListener.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-s309046917.790657
-e309046918.349303
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAContactListener.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.m
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.m309046917#309046918#0(0"0(0#0#69"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.m8662139136#1766"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAContactListener.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAContactListener.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAViewController.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-s309046907.138947
-e309046908.230625
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAViewController.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m309046907#309046908#0(0"0(0#0#68"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m8674750016#1764"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/ModeAViewController.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/NoteBallA.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-s309046917.708895
-e309046918.265963
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/NoteBallA.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m309046917#309046918#0(0"0(0#0#58"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m8670019424#1744"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/NoteBallA.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BlockAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046910.701295
-e309046911.150539
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BlockAllocator.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp309046910#309046911#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp8634139808#1755"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BlockAllocator.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Body.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046911.458373
-e309046912.076227
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Body.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp309046911#309046912#0(0"0(0#0#64"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp8662810240#1737"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Body.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BroadPhase.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046907.950401
-e309046908.450903
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BroadPhase.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp309046907#309046908#0(0"0(0#0#71"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp8674863168#1750"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2BroadPhase.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046912.948978
-e309046913.268309
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleContact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp309046912#309046913#0(0"0(0#0#82"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp8671031456#1764"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleContact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046909.859447
-e309046910.195044
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleShape.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp309046909#309046910#0(0"0(0#0#79"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp8612132672#1759"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CircleShape.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideCircle.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046908.230736
-e309046908.445975
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideCircle.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp309046908#309046908#0(0"0(0#0#74"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp8632673056#1756"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideCircle.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideEdge.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046908.446082
-e309046909.037717
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideEdge.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp309046908#309046909#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp8670133600#1752"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollideEdge.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollidePolygon.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046908.451013
-e309046908.806953
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollidePolygon.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp309046908#309046908#0(0"0(0#0#75"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp8664618496#1758"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2CollidePolygon.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Collision.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046908.807105
-e309046909.428609
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Collision.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp309046908#309046909#0(0"0(0#0#70"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp8674441760#1748"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Collision.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Contact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046913.268446
-e309046913.872663
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Contact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp309046913#309046913#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp8661736288#1752"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Contact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactManager.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046911.540235
-e309046912.152020
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactManager.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp309046911#309046912#0(0"0(0#0#74"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp8636302592#1757"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactManager.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactSolver.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046913.429099
-e309046914.050883
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactSolver.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-o/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp: In member function 'void b2ContactSolver::InitializeVelocityConstraints()':
-o/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp:130: warning: unused variable 'cp'
-lSLF07#2@90"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp309046913#309046914#0(278"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp: In member function 'void b2ContactSolver::InitializeVelocityConstraints()':/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp:130: warning: unused variable 'cp'1(22@20"Unused variable 'cp'309046913#160#118#0(6@82"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp306620861#130#0#130#0#19"unused variable '*'0(0#0#82"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp8661128448#1764"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2ContactSolver.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Distance.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046909.037833
-e309046909.698287
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Distance.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp309046909#309046909#0(0"0(0#0#69"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp8664595168#1746"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Distance.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DistanceJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046915.224827
-e309046915.763215
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DistanceJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp309046915#309046915#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp8661126848#1762"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DistanceJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DynamicTree.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046909.428711
-e309046909.859331
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DynamicTree.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp309046909#309046909#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp8674694912#1752"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2DynamicTree.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046913.872855
-e309046914.351264
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndCircleContact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp309046913#309046914#0(0"0(0#0#89"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp8663135456#1778"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndCircleContact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046914.051017
-e309046914.484922
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndPolygonContact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp309046914#309046914#0(0"0(0#0#90"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp8661356416#1780"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeAndPolygonContact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046910.195145
-e309046910.615978
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeShape.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp309046910#309046910#0(0"0(0#0#77"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp8674968448#1755"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2EdgeShape.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Fixture.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046912.076696
-e309046912.494630
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Fixture.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp309046912#309046912#0(0"0(0#0#67"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp8670756192#1743"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Fixture.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2FrictionJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046915.327759
-e309046915.817059
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2FrictionJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp309046915#309046915#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp8654311808#1762"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2FrictionJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2GearJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046915.763320
-e309046916.180205
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2GearJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp309046915#309046916#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp8663163552#1754"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2GearJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Island.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046912.152190
-e309046912.598360
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Island.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp309046912#309046912#0(0"0(0#0#66"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp8664123296#1741"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Island.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Joint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046915.817163
-e309046916.227972
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Joint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp309046915#309046916#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp8661816960#1746"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Joint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LineJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046916.180516
-e309046916.904579
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LineJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp309046916#309046916#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp8649223296#1754"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LineJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046914.351571
-e309046914.811948
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndCircleContact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp309046914#309046914#0(0"0(0#0#89"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp8674815072#1778"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndCircleContact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046914.485211
-e309046914.986414
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndPolygonContact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp309046914#309046914#0(0"0(0#0#90"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp8663880768#1780"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopAndPolygonContact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046910.221147
-e309046910.700420
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopShape.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp309046910#309046910#0(0"0(0#0#77"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp8674416160#1755"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2LoopShape.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Math.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046911.150649
-e309046911.458254
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Math.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@70"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp309046911#309046911#0(0"0(0#0#62"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp8674974464#1735"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Math.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2MouseJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046916.228102
-e309046916.789505
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2MouseJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp309046916#309046916#0(0"0(0#0#77"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp8647183840#1756"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2MouseJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046914.812056
-e309046915.224489
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonAndCircleContact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp309046914#309046915#0(0"0(0#0#92"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp8660912128#1784"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonAndCircleContact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046914.986520
-e309046915.327650
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonContact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp309046914#309046915#0(0"0(0#0#83"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp8672036064#1766"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonContact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046910.616083
-e309046911.151942
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonShape.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp309046910#309046911#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp8660879424#1761"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PolygonShape.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PrismaticJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046916.789603
-e309046917.353443
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PrismaticJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@89"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp309046916#309046917#0(0"0(0#0#81"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp8670992192#1764"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PrismaticJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PulleyJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046916.904685
-e309046917.264391
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PulleyJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@86"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp309046916#309046917#0(0"0(0#0#78"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp8663836896#1758"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2PulleyJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2RevoluteJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046917.264502
-e309046917.708613
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2RevoluteJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp309046917#309046917#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp8646308864#1762"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2RevoluteJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Settings.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046911.152028
-e309046911.341496
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Settings.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@74"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp309046911#309046911#0(0"0(0#0#66"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp8672537568#1743"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2Settings.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2StackAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046911.341805
-e309046911.540056
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2StackAllocator.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp309046911#309046911#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp8663979008#1755"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2StackAllocator.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2TimeOfImpact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046909.698647
-e309046910.221037
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2TimeOfImpact.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp309046909#309046910#0(0"0(0#0#73"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp8664283168#1754"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2TimeOfImpact.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WeldJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046917.353561
-e309046917.790503
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WeldJoint.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp309046917#309046917#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp8634402592#1754"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WeldJoint.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2World.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046912.494739
-e309046913.428992
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2World.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp309046912#309046913#0(0"0(0#0#65"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp8661621920#1739"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2World.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WorldCallbacks.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046912.598630
-e309046912.948023
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WorldCallbacks.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@82"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp309046912#309046912#0(0"0(0#0#74"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp8636939776#1757"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/b2WorldCallbacks.o0#
-
-CCompileC build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/main.o /Users/justinrhoades/Dropbox/Amos/Amos/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309046907.024418
-e309046907.138837
-r1
-xCompileC
-xbuild/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/main.o
-x/Users/justinrhoades/Dropbox/Amos/Amos/main.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@53"Compile /Users/justinrhoades/Dropbox/Amos/Amos/main.m309046907#309046907#0(0"0(0#0#45"/Users/justinrhoades/Dropbox/Amos/Amos/main.m8624387808#1705"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-buejsjdqulacjuehdjdwqjzajmtx/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/main.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/main.o0#
-
-CCpResource build/Debug-iphoneos/Amos.app/Box2DConfig.cmake Box2D/Box2DConfig.cmake
-s309046904.472378
-e309046904.490012
-r1
-xCpResource
-xbuild/Debug-iphoneos/Amos.app/Box2DConfig.cmake
-xBox2D/Box2DConfig.cmake
-lSLF07#2@28"Copy Box2D/Box2DConfig.cmake309046904#309046904#0(0"0(0#0#62"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2DConfig.cmake8646792064#464"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2DConfig.cmake /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app0#
-
-CCpResource build/Debug-iphoneos/Amos.app/CMakeLists.txt Box2D/CMakeLists.txt
-s309046904.474559
-e309046904.495311
-r1
-xCpResource
-xbuild/Debug-iphoneos/Amos.app/CMakeLists.txt
-xBox2D/CMakeLists.txt
-lSLF07#2@25"Copy Box2D/CMakeLists.txt309046904#309046904#0(0"0(0#0#59"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/CMakeLists.txt8641427040#461"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/CMakeLists.txt /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app0#
-
-CCpResource build/Debug-iphoneos/Amos.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-s309046904.454703
-e309046904.471884
-r1
-xCpResource
-xbuild/Debug-iphoneos/Amos.app/ResourceRules.plist
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
-lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist309046904#309046904#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8661560864#491"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app0#
-
-CGenerateDSYMFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app.dSYM /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos
-s309046918.439939
-e309046918.626236
-r1
-xGenerateDSYMFile
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app.dSYM
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos
-lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/Amos.app.dSYM build/Debug-iphoneos/Amos.app/Amos309046918#309046918#0(0"0(0#0#73"/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos8638441568#353"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app.dSYM0#
-
-CLd /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos normal armv7
-s309046918.349413
-e309046918.439816
-r1
-xLd
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos
-xnormal
-xarmv7
-lSLF07#2@78"Link /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos309046918#309046918#0(0"0(0#0#0"8650498112#807"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/g++-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -filelist /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Objects-normal/armv7/Amos.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Amos0#
-
-CProcessInfoPlistFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Info.plist Amos-Info.plist
-s309046904.456635
-e309046904.472216
-r1
-xProcessInfoPlistFile
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Info.plist
-xAmos-Info.plist
-lSLF07#2@23"Process Amos-Info.plist309046904#309046904#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos-Info.plist8661280000#550"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Amos-Info.plist -genpkginfo /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/ResourceRules.plist -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/Info.plist0#
-
-CProcessPCH /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-buejsjdqulacjuehdjdwqjzajmtx/Amos_Prefix.pch.gch Amos_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309046904.495441
-e309046906.393001
-r1
-xProcessPCH
-x/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-buejsjdqulacjuehdjdwqjzajmtx/Amos_Prefix.pch.gch
-xAmos_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Amos_Prefix.pch309046904#309046906#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch8634449632#1606"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -c /Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch -o /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-buejsjdqulacjuehdjdwqjzajmtx/Amos_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch.gch Amos_Prefix.pch normal armv7 objective-c++ com.apple.compilers.gcc.4_2
-s309046904.496543
-e309046907.024153
-r1
-xProcessPCH++
-x/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch.gch
-xAmos_Prefix.pch
-xnormal
-xarmv7
-xobjective-c++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Amos_Prefix.pch309046904#309046907#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch8634213440#1627"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -c /Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch -o /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgeegpwpztrhzffavaxfxikurxiu/Amos_Prefix.pch.gch0#
-
-CProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch.gch Amos_Prefix.pch normal armv7 c++ com.apple.compilers.gcc.4_2
-s309046906.393247
-e309046906.528853
-r1
-xProcessPCH++
-x/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch.gch
-xAmos_Prefix.pch
-xnormal
-xarmv7
-xc++
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@26"Precompile Amos_Prefix.pch309046906#309046906#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch8672066144#1617"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch armv7 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources/armv7 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/DerivedSources -c /Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch -o /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-erjaxfvduqzcirhhatpppwqgieoh/Amos_Prefix.pch.gch0#
-
-CProcessProductPackaging "/Users/justinrhoades/Library/MobileDevice/Provisioning Profiles/086FA8EA-A409-486F-B55C-3C828E279611.mobileprovision" /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/embedded.mobileprovision
-s309046918.626418
-e309046918.677900
-r1
-xProcessProductPackaging
-x/Users/justinrhoades/Library/MobileDevice/Provisioning Profiles/086FA8EA-A409-486F-B55C-3C828E279611.mobileprovision
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/embedded.mobileprovision
-lSLF07#2@197"ProcessProductPackaging "/Users/justinrhoades/Library/MobileDevice/Provisioning Profiles/086FA8EA-A409-486F-B55C-3C828E279611.mobileprovision" build/Debug-iphoneos/Amos.app/embedded.mobileprovision309046918#309046918#0(0"0(0#0#93"/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/embedded.mobileprovision8624507904#428"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/justinrhoades/Library/MobileDevice/Provisioning Profiles/086FA8EA-A409-486F-B55C-3C828E279611.mobileprovision" -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app/embedded.mobileprovision0#
-
-CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent
-s309046918.683971
-e309046918.710540
-r1
-xProcessProductPackaging
-x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent
-lSLF07#2@166"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent309046918#309046918#0(0"0(0#0#92"/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent8608616576#423"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphoneos/Amos.build/Amos.xcent0#
-
-CTouch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app
-s309046918.677974
-e309046918.683857
-r1
-xTouch
-x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app
-lSLF07#2@74"Touch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app309046918#309046918#0(0"0(0#0#0"8622292864#261"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphoneos/Amos.app0#
-
