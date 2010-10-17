@@ -1,0 +1,1770 @@
+TAmos
+v7
+r0
+t309033001.544426
+cCheck dependencies
+cProcessInfoPlistFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist Amos-Info.plist
+cCpResource build/Debug-iphonesimulator/Amos.app/Box2DConfig.cmake Box2D/Box2DConfig.cmake
+cCpResource build/Debug-iphonesimulator/Amos.app/CMakeLists.txt Box2D/CMakeLists.txt
+cProcessPCH /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-cmftavyvbqzobicmivusmjyqlbsb/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-gnysvuhrgfbknvccbsbbhddqasew/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o /Users/justinrhoades/Dropbox/Amos/Amos/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/ModeAViewController.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BroadPhase.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideCircle.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideEdge.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollidePolygon.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Collision.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Distance.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DynamicTree.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2TimeOfImpact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BlockAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Math.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Settings.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2StackAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Body.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactManager.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Fixture.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Island.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2World.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WorldCallbacks.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Contact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactSolver.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DistanceJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2FrictionJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2GearJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Joint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LineJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2MouseJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PrismaticJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PulleyJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2RevoluteJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WeldJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/NoteBallA.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos normal i386
+cGenerateDSYMFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+cTouch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CAC155A0000000000000110
+t1286346074
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CAC0218000000000029B310
+t1286341144
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CAC0237000000000029D5D0
+t1286341175
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CAC02230000000000001466
+t1286341155
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CAC13700000000000000AA1
+t1286345584
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CAC141C000000000074B110
+t1286345756
+s7647504
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch
+c000000004CB9F53900000000000000B1
+t1287255353
+s177
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2D.h
+c000000004C96723F000000000000092B
+t1284928063
+s2347
+i<Box2D/Common/b2Settings.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<Box2D/Collision/Shapes/b2LoopShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+i<Box2D/Collision/b2BroadPhase.h>
+i<Box2D/Collision/b2Distance.h>
+i<Box2D/Collision/b2DynamicTree.h>
+i<Box2D/Collision/b2TimeOfImpact.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+i<Box2D/Dynamics/b2World.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+i<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+i<Box2D/Dynamics/Joints/b2GearJoint.h>
+i<Box2D/Dynamics/Joints/b2LineJoint.h>
+i<Box2D/Dynamics/Joints/b2MouseJoint.h>
+i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+i<Box2D/Dynamics/Joints/b2WeldJoint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2DConfig.cmake
+c000000004C96723F00000000000000BF
+t1284928063
+s191
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/CMakeLists.txt
+c000000004C96723F000000000000158C
+t1284928063
+s5516
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp
+c000000004C96723F0000000000000C83
+t1284928063
+s3203
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.h
+c000000004C96723F0000000000000A45
+t1284928063
+s2629
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp
+c000000004C96723F0000000000000D8C
+t1284928063
+s3468
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.h
+c000000004C96723F0000000000000922
+t1284928063
+s2338
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp
+c000000004C96723F0000000000000CB9
+t1284928063
+s3257
+i<Box2D/Collision/Shapes/b2LoopShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<new>
+i<cstring>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.h
+c000000004C96723F000000000000099D
+t1284928063
+s2461
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp
+c000000004C96723F0000000000002C46
+t1284928063
+s11334
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.h
+c000000004C96723F000000000000103B
+t1284928063
+s4155
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2Shape.h
+c000000004C96723F0000000000000E47
+t1284928063
+s3655
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/b2Collision.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp
+c000000004C96723F0000000000000C70
+t1284928063
+s3184
+i<Box2D/Collision/b2BroadPhase.h>
+i<cstring>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.h
+c000000004C96723F0000000000001928
+t1284928063
+s6440
+i<Box2D/Common/b2Settings.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/b2DynamicTree.h>
+i<algorithm>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp
+c000000004C96723F00000000000011A5
+t1284928063
+s4517
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp
+c000000004C96723F0000000000006410
+t1284928063
+s25616
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp
+c000000004C96723F000000000000236B
+t1284928063
+s9067
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp
+c000000004C96723F000000000000197D
+t1284928063
+s6525
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/b2Distance.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.h
+c000000004C96723F0000000000002431
+t1284928063
+s9265
+i<Box2D/Common/b2Math.h>
+i<climits>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp
+c000000004C96723F00000000000035D9
+t1284928063
+s13785
+i<Box2D/Collision/b2Distance.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<Box2D/Collision/Shapes/b2LoopShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.h
+c000000004C96723F0000000000000F51
+t1284928063
+s3921
+i<Box2D/Common/b2Math.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp
+c000000004C96723F000000000000284D
+t1284928063
+s10317
+i<Box2D/Collision/b2DynamicTree.h>
+i<cstring>
+i<cfloat>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.h
+c000000004C96723F0000000000001CBF
+t1284928063
+s7359
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Common/b2GrowableStack.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp
+c000000004C96723F0000000000002F7E
+t1284928063
+s12158
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/b2Distance.h>
+i<Box2D/Collision/b2TimeOfImpact.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+i<cstdio>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.h
+c000000004C96723F0000000000000784
+t1284928063
+s1924
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/b2Distance.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp
+c000000004C96723D00000000000013B1
+t1284928061
+s5041
+i<Box2D/Common/b2BlockAllocator.h>
+i<cstdlib>
+i<climits>
+i<cstring>
+i<memory>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.h
+c000000004C96723D000000000000072E
+t1284928061
+s1838
+i<Box2D/Common/b2Settings.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2GrowableStack.h
+c000000004C96723D00000000000007EB
+t1284928061
+s2027
+i<Box2D/Common/b2Settings.h>
+i<cstring>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp
+c000000004C96723D00000000000007CB
+t1284928061
+s1995
+i<Box2D/Common/b2Math.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.h
+c000000004C96723D0000000000003D33
+t1284928061
+s15667
+i<Box2D/Common/b2Settings.h>
+i<cmath>
+i<cfloat>
+i<cstddef>
+i<limits>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp
+c000000004C96723D000000000000049C
+t1284928061
+s1180
+i<Box2D/Common/b2Settings.h>
+i<cstdlib>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.h
+c000000004C96723D00000000000015A7
+t1284928061
+s5543
+i<cassert>
+i<cmath>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp
+c000000004C96723D0000000000000857
+t1284928061
+s2135
+i<Box2D/Common/b2StackAllocator.h>
+i<Box2D/Common/b2Math.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.h
+c000000004C96723D00000000000006C7
+t1284928061
+s1735
+i<Box2D/Common/b2Settings.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp
+c000000004C96723D000000000000085A
+t1284928061
+s2138
+i<Box2D/Dynamics/Contacts/b2CircleContact.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Collision/b2TimeOfImpact.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.h
+c000000004C96723D00000000000005E5
+t1284928061
+s1509
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp
+c000000004C96723D0000000000001D94
+t1284928061
+s7572
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/Contacts/b2CircleContact.h>
+i<Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h>
+i<Box2D/Dynamics/Contacts/b2PolygonContact.h>
+i<Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h>
+i<Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h>
+i<Box2D/Dynamics/Contacts/b2LoopAndCircleContact.h>
+i<Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.h>
+i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/b2TimeOfImpact.h>
+i<Box2D/Collision/Shapes/b2Shape.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2World.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.h
+c000000004C96723D0000000000001CC9
+t1284928061
+s7369
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/Shapes/b2Shape.h>
+i<Box2D/Dynamics/b2Fixture.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp
+c000000004C96723D00000000000053E5
+t1284928061
+s21477
+i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2World.h>
+i<Box2D/Common/b2StackAllocator.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.h
+c000000004C96723D000000000000093B
+t1284928061
+s2363
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Dynamics/b2Island.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp
+c000000004C96723D0000000000000830
+t1284928061
+s2096
+i<Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.h
+c000000004C96723D000000000000060C
+t1284928061
+s1548
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp
+c000000004C96723D000000000000083E
+t1284928061
+s2110
+i<Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.h
+c000000004C96723D0000000000000611
+t1284928061
+s1553
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp
+c000000004C96723D0000000000000924
+t1284928061
+s2340
+i<Box2D/Dynamics/Contacts/b2LoopAndCircleContact.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Collision/Shapes/b2LoopShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.h
+c000000004C96723D0000000000000628
+t1284928061
+s1576
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp
+c000000004C96723D0000000000000933
+t1284928061
+s2355
+i<Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Collision/Shapes/b2LoopShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.h
+c000000004C96723D000000000000062D
+t1284928061
+s1581
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp
+c000000004C96723D000000000000085A
+t1284928061
+s2138
+i<Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.h
+c000000004C96723D0000000000000611
+t1284928061
+s1553
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp
+c000000004C96723D000000000000086D
+t1284928061
+s2157
+i<Box2D/Dynamics/Contacts/b2PolygonContact.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Collision/b2TimeOfImpact.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.h
+c000000004C96723D00000000000005EA
+t1284928061
+s1514
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp
+c000000004C96723D0000000000001805
+t1284928061
+s6149
+i<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.h
+c000000004C96723D000000000000104E
+t1284928061
+s4174
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp
+c000000004C96723D0000000000001881
+t1284928061
+s6273
+i<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.h
+c000000004C96723D0000000000000B38
+t1284928061
+s2872
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp
+c000000004C96723D0000000000001C6E
+t1284928061
+s7278
+i<Box2D/Dynamics/Joints/b2GearJoint.h>
+i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.h
+c000000004C96723D0000000000000CE4
+t1284928061
+s3300
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp
+c000000004C96723D000000000000129D
+t1284928061
+s4765
+i<Box2D/Dynamics/Joints/b2Joint.h>
+i<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+i<Box2D/Dynamics/Joints/b2LineJoint.h>
+i<Box2D/Dynamics/Joints/b2MouseJoint.h>
+i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+i<Box2D/Dynamics/Joints/b2GearJoint.h>
+i<Box2D/Dynamics/Joints/b2WeldJoint.h>
+i<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2World.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.h
+c000000004C96723D000000000000172F
+t1284928061
+s5935
+i<Box2D/Common/b2Math.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp
+c000000004C96723D0000000000003AA1
+t1284928061
+s15009
+i<Box2D/Dynamics/Joints/b2LineJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.h
+c000000004C96723D0000000000001493
+t1284928061
+s5267
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp
+c000000004C96723D0000000000001493
+t1284928061
+s5267
+i<Box2D/Dynamics/Joints/b2MouseJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.h
+c000000004C96723D0000000000000DE9
+t1284928061
+s3561
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp
+c000000004C96723D0000000000003EB7
+t1284928061
+s16055
+i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.h
+c000000004C96723D000000000000154E
+t1284928061
+s5454
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp
+c000000004C96723D0000000000002B94
+t1284928061
+s11156
+i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.h
+c000000004C96723D0000000000001148
+t1284928061
+s4424
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp
+c000000004C96723D000000000000327D
+t1284928061
+s12925
+i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.h
+c000000004C96723D000000000000164D
+t1284928061
+s5709
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp
+c000000004C96723D000000000000198D
+t1284928061
+s6541
+i<Box2D/Dynamics/Joints/b2WeldJoint.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.h
+c000000004C96723D0000000000000A29
+t1284928061
+s2601
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp
+c000000004C96723D00000000000028A8
+t1284928061
+s10408
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2World.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.h
+c000000004C96723D00000000000055B5
+t1284928061
+s21941
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/Shapes/b2Shape.h>
+i<memory>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp
+c000000004C96723D0000000000001ACA
+t1284928061
+s6858
+i<Box2D/Dynamics/b2ContactManager.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.h
+c000000004C96723D0000000000000637
+t1284928061
+s1591
+i<Box2D/Collision/b2BroadPhase.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp
+c000000004C96723D0000000000001589
+t1284928061
+s5513
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+i<Box2D/Collision/Shapes/b2LoopShape.h>
+i<Box2D/Collision/b2BroadPhase.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Common/b2BlockAllocator.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.h
+c000000004C96723D0000000000002449
+t1284928061
+s9289
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp
+c000000004C96723D0000000000004013
+t1284928061
+s16403
+i<Box2D/Collision/b2Distance.h>
+i<Box2D/Dynamics/b2Island.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2World.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
+i<Box2D/Dynamics/Joints/b2Joint.h>
+i<Box2D/Common/b2StackAllocator.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.h
+c000000004C96723D0000000000000A60
+t1284928061
+s2656
+i<Box2D/Common/b2Math.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2TimeStep.h
+c000000004C96723D00000000000004F4
+t1284928061
+s1268
+i<Box2D/Common/b2Settings.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp
+c000000004C96723D0000000000006B9E
+t1284928061
+s27550
+i<Box2D/Dynamics/b2World.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2Island.h>
+i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/Contacts/b2ContactSolver.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/b2BroadPhase.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2EdgeShape.h>
+i<Box2D/Collision/Shapes/b2LoopShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+i<Box2D/Collision/b2TimeOfImpact.h>
+i<new>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.h
+c000000004C96723D00000000000025E4
+t1284928061
+s9700
+i<Box2D/Common/b2Math.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Common/b2StackAllocator.h>
+i<Box2D/Dynamics/b2ContactManager.h>
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp
+c000000004C96723D00000000000007C2
+t1284928061
+s1986
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+i<Box2D/Dynamics/b2Fixture.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.h
+c000000004C96723D0000000000001EC4
+t1284928061
+s7876
+i<Box2D/Common/b2Settings.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.h
+c000000004CBB2D8D00000000000001AD
+t1287335309
+s429
+i<UIKit/UIKit.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m
+c000000004CBB2D9700000000000007C9
+t1287335319
+s1993
+i"AmosAppDelegate.h"
+i"ModeAViewController.h"
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.h
+c000000004CBB40340000000000000252
+t1287340084
+s594
+i<UIKit/UIKit.h>
+i<Box2D/Box2D.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m
+c000000004CBB4059000000000000153F
+t1287340121
+s5439
+i"ModeAViewController.h"
+i"NoteBallA.h"
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.h
+c000000004CBA923100000000000000CA
+t1287295537
+s202
+i<UIKit/UIKit.h>
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m
+c000000004CBB3FD6000000000000055C
+t1287339990
+s1372
+i"NoteBallA.h"
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/Amos.LinkFileList
+c000000004CBB4097000000000000160E
+t1287340183
+s5646
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o
+t1287340188
+s93564
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/ModeAViewController.o
+t1287340188
+s108072
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/NoteBallA.o
+t1287340200
+s40556
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BlockAllocator.o
+t1287340192
+s23432
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Body.o
+t1287340193
+s82208
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BroadPhase.o
+t1287340189
+s27660
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleContact.o
+t1287340195
+s44208
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleShape.o
+t1287340191
+s25576
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideCircle.o
+t1287340189
+s22180
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideEdge.o
+t1287340189
+s49948
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollidePolygon.o
+t1287340189
+s29480
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Collision.o
+t1287340190
+s28932
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Contact.o
+t1287340196
+s61816
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactManager.o
+t1287340193
+s85748
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactSolver.o
+t1287340196
+s91428
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Distance.o
+t1287340190
+s44416
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DistanceJoint.o
+t1287340198
+s56720
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DynamicTree.o
+t1287340190
+s32076
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndCircleContact.o
+t1287340196
+s43840
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndPolygonContact.o
+t1287340197
+s43892
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeShape.o
+t1287340191
+s28916
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Fixture.o
+t1287340194
+s55180
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2FrictionJoint.o
+t1287340198
+s62908
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2GearJoint.o
+t1287340198
+s67128
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Island.o
+t1287340194
+s71944
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Joint.o
+t1287340199
+s54024
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LineJoint.o
+t1287340199
+s73192
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndCircleContact.o
+t1287340197
+s49336
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndPolygonContact.o
+t1287340197
+s49388
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopShape.o
+t1287340191
+s27728
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Math.o
+t1287340192
+s13516
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2MouseJoint.o
+t1287340199
+s65172
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonAndCircleContact.o
+t1287340197
+s43988
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonContact.o
+t1287340197
+s44260
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonShape.o
+t1287340192
+s44436
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PrismaticJoint.o
+t1287340200
+s79080
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PulleyJoint.o
+t1287340200
+s67436
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2RevoluteJoint.o
+t1287340200
+s77712
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Settings.o
+t1287340192
+s5440
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2StackAllocator.o
+t1287340193
+s9784
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2TimeOfImpact.o
+t1287340191
+s42916
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WeldJoint.o
+t1287340200
+s57484
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2World.o
+t1287340195
+s136144
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WorldCallbacks.o
+t1287340195
+s37168
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o
+t1287340187
+s6484
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+t1287340201
+s238
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM
+t1287340201
+s102
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+t1287340200
+s358744
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Box2DConfig.cmake
+t1287340183
+s191
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/CMakeLists.txt
+t1287340183
+s5516
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist
+t1287340183
+s755
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/PkgInfo
+t1287340183
+s8
+
+N/Users/justinrhoades/Dropbox/Amos/Amos/main.m
+c000000004CBA9DF40000000000000177
+t1287298548
+s375
+i<UIKit/UIKit.h>
+
+N/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch.gch
+t1287340187
+s2515312
+
+N/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-cmftavyvbqzobicmivusmjyqlbsb/Amos_Prefix.pch.gch
+t1287340187
+s15453392
+
+N/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-gnysvuhrgfbknvccbsbbhddqasew/Amos_Prefix.pch.gch
+t1287340187
+s16473168
+
+NAmos-Info.plist
+c000000004CBA9EEB0000000000000474
+t1287298795
+s1140
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309032983#309032983#0(0"0(0#1#0"8622578784#0"0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s309032987.728446
+e309032988.497496
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m309032987#309032988#0(0"0(0#0#64"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m8603536512#1946"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-gnysvuhrgfbknvccbsbbhddqasew/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/AmosAppDelegate.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/ModeAViewController.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s309032987.980497
+e309032988.779446
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/ModeAViewController.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m309032987#309032988#0(0"0(0#0#68"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m8599583456#1954"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-gnysvuhrgfbknvccbsbbhddqasew/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/ModeAViewController.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/ModeAViewController.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/NoteBallA.o /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309033000.699215
+e309033000.817216
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/NoteBallA.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m309033000#309033000#0(0"0(0#0#58"/Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m8613780000#1913"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-cmftavyvbqzobicmivusmjyqlbsb/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Classes/NoteBallA.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/NoteBallA.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BlockAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032991.902752
+e309032992.308029
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BlockAllocator.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp309032991#309032992#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp8623001728#1901"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2BlockAllocator.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BlockAllocator.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Body.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032992.995249
+e309032993.889997
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Body.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp309032992#309032993#0(0"0(0#0#64"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp8604059808#1883"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Body.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Body.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BroadPhase.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032988.497619
+e309032989.467793
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BroadPhase.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@79"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp309032988#309032989#0(0"0(0#0#71"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp8623421088#1896"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2BroadPhase.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BroadPhase.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032995.198877
+e309032995.773153
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleContact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp309032995#309032995#0(0"0(0#0#82"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp8623480256#1910"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2CircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleContact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032990.669094
+e309032991.353949
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleShape.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp309032990#309032991#0(0"0(0#0#79"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp8623480064#1905"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2CircleShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CircleShape.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideCircle.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032988.779561
+e309032989.280150
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideCircle.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp309032988#309032989#0(0"0(0#0#74"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp8622099136#1902"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideCircle.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideCircle.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideEdge.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032989.280320
+e309032989.869493
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideEdge.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp309032989#309032989#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp8616523776#1898"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollideEdge.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideEdge.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollidePolygon.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032989.467897
+e309032989.783165
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollidePolygon.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp309032989#309032989#0(0"0(0#0#75"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp8613463168#1904"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2CollidePolygon.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollidePolygon.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Collision.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032989.783273
+e309032990.185746
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Collision.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp309032989#309032990#0(0"0(0#0#70"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp8606238784#1894"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Collision.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Collision.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Contact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032995.533541
+e309032996.070883
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Contact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp309032995#309032996#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp8609790656#1898"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2Contact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Contact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactManager.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032993.195787
+e309032993.954661
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactManager.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp309032993#309032993#0(0"0(0#0#74"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp8623476864#1903"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2ContactManager.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactManager.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactSolver.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032995.773392
+e309032996.644525
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactSolver.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp: In member function 'void b2ContactSolver::InitializeVelocityConstraints()':
+o/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp:130: warning: unused variable 'cp'
+lSLF07#2@90"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp309032995#309032996#0(278"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp: In member function 'void b2ContactSolver::InitializeVelocityConstraints()':/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp:130: warning: unused variable 'cp'1(22@20"Unused variable 'cp'309032996#160#118#0(6@82"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp306620861#130#0#130#0#19"unused variable '*'0(0#0#82"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp8622587136#1910"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2ContactSolver.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2ContactSolver.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Distance.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032989.869661
+e309032990.327830
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Distance.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@77"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp309032989#309032990#0(0"0(0#0#69"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp8606021632#1892"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2Distance.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Distance.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DistanceJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032997.613654
+e309032998.422427
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DistanceJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp309032997#309032998#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp8603243392#1908"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2DistanceJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DistanceJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DynamicTree.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032990.185847
+e309032990.668990
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DynamicTree.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp309032990#309032990#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp8604178048#1898"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2DynamicTree.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2DynamicTree.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032996.071097
+e309032996.643125
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndCircleContact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp309032996#309032996#0(0"0(0#0#89"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp8610173824#1924"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndCircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndCircleContact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032996.643230
+e309032997.083785
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndPolygonContact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp309032996#309032997#0(0"0(0#0#90"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp8623193792#1926"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2EdgeAndPolygonContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeAndPolygonContact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032991.015334
+e309032991.618323
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeShape.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp309032991#309032991#0(0"0(0#0#77"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp8623601440#1901"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2EdgeShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2EdgeShape.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Fixture.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032993.890101
+e309032994.421050
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Fixture.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp309032993#309032994#0(0"0(0#0#67"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp8623296288#1889"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Fixture.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Fixture.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2FrictionJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032998.007210
+e309032998.751875
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2FrictionJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp309032998#309032998#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp8622968288#1908"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2FrictionJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2FrictionJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2GearJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032998.422529
+e309032998.943100
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2GearJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp309032998#309032998#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp8616680000#1900"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2GearJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2GearJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Island.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032993.954769
+e309032994.614606
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Island.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp309032993#309032994#0(0"0(0#0#66"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp8622515616#1887"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2Island.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Island.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Joint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032998.751978
+e309032999.244774
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Joint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp309032998#309032999#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp8603374464#1892"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2Joint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Joint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LineJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032998.943400
+e309032999.475096
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LineJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp309032998#309032999#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp8598609952#1900"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2LineJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LineJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032996.644608
+e309032997.069628
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndCircleContact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp309032996#309032997#0(0"0(0#0#89"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp8613996256#1924"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndCircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndCircleContact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndPolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032997.069733
+e309032997.613446
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndPolygonContact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp309032997#309032997#0(0"0(0#0#90"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp8622804544#1926"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2LoopAndPolygonContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopAndPolygonContact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032991.354051
+e309032991.902533
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopShape.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp309032991#309032991#0(0"0(0#0#77"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp8616726144#1901"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2LoopShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2LoopShape.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Math.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032992.308116
+e309032992.995150
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Math.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp309032992#309032993#0(0"0(0#0#62"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp8622813632#1881"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Math.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Math.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2MouseJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032999.245003
+e309032999.852198
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2MouseJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@85"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp309032999#309032999#0(0"0(0#0#77"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp8623234880#1902"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2MouseJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2MouseJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonAndCircleContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032997.083899
+e309032997.473022
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonAndCircleContact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp309032997#309032997#0(0"0(0#0#92"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp8617251392#1930"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonAndCircleContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonAndCircleContact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonContact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032997.473129
+e309032998.007055
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonContact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp309032997#309032998#0(0"0(0#0#83"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp8606074048#1912"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Contacts/b2PolygonContact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonContact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonShape.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032991.618452
+e309032992.307839
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonShape.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp309032991#309032992#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp8603360320#1907"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/Shapes/b2PolygonShape.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PolygonShape.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PrismaticJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032999.475204
+e309033000.222554
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PrismaticJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp309032999#309033000#0(0"0(0#0#81"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp8621709664#1910"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PrismaticJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PrismaticJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PulleyJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032999.852393
+e309033000.426867
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PulleyJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp309032999#309033000#0(0"0(0#0#78"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp8609937888#1904"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2PulleyJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PulleyJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2RevoluteJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309033000.222662
+e309033000.699112
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2RevoluteJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@88"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp309033000#309033000#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp8603337056#1908"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2RevoluteJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2RevoluteJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Settings.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032992.309492
+e309032992.674028
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Settings.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp309032992#309032992#0(0"0(0#0#66"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp8622336864#1889"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2Settings.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2Settings.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2StackAllocator.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032992.674435
+e309032993.195684
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2StackAllocator.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp309032992#309032993#0(0"0(0#0#72"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp8617308256#1901"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Common/b2StackAllocator.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2StackAllocator.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2TimeOfImpact.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032990.327937
+e309032991.015106
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2TimeOfImpact.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@81"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp309032990#309032991#0(0"0(0#0#73"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp8603397600#1900"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Collision/b2TimeOfImpact.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2TimeOfImpact.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WeldJoint.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309033000.426977
+e309033000.855423
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WeldJoint.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp309033000#309033000#0(0"0(0#0#76"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp8623071008#1900"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/Joints/b2WeldJoint.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WeldJoint.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2World.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032994.421402
+e309032995.533369
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2World.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp309032994#309032995#0(0"0(0#0#65"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp8602678400#1885"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2World.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2World.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WorldCallbacks.o /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s309032994.614713
+e309032995.198776
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WorldCallbacks.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp309032994#309032995#0(0"0(0#0#74"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp8608557920#1903"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Dynamics/b2WorldCallbacks.cpp -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WorldCallbacks.o0#
+
+CCompileC build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o /Users/justinrhoades/Dropbox/Amos/Amos/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309032987.725506
+e309032987.980392
+r1
+xCompileC
+xbuild/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o
+x/Users/justinrhoades/Dropbox/Amos/Amos/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/justinrhoades/Dropbox/Amos/Amos/main.m309032987#309032987#0(0"0(0#0#45"/Users/justinrhoades/Dropbox/Amos/Amos/main.m8605988960#1895"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -include /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-cmftavyvbqzobicmivusmjyqlbsb/Amos_Prefix.pch -c /Users/justinrhoades/Dropbox/Amos/Amos/main.m -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o0#
+
+CCpResource build/Debug-iphonesimulator/Amos.app/Box2DConfig.cmake Box2D/Box2DConfig.cmake
+s309032983.790384
+e309032983.919539
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Amos.app/Box2DConfig.cmake
+xBox2D/Box2DConfig.cmake
+lSLF07#2@28"Copy Box2D/Box2DConfig.cmake309032983#309032983#0(0"0(0#0#62"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2DConfig.cmake8623064928#478"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/Box2DConfig.cmake /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app0#
+
+CCpResource build/Debug-iphonesimulator/Amos.app/CMakeLists.txt Box2D/CMakeLists.txt
+s309032983.793197
+e309032983.922278
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/Amos.app/CMakeLists.txt
+xBox2D/CMakeLists.txt
+lSLF07#2@25"Copy Box2D/CMakeLists.txt309032983#309032983#0(0"0(0#0#59"/Users/justinrhoades/Dropbox/Amos/Amos/Box2D/CMakeLists.txt8622974848#475"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/justinrhoades/Dropbox/Amos/Amos/Box2D/CMakeLists.txt /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app0#
+
+CGenerateDSYMFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+s309033001.077821
+e309033001.539390
+r1
+xGenerateDSYMFile
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/Amos.app.dSYM build/Debug-iphonesimulator/Amos.app/Amos309033001#309033001#0(0"0(0#0#80"/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos8623145440#374"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app.dSYM0#
+
+CLd /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos normal i386
+s309033000.855627
+e309033001.077712
+r1
+xLd
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos
+xnormal
+xi386
+lSLF07#2@85"Link /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos309033000#309033001#0(0"0(0#0#0"8606606400#885"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -filelist /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/Amos.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Amos0#
+
+CProcessInfoPlistFile /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist Amos-Info.plist
+s309032983.745576
+e309032983.790290
+r1
+xProcessInfoPlistFile
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist
+xAmos-Info.plist
+lSLF07#2@23"Process Amos-Info.plist309032983#309032983#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos-Info.plist8604495872#470"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Amos-Info.plist -genpkginfo /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app/Info.plist0#
+
+CProcessPCH /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-cmftavyvbqzobicmivusmjyqlbsb/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309032983.923104
+e309032987.296928
+r1
+xProcessPCH
+x/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-cmftavyvbqzobicmivusmjyqlbsb/Amos_Prefix.pch.gch
+xAmos_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Amos_Prefix.pch309032983#309032987#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch8622483904#1790"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -c /Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch -o /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-cmftavyvbqzobicmivusmjyqlbsb/Amos_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+s309032987.297147
+e309032987.593989
+r1
+xProcessPCH++
+x/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch.gch
+xAmos_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Amos_Prefix.pch309032987#309032987#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch8622030336#1757"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -c /Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch -o /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-bgwjmbzrapdkfodzonzrmbxljjfm/Amos_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-gnysvuhrgfbknvccbsbbhddqasew/Amos_Prefix.pch.gch Amos_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+s309032983.927285
+e309032987.725354
+r1
+xProcessPCH++
+x/var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-gnysvuhrgfbknvccbsbbhddqasew/Amos_Prefix.pch.gch
+xAmos_Prefix.pch
+xnormal
+xi386
+xobjective-c++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile Amos_Prefix.pch309032983#309032987#0(0"0(0#0#54"/Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch8622350496#1811"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-generated-files.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-own-target-headers.hmap -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-all-target-headers.hmap -iquote /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Amos-project-headers.hmap -F/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/include -I/Users/justinrhoades/Dropbox/Amos/Amos -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources/i386 -I/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/DerivedSources -c /Users/justinrhoades/Dropbox/Amos/Amos/Amos_Prefix.pch -o /var/folders/jf/jfHEVT3KGCOPAwn5-dGCbU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Amos_Prefix-gnysvuhrgfbknvccbsbbhddqasew/Amos_Prefix.pch.gch0#
+
+CTouch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+s309033001.539504
+e309033001.544380
+r1
+xTouch
+x/Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app
+lSLF07#2@81"Touch /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app309033001#309033001#0(0"0(0#0#0"8598686080#275"    cd /Users/justinrhoades/Dropbox/Amos/Amos    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/justinrhoades/Dropbox/Amos/Amos/build/Debug-iphonesimulator/Amos.app0#
+

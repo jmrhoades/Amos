@@ -8,20 +8,28 @@
 
 #import <UIKit/UIKit.h>
 #import <Box2D/Box2D.h>
+#import "ModeAContactListener.h"
 
-@class NoteBallA;
+@class NoteBall;
 
-
-@interface ModeAViewController : UIViewController {
+@interface ModeAViewController : UIViewController <UIAccelerometerDelegate, UIGestureRecognizerDelegate> {
 	b2World* world;
 	NSTimer *tickTimer;
 	b2Body* groundBody;
-	
-	NoteBallA *ballA;
+	ModeAContactListener *contactListener;
+	NoteBall *ballA;
+	NoteBall *ballB;
+	NoteBall *ballC;	
 }
 
--(void)createPhysicsWorld;
--(void)addPhysicalBodyForView:(UIView *)physicalView;
+-(void) createPhysicsWorld;
+-(void) addPhysicalBodyForView:(UIView *)physicalView;
 -(void) tick:(NSTimer *)timer;
+-(void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
+-(void) panBallA:(UIPanGestureRecognizer *)gestureRecognizer;
+-(void) panBallB:(UIPanGestureRecognizer *)gestureRecognizer;
+- (void)panBallC:(UIPanGestureRecognizer *)gestureRecognizer;
+-(CGPoint) convertToGL:(CGPoint)uiPoint;
+
 @end
 

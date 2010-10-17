@@ -56,7 +56,8 @@
 		8D3F89A9126AB22D00379B3F /* b2PulleyJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897B126AB22D00379B3F /* b2PulleyJoint.cpp */; };
 		8D3F89AA126AB22D00379B3F /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897D126AB22D00379B3F /* b2RevoluteJoint.cpp */; };
 		8D3F89AB126AB22D00379B3F /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897F126AB22D00379B3F /* b2WeldJoint.cpp */; };
-		8D3F89D6126AC9B100379B3F /* NoteBallA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F89D5126AC9B100379B3F /* NoteBallA.m */; };
+		8D3F89D6126AC9B100379B3F /* NoteBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F89D5126AC9B100379B3F /* NoteBall.m */; };
+		8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -156,8 +157,10 @@
 		8D3F897E126AB22D00379B3F /* b2RevoluteJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2RevoluteJoint.h; sourceTree = "<group>"; };
 		8D3F897F126AB22D00379B3F /* b2WeldJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = b2WeldJoint.cpp; sourceTree = "<group>"; };
 		8D3F8980126AB22D00379B3F /* b2WeldJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WeldJoint.h; sourceTree = "<group>"; };
-		8D3F89D4126AC9B100379B3F /* NoteBallA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBallA.h; sourceTree = "<group>"; };
-		8D3F89D5126AC9B100379B3F /* NoteBallA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteBallA.m; sourceTree = "<group>"; };
+		8D3F89D4126AC9B100379B3F /* NoteBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBall.h; sourceTree = "<group>"; };
+		8D3F89D5126AC9B100379B3F /* NoteBall.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = NoteBall.m; sourceTree = "<group>"; };
+		8DC9A2B6126B7B8800703E4B /* ModeAContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeAContactListener.h; sourceTree = "<group>"; };
+		8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ModeAContactListener.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,8 +184,10 @@
 				1D3623250D0F684500981E51 /* AmosAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* ModeAViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* ModeAViewController.m */,
-				8D3F89D4126AC9B100379B3F /* NoteBallA.h */,
-				8D3F89D5126AC9B100379B3F /* NoteBallA.m */,
+				8D3F89D4126AC9B100379B3F /* NoteBall.h */,
+				8D3F89D5126AC9B100379B3F /* NoteBall.m */,
+				8DC9A2B6126B7B8800703E4B /* ModeAContactListener.h */,
+				8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -483,7 +488,8 @@
 				8D3F89A9126AB22D00379B3F /* b2PulleyJoint.cpp in Sources */,
 				8D3F89AA126AB22D00379B3F /* b2RevoluteJoint.cpp in Sources */,
 				8D3F89AB126AB22D00379B3F /* b2WeldJoint.cpp in Sources */,
-				8D3F89D6126AC9B100379B3F /* NoteBallA.m in Sources */,
+				8D3F89D6126AC9B100379B3F /* NoteBall.m in Sources */,
+				8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
