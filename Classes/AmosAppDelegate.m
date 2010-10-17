@@ -7,12 +7,12 @@
 //
 
 #import "AmosAppDelegate.h"
-#import "AmosViewController.h"
+#import "ModeAViewController.h"
 
 @implementation AmosAppDelegate
 
 @synthesize window;
-@synthesize viewController;
+@synthesize modeA;
 
 
 #pragma mark -
@@ -20,11 +20,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after app launch. 
-    [self.window addSubview:viewController.view];
-    [self.window makeKeyAndVisible];
-
-	return YES;
+	
+	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	modeA = [[ModeAViewController alloc] init];
+	[window addSubview:[modeA view]];
+    [window makeKeyAndVisible];
+	
+    
+    return YES;
 }
 
 
@@ -62,7 +65,7 @@
 
 
 - (void)dealloc {
-    [viewController release];
+    [modeA release];
     [window release];
     [super dealloc];
 }

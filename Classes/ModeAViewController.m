@@ -6,14 +6,13 @@
 //  Copyright 2010 Anything Honest. All rights reserved.
 //
 
-#define PTM_RATIO 32
+#define PTM_RATIO 16
 
-#include <Box2D/Collision/Shapes/b2PolygonShape.h>
+#import "ModeAViewController.h"
 
-#import <QuartzCore/QuartzCore.h>
-#import "AmosViewController.h"
+#import "NoteBallA.h"
 
-@implementation AmosViewController
+@implementation ModeAViewController
 
 
 /*
@@ -27,19 +26,18 @@
 }
 */
 
-/*
+
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
-}
-*/
+	
+	[super loadView];
 
+	
+	self.view.backgroundColor = [UIColor whiteColor];
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+	
 }
-*/
+
 
 
 // Override to allow orientations other than the default portrait orientation.
@@ -109,6 +107,74 @@
 	// right
 	groundBox.SetAsEdge(b2Vec2(screenSize.width/PTM_RATIO,screenSize.height/PTM_RATIO), b2Vec2(screenSize.width/PTM_RATIO,0));
 	groundBody->CreateFixture(&groundBox, 0);
+}
+
+-(void)addPhysicalBodyForView:(UIView *)physicalView
+{
+	// Define the dynamic body.
+	b2BodyDef bodyDef;
+	bodyDef.type = b2_dynamicBody;
+	
+	CGPoint p = physicalView.center;
+	CGPoint boxDimensions = CGPointMake(physicalView.bounds.size.width/PTM_RATIO/2.0,physicalView.bounds.size.height/PTM_RATIO/2.0);
+	
+	bodyDef.position.Set(p.x/PTM_RATIO, (460.0 - p.y)/PTM_RATIO);
+	bodyDef.userData = physicalView;
+	
+	// Tell the physics world to create the body
+	b2Body *body = world->CreateBody(&bodyDef);
+	
+	// Define another box shape for our dynamic body.
+	b2PolygonShape dynamicBox;
+	
+	dynamicBox.SetAsBox(boxDimensions.x, boxDimensions.y);
+	
+	// Define the dynamic body fixture.
+	b2FixtureDef fixtureDef;
+	fixtureDef.shape = &dynamicBox;	
+	fixtureDef.density = 3.0f;
+	fixtureDef.friction = 0.3f;
+	fixtureDef.restitution = 0.5f; // 0 is a lead ball, 1 is a super bouncy ball
+	body->CreateFixture(&fixtureDef);
+	
+	// a dynamic body reacts to forces right away
+	body->SetType(b2_dynamicBody);
+	
+	// we abuse the tag property as pointer to the physical body
+	physicalView.tag = (int)body;
+}
+
+-(void) tick:(NSTimer *)timer
+{
+	//It is recommended that a fixed time step is used with Box2D for stability
+	//of the simulation, however, we are using a variable time step here.
+	//You need to make an informed choice, the following URL is useful
+	//http://gafferongames.com/game-physics/fix-your-timestep/
+	
+	int32 velocityIterations = 8;
+	int32 positionIterations = 1;
+	
+	// Instruct the world to perform a single step of simulation. It is
+	// generally best to keep the time step and iterations fixed.
+	world->Step(1.0f/60.0f, velocityIterations, positionIterations);
+	
+	//Iterate over the bodies in the physics world
+	for (b2Body* b = world->GetBodyList(); b; b = b->GetNext())
+	{
+		if (b->GetUserData() != NULL) 
+		{
+			UIView *oneView = (UIView *)b->GetUserData();
+			
+			// y Position subtracted because of flipped coordinate system
+			CGPoint newCenter = CGPointMake(b->GetPosition().x * PTM_RATIO,
+											self.view.bounds.size.height - b->GetPosition().y * PTM_RATIO);
+			oneView.center = newCenter;
+			
+			CGAffineTransform transform = CGAffineTransformMakeRotation(- b->GetAngle());
+			
+			oneView.transform = transform;
+		}	
+	}
 }
 
 @end

@@ -1,6 +1,6 @@
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/main.o
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosAppDelegate.o
-/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/AmosViewController.o
+/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/ModeAViewController.o
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2BroadPhase.o
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideCircle.o
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2CollideEdge.o
@@ -42,3 +42,4 @@
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2PulleyJoint.o
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2RevoluteJoint.o
 /Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/b2WeldJoint.o
+/Users/justinrhoades/Dropbox/Amos/Amos/build/Amos.build/Debug-iphonesimulator/Amos.build/Objects-normal/i386/NoteBallA.o

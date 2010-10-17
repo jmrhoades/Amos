@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class AmosViewController;
+@class ModeAViewController;
 
 @interface AmosAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    AmosViewController *viewController;
+    ModeAViewController *modeA;
 }
 
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet AmosViewController *viewController;
+@property (nonatomic, retain) UIWindow *window;
+@property (nonatomic, retain) ModeAViewController *modeA;
 
 @end
 
