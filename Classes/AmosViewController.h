@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Box2D/Box2D.h>
 
 @interface AmosViewController : UIViewController {
-
+	b2World* world;
+	NSTimer *tickTimer;
+	b2Body* groundBody;
 }
+
+-(void)createPhysicsWorld;
 
 @end
 
