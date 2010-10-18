@@ -13,6 +13,11 @@
 #define CORNER_BOTLEFT @"CORNER_BOTLEFT"
 #define CORNER_BOTRIGHT @"CORNER_BOTRIGHT"
 
+#define BLOCK_TOP @"BLOCK_TOP"
+#define BLOCK_RIGHT @"BLOCK_RIGHT"
+#define BLOCK_LEFT @"BLOCK_LEFT"
+#define BLOCK_BOT @"BLOCK_BOT"
+
 
 #import <UIKit/UIKit.h>
 #import <Box2D/Box2D.h>
@@ -20,6 +25,7 @@
 
 @class NoteBall;
 @class ModeACorner;
+@class ModeANoteBlock;
 
 @interface ModeAViewController : UIViewController <UIAccelerometerDelegate, UIGestureRecognizerDelegate> {
 	b2World *world;

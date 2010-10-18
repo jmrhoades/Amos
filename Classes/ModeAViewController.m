@@ -11,6 +11,7 @@
 #import "ModeAViewController.h"
 #import "NoteBall.h"
 #import "ModeACorner.h"
+#import "ModeANoteBlock.h"
 
 @implementation ModeAViewController
 
@@ -45,6 +46,43 @@
 	[self.view addSubview:cornerD];
 	[cornerD setCornerType:CORNER_BOTLEFT];
 	[cornerD setWorld:world];
+	
+	
+	// Create top row of note blocks
+	int numWide = 8;
+	int numTall = 12;
+	
+	for (int i = 0; i < numWide; i++) {
+		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(128.0 + (i*64.0), 0, 64.0, 96.0)];
+		[self.view addSubview:note];
+		[note setBlockType:BLOCK_TOP];
+		[note setWorld:world];
+	}
+	
+	// Create bottom row of note blocks
+	for (int i = 0; i < numWide; i++) {
+		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(128.0 + (i*64.0), screen.size.height-96.0, 64.0, 96.0)];
+		[self.view addSubview:note];
+		[note setBlockType:BLOCK_BOT];
+		[note setWorld:world];
+	}
+	
+	// Create left side row of note blocks
+	for (int i = 0; i < numTall; i++) {
+		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(0.0, 128.0 + (i*64.0), 96.0, 64.0)];
+		[self.view addSubview:note];
+		[note setBlockType:BLOCK_LEFT];
+		[note setWorld:world];
+	}
+	
+	// Create right side row of note blocks
+	for (int i = 0; i < numTall; i++) {
+		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(screen.size.width-96.0, 128.0 + (i*64.0), 96.0, 64.0)];
+		[self.view addSubview:note];
+		[note setBlockType:BLOCK_RIGHT];
+		[note setWorld:world];
+	}
+	
 
 	
 	UIPanGestureRecognizer *panGestureBallA = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallA:)];
@@ -59,7 +97,7 @@
 	UIPanGestureRecognizer *panGestureBallB = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallB:)];
 	[panGestureBallB setMaximumNumberOfTouches:2];
 	[panGestureBallB setDelegate:self];
-	ballB = [[NoteBall alloc] initWithFrame:CGRectMake(200, 200, 128.0, 128.0)];
+	ballB = [[NoteBall alloc] initWithFrame:CGRectMake(200, 200, 256.0, 256.0)];
 	[self.view addSubview:ballB];
 	[ballB addGestureRecognizer:panGestureBallB];
 	[ballB setWorld:world];
@@ -68,7 +106,7 @@
 	UIPanGestureRecognizer *panGestureBallC = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallC:)];
 	[panGestureBallC setMaximumNumberOfTouches:2];
 	[panGestureBallC setDelegate:self];
-	ballC = [[NoteBall alloc] initWithFrame:CGRectMake(380, 380, 128.0, 128.0)];
+	ballC = [[NoteBall alloc] initWithFrame:CGRectMake(100, 100, 96.0, 96.0)];
 	[self.view addSubview:ballC];
 	[ballC addGestureRecognizer:panGestureBallC];
 	[ballC setWorld:world];	
