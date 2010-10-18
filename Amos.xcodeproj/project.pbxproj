@@ -58,6 +58,7 @@
 		8D3F89AB126AB22D00379B3F /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897F126AB22D00379B3F /* b2WeldJoint.cpp */; };
 		8D3F89D6126AC9B100379B3F /* NoteBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F89D5126AC9B100379B3F /* NoteBall.m */; };
 		8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */; };
+		8DC9A4B8126BC00000703E4B /* ModeACorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A4B7126BC00000703E4B /* ModeACorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -161,6 +162,8 @@
 		8D3F89D5126AC9B100379B3F /* NoteBall.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = NoteBall.m; sourceTree = "<group>"; };
 		8DC9A2B6126B7B8800703E4B /* ModeAContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeAContactListener.h; sourceTree = "<group>"; };
 		8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ModeAContactListener.m; sourceTree = "<group>"; };
+		8DC9A4B6126BC00000703E4B /* ModeACorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeACorner.h; sourceTree = "<group>"; };
+		8DC9A4B7126BC00000703E4B /* ModeACorner.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ModeACorner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,8 @@
 				8D3F89D5126AC9B100379B3F /* NoteBall.m */,
 				8DC9A2B6126B7B8800703E4B /* ModeAContactListener.h */,
 				8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */,
+				8DC9A4B6126BC00000703E4B /* ModeACorner.h */,
+				8DC9A4B7126BC00000703E4B /* ModeACorner.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -490,6 +495,7 @@
 				8D3F89AB126AB22D00379B3F /* b2WeldJoint.cpp in Sources */,
 				8D3F89D6126AC9B100379B3F /* NoteBall.m in Sources */,
 				8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */,
+				8DC9A4B8126BC00000703E4B /* ModeACorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

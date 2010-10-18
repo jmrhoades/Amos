@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -299,7 +301,7 @@
 							<real>298</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>567 126 1178 1052 0 0 1920 1178 </string>
+						<string>506 126 1178 1052 0 0 1920 1178 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -310,8 +312,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -329,24 +329,28 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>8DC9A496126BB69C00703E4B</string>
+										<string>8DC9A5AC126C1ED900703E4B</string>
 										<key>history</key>
 										<array>
 											<string>8D3F8AAA126AD2A200379B3F</string>
 											<string>8D3F8AF0126AD64000379B3F</string>
-											<string>8D3F8AF8126AD66F00379B3F</string>
 											<string>8DC9A20B126B6E7F00703E4B</string>
 											<string>8DC9A260126B76EB00703E4B</string>
-											<string>8DC9A2CC126B7E7800703E4B</string>
 											<string>8DC9A43B126BAB8200703E4B</string>
-											<string>8DC9A43C126BAB8200703E4B</string>
-											<string>8DC9A43D126BAB8200703E4B</string>
 											<string>8DC9A490126BB69C00703E4B</string>
-											<string>8DC9A491126BB69C00703E4B</string>
-											<string>8DC9A492126BB69C00703E4B</string>
-											<string>8DC9A493126BB69C00703E4B</string>
-											<string>8DC9A494126BB69C00703E4B</string>
-											<string>8DC9A495126BB69C00703E4B</string>
+											<string>8DC9A4CB126BD07300703E4B</string>
+											<string>8DC9A507126C03DA00703E4B</string>
+											<string>8DC9A572126C174E00703E4B</string>
+											<string>8DC9A584126C1AAE00703E4B</string>
+											<string>8DC9A586126C1AAE00703E4B</string>
+											<string>8DC9A589126C1AAE00703E4B</string>
+											<string>8DC9A5A5126C1ED900703E4B</string>
+											<string>8DC9A5A6126C1ED900703E4B</string>
+											<string>8DC9A5A7126C1ED900703E4B</string>
+											<string>8DC9A5A8126C1ED900703E4B</string>
+											<string>8DC9A5A9126C1ED900703E4B</string>
+											<string>8DC9A5AA126C1ED900703E4B</string>
+											<string>8DC9A5AB126C1ED900703E4B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -362,7 +366,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {858, 855}}</string>
 								<key>RubberWindowFrame</key>
-								<string>567 126 1178 1052 0 0 1920 1178 </string>
+								<string>506 126 1178 1052 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -441,7 +445,7 @@
 										<key>Frame</key>
 										<string>{{10, 27}, {858, 124}}</string>
 										<key>RubberWindowFrame</key>
-										<string>567 126 1178 1052 0 0 1920 1178 </string>
+										<string>506 126 1178 1052 0 0 1920 1178 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -668,7 +672,7 @@
 		<string>/Users/justinrhoades/Dropbox/Amos/Amos/Amos.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>567 126 1178 1052 0 0 1920 1178 </string>
+	<string>506 126 1178 1052 0 0 1920 1178 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

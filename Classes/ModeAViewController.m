@@ -6,11 +6,11 @@
 //  Copyright 2010 Anything Honest. All rights reserved.
 //
 
-#define PTM_RATIO 16
 
 #import <QuartzCore/QuartzCore.h>
 #import "ModeAViewController.h"
 #import "NoteBall.h"
+#import "ModeACorner.h"
 
 @implementation ModeAViewController
 
@@ -21,12 +21,39 @@
 
 	self.view.backgroundColor = [UIColor whiteColor];
 	
+	[self createPhysicsWorld];
+	
+	CGRect screen = [[UIScreen mainScreen] bounds];
+
+	
+	cornerA = [[ModeACorner alloc] initWithFrame:CGRectMake(0, 0, 128.0, 128.0)];
+	[self.view addSubview:cornerA];
+	[cornerA setCornerType:CORNER_TOPLEFT];
+	[cornerA setWorld:world];
+	
+	cornerB = [[ModeACorner alloc] initWithFrame:CGRectMake(screen.size.width-128, 0, 128.0, 128.0)];
+	[self.view addSubview:cornerB];
+	[cornerB setCornerType:CORNER_TOPRIGHT];
+	[cornerB setWorld:world];
+	
+	cornerC = [[ModeACorner alloc] initWithFrame:CGRectMake(screen.size.width-128, screen.size.height-128, 128.0, 128.0)];
+	[self.view addSubview:cornerC];
+	[cornerC setCornerType:CORNER_BOTRIGHT];
+	[cornerC setWorld:world];
+	
+	cornerD = [[ModeACorner alloc] initWithFrame:CGRectMake(0, screen.size.height-128, 128.0, 128.0)];
+	[self.view addSubview:cornerD];
+	[cornerD setCornerType:CORNER_BOTLEFT];
+	[cornerD setWorld:world];
+
+	
 	UIPanGestureRecognizer *panGestureBallA = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallA:)];
 	[panGestureBallA setMaximumNumberOfTouches:2];
 	[panGestureBallA setDelegate:self];
-	ballA = [[NoteBall alloc] initWithFrame:CGRectMake(0, 0, 128.0, 128.0)];
+	ballA = [[NoteBall alloc] initWithFrame:CGRectMake(500, 500, 128.0, 128.0)];
 	[self.view addSubview:ballA];
 	[ballA addGestureRecognizer:panGestureBallA];
+	[ballA setWorld:world];
 	[panGestureBallA release];
 
 	UIPanGestureRecognizer *panGestureBallB = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallB:)];
@@ -35,6 +62,7 @@
 	ballB = [[NoteBall alloc] initWithFrame:CGRectMake(200, 200, 128.0, 128.0)];
 	[self.view addSubview:ballB];
 	[ballB addGestureRecognizer:panGestureBallB];
+	[ballB setWorld:world];
 	[panGestureBallB release];
 	
 	UIPanGestureRecognizer *panGestureBallC = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallC:)];
@@ -43,14 +71,14 @@
 	ballC = [[NoteBall alloc] initWithFrame:CGRectMake(380, 380, 128.0, 128.0)];
 	[self.view addSubview:ballC];
 	[ballC addGestureRecognizer:panGestureBallC];
+	[ballC setWorld:world];	
 	[panGestureBallC release];
 
 
-	[self createPhysicsWorld];
 	
 	for (UIView *uiView in self.view.subviews)
 	{
-		[self addPhysicalBodyForView:uiView];
+		//[self addPhysicalBodyForView:uiView];
 	}
 	
 	
@@ -141,44 +169,9 @@
 
 -(void)addPhysicalBodyForView:(UIView *)uiView
 {
-	// Define the dynamic body.
-	b2BodyDef bodyDef;
-	bodyDef.type = b2_dynamicBody;
-	CGPoint p = uiView.center;
-	bodyDef.position.Set(p.x/PTM_RATIO, (self.view.bounds.size.height-p.y)/PTM_RATIO);
-	bodyDef.userData = uiView;
-	// Tell the physics world to create the body
-	b2Body *body = world->CreateBody(&bodyDef);
-
-	if (uiView == ballA || uiView == ballB || uiView == ballC) {
-		
-		// Define another box shape for our dynamic body.
-		b2CircleShape shape;
-		shape.m_radius = uiView.bounds.size.width/PTM_RATIO/2.0;
-		b2FixtureDef fixtureDef;
-		fixtureDef.shape = &shape;	
-		fixtureDef.density = 3.0f;
-		fixtureDef.friction = 0.3f;
-		fixtureDef.restitution = 0.5f; // 0 is a lead ball, 1 is a super bouncy ball
-		body->CreateFixture(&fixtureDef);
-	} else {
-		// Define another box shape for our dynamic body.
-		b2PolygonShape shape;
-		CGPoint boxDimensions = CGPointMake(uiView.bounds.size.width/PTM_RATIO/2.0,uiView.bounds.size.height/PTM_RATIO/2.0);	
-		shape.SetAsBox(boxDimensions.x, boxDimensions.y);
-		// Define the dynamic body fixture.
-		b2FixtureDef fixtureDef;
-		fixtureDef.shape = &shape;	
-		fixtureDef.density = 3.0f;
-		fixtureDef.friction = 0.3f;
-		fixtureDef.restitution = 0.5f; // 0 is a lead ball, 1 is a super bouncy ball
-		body->CreateFixture(&fixtureDef);
-	}
-		
-	// a dynamic body reacts to forces right away
-	body->SetType(b2_dynamicBody);
-	// we abuse the tag property as pointer to the physical body
-	uiView.tag = (int)body;
+	if (uiView == cornerA) {
+				
+	} 
 }
 
 -(void) tick:(NSTimer *)timer
