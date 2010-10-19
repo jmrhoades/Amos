@@ -74,6 +74,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Amos_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amos_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Amos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Amos-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D39E515126D74AF0068BAEA /* libdsmi_iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdsmi_iphone.a; sourceTree = "<group>"; };
+		8D39E516126D74AF0068BAEA /* libdsmi_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libdsmi_iphone.h; sourceTree = "<group>"; };
 		8D3F8926126AB22D00379B3F /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		8D3F8927126AB22D00379B3F /* Box2DConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Box2DConfig.cmake; sourceTree = "<group>"; };
 		8D3F8928126AB22D00379B3F /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
@@ -161,6 +163,8 @@
 		8D3F8980126AB22D00379B3F /* b2WeldJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WeldJoint.h; sourceTree = "<group>"; };
 		8D3F89D4126AC9B100379B3F /* NoteBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBall.h; sourceTree = "<group>"; };
 		8D3F89D5126AC9B100379B3F /* NoteBall.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = NoteBall.m; sourceTree = "<group>"; };
+		8DA91CB2126D732F002441C1 /* libdsmi_iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdsmi_iphone.a; sourceTree = "<group>"; };
+		8DA91CB3126D732F002441C1 /* libdsmi_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libdsmi_iphone.h; sourceTree = "<group>"; };
 		8DC9A2B6126B7B8800703E4B /* ModeAContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeAContactListener.h; sourceTree = "<group>"; };
 		8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ModeAContactListener.m; sourceTree = "<group>"; };
 		8DC9A4B6126BC00000703E4B /* ModeACorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeACorner.h; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8D39E514126D74AF0068BAEA /* libdsmi_iphone_simulator_v1 */,
+				8DA91CB1126D732F002441C1 /* libdsmi_iphone_v1 */,
 				8D3F8925126AB22D00379B3F /* Box2D */,
 				32CA4F630368D1EE00C91783 /* Amos_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
@@ -248,6 +254,15 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D39E514126D74AF0068BAEA /* libdsmi_iphone_simulator_v1 */ = {
+			isa = PBXGroup;
+			children = (
+				8D39E516126D74AF0068BAEA /* libdsmi_iphone.h */,
+				8D39E515126D74AF0068BAEA /* libdsmi_iphone.a */,
+			);
+			path = libdsmi_iphone_simulator_v1;
 			sourceTree = "<group>";
 		};
 		8D3F8925126AB22D00379B3F /* Box2D */ = {
@@ -390,6 +405,15 @@
 			path = Joints;
 			sourceTree = "<group>";
 		};
+		8DA91CB1126D732F002441C1 /* libdsmi_iphone_v1 */ = {
+			isa = PBXGroup;
+			children = (
+				8DA91CB2126D732F002441C1 /* libdsmi_iphone.a */,
+				8DA91CB3126D732F002441C1 /* libdsmi_iphone.h */,
+			);
+			path = libdsmi_iphone_v1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -518,6 +542,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Amos_Prefix.pch;
 				INFOPLIST_FILE = "Amos-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libdsmi_iphone_simulator_v1\"",
+					"\"$(SRCROOT)/libdsmi_iphone_v1\"",
+				);
+				"OTHER_LDFLAGS[arch=armv7]" = "${PROJECT_DIR}/libdsmi_iphone_v1/libdsmi_iphone.a";
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "${PROJECT_DIR}/libdsmi_iphone_simulator_v1/libdsmi_iphone.a";
 				PRODUCT_NAME = Amos;
 			};
 			name = Debug;
@@ -530,6 +561,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Amos_Prefix.pch;
 				INFOPLIST_FILE = "Amos-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/libdsmi_iphone_simulator_v1\"",
+					"\"$(SRCROOT)/libdsmi_iphone_v1\"",
+				);
 				PRODUCT_NAME = Amos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -544,6 +580,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}";
+				LIBRARY_SEARCH_PATHS = "";
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=armv7]" = "${PROJECT_DIR}/libdsmi_iphone_v1/libdsmi_iphone.a";
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "${PROJECT_DIR}/libdsmi_iphone_simulator_v1/libdsmi_iphone.a";
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;

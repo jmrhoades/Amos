@@ -12,6 +12,8 @@
 
 @implementation ModeANoteBlock
 
+@synthesize fixture;
+
 
 - (id)initWithFrame:(CGRect)frame {
     
@@ -19,6 +21,16 @@
     if (self) {
         self.backgroundColor = [UIColor clearColor];
 		self.opaque = NO;
+		
+		
+		/*
+		 Create a tap recognizer and add it to the view.
+		 Keep a reference to the recognizer to test in gestureRecognizer:shouldReceiveTouch:.
+		 */
+		tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapFrom:)];
+		[self addGestureRecognizer:tapRecognizer];
+		tapRecognizer.delegate = self;
+		
     }
     return self;
 }
@@ -42,22 +54,57 @@
 	CGContextBeginPath(X);
     CGContextMoveToPoint(X, 0, 0);
 	
-	if ([blockType isEqualToString:BLOCK_TOP]) {
+	if ([blockType isEqualToString:BLOCK_TOP] || [blockType isEqualToString:BLOCK_BOT]) {
+		CGContextSetRGBFillColor(X, 0, 0, 0, 1.0);
 		CGContextFillRect(X, CGRectMake(0.0, 0.0, 64.0, 96.0));
+		
+		CGContextSetRGBFillColor(X, .25,.25,.25, 1.0);
+		CGContextFillRect(X, CGRectMake(63.0, 0.0, 1.0, 96.0));
 	}
 	
-	if ([blockType isEqualToString:BLOCK_RIGHT]) {
+	if ([blockType isEqualToString:BLOCK_RIGHT] || [blockType isEqualToString:BLOCK_LEFT]) {
+		CGContextSetRGBFillColor(X, 0, 0, 0, 1.0);
 		CGContextFillRect(X, CGRectMake(0.0, 0.0, 96.0, 64.0));
+		
+		CGContextSetRGBFillColor(X, .25,.25,.25, 1.0);
+		CGContextFillRect(X, CGRectMake(0.0, 63.0, 96.0, 1.0));
 	}
 	
-	if ([blockType isEqualToString:BLOCK_LEFT]) {
-		CGContextFillRect(X, CGRectMake(0.0, 0.0, 96.0, 64.0));
-	}
-	
-	if ([blockType isEqualToString:BLOCK_BOT]) {
-		CGContextFillRect(X, CGRectMake(0.0, 0.0, 64.0, 96.0));
-	}
+}
 
+- (void)playNote:(int)note withVelocity:(int)vel {
+
+	NSLog(@"Note block hit Hit!");
+	
+	
+	[UIView animateWithDuration:.01
+			delay:0
+			options:UIViewAnimationOptionAllowUserInteraction
+			animations:^{ 
+				self.alpha = 0;
+			}
+			completion:^(BOOL finished){
+	[UIView animateWithDuration:.33
+			delay:0
+			options:UIViewAnimationOptionAllowUserInteraction
+			animations:^{
+				self.alpha = 1;
+			}
+			completion:^(BOOL finished){
+				;
+			}
+	];}];
+
+}
+
+/*
+ In response to a tap gesture, show the image view appropriately then make it fade out in place.
+ */
+- (void)handleTapFrom:(UITapGestureRecognizer *)recognizer {
+    
+    //CGPoint location = [recognizer locationInView:self.view];
+    
+    [self playNote:0 withVelocity:0];
 }
 
 - (void)setWorld:(b2World *)world {
@@ -93,7 +140,7 @@
 	}
 	
 	fixtureDef.shape = &shape;	
-	body->CreateFixture(&fixtureDef);
+	fixture = body->CreateFixture(&fixtureDef);
 }
 
 

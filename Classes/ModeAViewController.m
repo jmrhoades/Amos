@@ -26,6 +26,7 @@
 	
 	CGRect screen = [[UIScreen mainScreen] bounds];
 
+	noteblocks = [[NSMutableArray alloc] init];
 	
 	cornerA = [[ModeACorner alloc] initWithFrame:CGRectMake(0, 0, 128.0, 128.0)];
 	[self.view addSubview:cornerA];
@@ -53,37 +54,16 @@
 	int numTall = 12;
 	
 	for (int i = 0; i < numWide; i++) {
-		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(128.0 + (i*64.0), 0, 64.0, 96.0)];
-		[self.view addSubview:note];
-		[note setBlockType:BLOCK_TOP];
-		[note setWorld:world];
+		[self addNoteBlock:BLOCK_TOP forIndex:i];
+		[self addNoteBlock:BLOCK_BOT forIndex:i];
 	}
 	
-	// Create bottom row of note blocks
-	for (int i = 0; i < numWide; i++) {
-		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(128.0 + (i*64.0), screen.size.height-96.0, 64.0, 96.0)];
-		[self.view addSubview:note];
-		[note setBlockType:BLOCK_BOT];
-		[note setWorld:world];
-	}
-	
-	// Create left side row of note blocks
-	for (int i = 0; i < numTall; i++) {
-		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(0.0, 128.0 + (i*64.0), 96.0, 64.0)];
-		[self.view addSubview:note];
-		[note setBlockType:BLOCK_LEFT];
-		[note setWorld:world];
-	}
 	
 	// Create right side row of note blocks
 	for (int i = 0; i < numTall; i++) {
-		ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:CGRectMake(screen.size.width-96.0, 128.0 + (i*64.0), 96.0, 64.0)];
-		[self.view addSubview:note];
-		[note setBlockType:BLOCK_RIGHT];
-		[note setWorld:world];
+		[self addNoteBlock:BLOCK_RIGHT forIndex:i];
+		[self addNoteBlock:BLOCK_LEFT forIndex:i];
 	}
-	
-
 	
 	UIPanGestureRecognizer *panGestureBallA = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallA:)];
 	[panGestureBallA setMaximumNumberOfTouches:2];
@@ -93,11 +73,11 @@
 	[ballA addGestureRecognizer:panGestureBallA];
 	[ballA setWorld:world];
 	[panGestureBallA release];
-
+	
 	UIPanGestureRecognizer *panGestureBallB = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panBallB:)];
 	[panGestureBallB setMaximumNumberOfTouches:2];
 	[panGestureBallB setDelegate:self];
-	ballB = [[NoteBall alloc] initWithFrame:CGRectMake(200, 200, 256.0, 256.0)];
+	ballB = [[NoteBall alloc] initWithFrame:CGRectMake(200, 200, 192.0, 192.0)];
 	[self.view addSubview:ballB];
 	[ballB addGestureRecognizer:panGestureBallB];
 	[ballB setWorld:world];
@@ -111,14 +91,12 @@
 	[ballC addGestureRecognizer:panGestureBallC];
 	[ballC setWorld:world];	
 	[panGestureBallC release];
-
-
+	 
 	
 	for (UIView *uiView in self.view.subviews)
 	{
 		//[self addPhysicalBodyForView:uiView];
 	}
-	
 	
 	// Create contact listener
 	contactListener = new ModeAContactListener();
@@ -131,7 +109,42 @@
 	[[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / 60.0)];
 	[[UIAccelerometer sharedAccelerometer] setDelegate:self];
 	 */
+	
+	// ***  Initialize DSMI
+	//**********************
+	libdsmi=[[libdsmi_iphone alloc] init];
+	// ***************
+	
 }
+
+-(void) addNoteBlock:(NSString *)typeName forIndex:(int)i {
+	CGRect screen = [[UIScreen mainScreen] bounds];
+	CGRect blockFrame;
+	
+	if ([typeName isEqualToString:BLOCK_RIGHT]) {
+		blockFrame = CGRectMake(screen.size.width-96.0, 128.0 + (i*64.0), 96.0, 64.0);
+	}
+	
+	if ([typeName isEqualToString:BLOCK_LEFT]) {
+		blockFrame = CGRectMake(0.0, 128.0 + (i*64.0), 96.0, 64.0);
+	}
+	
+	if ([typeName isEqualToString:BLOCK_BOT]) {
+		blockFrame = CGRectMake(128.0 + (i*64.0), screen.size.height-96.0, 64.0, 96.0);
+	}
+	
+	if ([typeName isEqualToString:BLOCK_TOP]) {
+		blockFrame = CGRectMake(128.0 + (i*64.0), 0, 64.0, 96.0);
+	}
+	
+	ModeANoteBlock *note = [[ModeANoteBlock alloc] initWithFrame:blockFrame];
+	[note setBlockType:typeName];
+	[self.view addSubview:note];
+	[note setWorld:world];		
+	[noteblocks addObject:note];
+
+}
+
 
 // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
@@ -247,6 +260,25 @@
 	
 	for(pos = contactListener->_contacts.begin(); pos != contactListener->_contacts.end(); ++pos) {
 		MyContact contact = *pos;
+		//NSLog(@"maxImpulse: %f", contact.impulse);
+		int vel = ceil((contact.impulse / 1500) * 127);
+		if (vel > 127) { vel = 127; }
+		
+		for (ModeANoteBlock *noteblock in noteblocks) {
+			
+			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == ballA.fixture) || (contact.fixtureA == ballA.fixture && contact.fixtureB == noteblock.fixture)) {
+				[noteblock playNote:0 withVelocity:vel];
+			}
+			
+			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == ballB.fixture) || (contact.fixtureA == ballB.fixture && contact.fixtureB == noteblock.fixture)) {
+				[noteblock playNote:0 withVelocity:vel];
+			}
+			
+			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == ballC.fixture) || (contact.fixtureA == ballC.fixture && contact.fixtureB == noteblock.fixture)) {
+				[noteblock playNote:0 withVelocity:vel];
+			}
+			
+		}
 		
 	}
 	

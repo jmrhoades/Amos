@@ -13,6 +13,7 @@
 @implementation NoteBall
 
 @synthesize touchJoint;
+@synthesize fixture;
 
 
 - (id)initWithFrame:(CGRect)frame {
@@ -42,9 +43,9 @@
 	b2FixtureDef fixtureDef;
 	fixtureDef.shape = &shape;	
 	fixtureDef.density = 3.0f;
-	fixtureDef.friction = 0.9f;
-	fixtureDef.restitution = 0.75f; // 0 is a lead ball, 1 is a super bouncy ball
-	body->CreateFixture(&fixtureDef);
+	fixtureDef.friction = 0.3f;
+	fixtureDef.restitution = 0.95f; // 0 is a lead ball, 1 is a super bouncy ball
+	self.fixture = body->CreateFixture(&fixtureDef);
 }
 
 
@@ -68,11 +69,20 @@
 	
 	// line through the middle
 	CGContextSetRGBStrokeColor(X, 255, 255, 255, 1.0);
-    CGContextSetLineWidth(X, 1.0f);    
+    CGContextSetLineWidth(X, 2.0f);    
     CGContextSetLineCap(X, kCGLineCapSquare);
     CGContextBeginPath(X);
-    CGContextMoveToPoint(X, center.x + 10, center.y - 10);
-    CGContextAddLineToPoint(X, center.x - 10, center.y + 10);
+    CGContextMoveToPoint(X, center.x + 5, center.y - 5);
+    CGContextAddLineToPoint(X, center.x - 5, center.y + 5);
+    CGContextStrokePath(X);
+	
+	//line through the middle
+	CGContextSetRGBStrokeColor(X, 255, 255, 255, 1.0);
+    CGContextSetLineWidth(X, 2.0f);    
+    CGContextSetLineCap(X, kCGLineCapSquare);
+    CGContextBeginPath(X);
+    CGContextMoveToPoint(X, center.x + 5, center.y + 5);
+    CGContextAddLineToPoint(X, center.x - 5, center.y - 5);
     CGContextStrokePath(X);
 
 }

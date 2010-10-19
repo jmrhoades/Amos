@@ -12,11 +12,13 @@
 
 @interface NoteBall : UIView {
 	b2MouseJoint *touchJoint;
+	b2Fixture *fixture;	
 	b2BodyDef bodyDef;
 	b2Body *body;
 }
 
 @property (nonatomic) b2MouseJoint *touchJoint;
+@property (nonatomic) b2Fixture *fixture;
 
 - (void)setWorld:(b2World *)world;
 

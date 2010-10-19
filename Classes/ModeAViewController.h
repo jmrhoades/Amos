@@ -22,6 +22,7 @@
 #import <UIKit/UIKit.h>
 #import <Box2D/Box2D.h>
 #import "ModeAContactListener.h"
+#import "libdsmi_iphone.h"
 
 @class NoteBall;
 @class ModeACorner;
@@ -39,6 +40,10 @@
 	ModeACorner *cornerB;
 	ModeACorner *cornerC;
 	ModeACorner *cornerD;
+	
+	NSMutableArray *noteblocks;
+	libdsmi_iphone *libdsmi;
+
 }
 
 -(void) createPhysicsWorld;
@@ -49,6 +54,7 @@
 -(void) panBallB:(UIPanGestureRecognizer *)gestureRecognizer;
 -(void) panBallC:(UIPanGestureRecognizer *)gestureRecognizer;
 -(CGPoint) convertToGL:(CGPoint)uiPoint;
+-(void) addNoteBlock:(NSString *)typeName forIndex:(int)i;
 
 @end
 
