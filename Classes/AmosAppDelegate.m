@@ -8,11 +8,13 @@
 
 #import "AmosAppDelegate.h"
 #import "ModeAViewController.h"
+#import "AmosMIDIManager.h"
 
 @implementation AmosAppDelegate
 
 @synthesize window;
 @synthesize modeA;
+@synthesize midiManager;
 
 
 #pragma mark -
@@ -25,6 +27,7 @@
 	[window addSubview:[modeA view]];
     [window makeKeyAndVisible];
 	
+	midiManager = [[AmosMIDIManager alloc] init];
     
     return YES;
 }

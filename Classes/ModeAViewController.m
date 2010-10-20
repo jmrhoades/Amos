@@ -23,7 +23,7 @@
 	self.view.backgroundColor = [UIColor whiteColor];
 	
 	[self createPhysicsWorld];
-	
+		
 	CGRect screen = [[UIScreen mainScreen] bounds];
 
 	noteblocks = [[NSMutableArray alloc] init];
@@ -57,7 +57,6 @@
 		[self addNoteBlock:BLOCK_TOP forIndex:i];
 		[self addNoteBlock:BLOCK_BOT forIndex:i];
 	}
-	
 	
 	// Create right side row of note blocks
 	for (int i = 0; i < numTall; i++) {
@@ -112,7 +111,7 @@
 	
 	// ***  Initialize DSMI
 	//**********************
-	libdsmi=[[libdsmi_iphone alloc] init];
+	//libdsmi=[[libdsmi_iphone alloc] init];
 	// ***************
 	
 }
@@ -260,22 +259,33 @@
 	
 	for(pos = contactListener->_contacts.begin(); pos != contactListener->_contacts.end(); ++pos) {
 		MyContact contact = *pos;
-		//NSLog(@"maxImpulse: %f", contact.impulse);
-		int vel = ceil((contact.impulse / 1500) * 127);
-		if (vel > 127) { vel = 127; }
+		NSLog(@"maxImpulse: %f", contact.impulse);
+		
 		
 		for (ModeANoteBlock *noteblock in noteblocks) {
 			
 			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == ballA.fixture) || (contact.fixtureA == ballA.fixture && contact.fixtureB == noteblock.fixture)) {
-				[noteblock playNote:0 withVelocity:vel];
+				int vel = ceil((contact.impulse / 1500) * 127);
+				if (vel > 127) { vel = 127; }
+				if(vel > 20) {
+					[noteblock playNote:0 withVelocity:vel];
+				}
 			}
 			
 			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == ballB.fixture) || (contact.fixtureA == ballB.fixture && contact.fixtureB == noteblock.fixture)) {
-				[noteblock playNote:0 withVelocity:vel];
+				int vel = ceil((contact.impulse / 8000) * 127);
+				if (vel > 127) { vel = 127; }
+				if(vel > 20) {
+					[noteblock playNote:0 withVelocity:vel];
+				}
 			}
 			
 			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == ballC.fixture) || (contact.fixtureA == ballC.fixture && contact.fixtureB == noteblock.fixture)) {
-				[noteblock playNote:0 withVelocity:vel];
+				int vel = ceil((contact.impulse / 1000) * 127);
+				if (vel > 127) { vel = 127; }
+				if(vel > 20) {
+					[noteblock playNote:0 withVelocity:vel];
+				}
 			}
 			
 		}

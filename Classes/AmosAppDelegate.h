@@ -9,14 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @class ModeAViewController;
+@class AmosMIDIManager;
 
 @interface AmosAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     ModeAViewController *modeA;
+	AmosMIDIManager *midiManager;
 }
 
 @property (nonatomic, retain) UIWindow *window;
 @property (nonatomic, retain) ModeAViewController *modeA;
+@property (nonatomic, retain) AmosMIDIManager *midiManager;
 
 @end
 

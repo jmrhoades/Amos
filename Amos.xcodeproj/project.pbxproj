@@ -60,6 +60,7 @@
 		8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */; };
 		8DC9A4B8126BC00000703E4B /* ModeACorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A4B7126BC00000703E4B /* ModeACorner.m */; };
 		8DC9A5D2126C240400703E4B /* ModeANoteBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A5D1126C240400703E4B /* ModeANoteBlock.m */; };
+		8DFBDF08126E9AB2002BFC48 /* AmosMIDIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFBDF07126E9AB2002BFC48 /* AmosMIDIManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -171,6 +172,8 @@
 		8DC9A4B7126BC00000703E4B /* ModeACorner.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ModeACorner.m; sourceTree = "<group>"; };
 		8DC9A5D0126C240400703E4B /* ModeANoteBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeANoteBlock.h; sourceTree = "<group>"; };
 		8DC9A5D1126C240400703E4B /* ModeANoteBlock.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ModeANoteBlock.m; sourceTree = "<group>"; };
+		8DFBDF06126E9AB2002BFC48 /* AmosMIDIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmosMIDIManager.h; sourceTree = "<group>"; };
+		8DFBDF07126E9AB2002BFC48 /* AmosMIDIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmosMIDIManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +205,8 @@
 				8DC9A4B7126BC00000703E4B /* ModeACorner.m */,
 				8DC9A5D0126C240400703E4B /* ModeANoteBlock.h */,
 				8DC9A5D1126C240400703E4B /* ModeANoteBlock.m */,
+				8DFBDF06126E9AB2002BFC48 /* AmosMIDIManager.h */,
+				8DFBDF07126E9AB2002BFC48 /* AmosMIDIManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -526,6 +531,7 @@
 				8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */,
 				8DC9A4B8126BC00000703E4B /* ModeACorner.m in Sources */,
 				8DC9A5D2126C240400703E4B /* ModeANoteBlock.m in Sources */,
+				8DFBDF08126E9AB2002BFC48 /* AmosMIDIManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

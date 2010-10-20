@@ -15,7 +15,6 @@
 	NSString *blockType;
 	b2Fixture *fixture;	
     UITapGestureRecognizer *tapRecognizer;
-
 }
 
 @property (nonatomic) b2Fixture *fixture;

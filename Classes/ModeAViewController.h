@@ -18,11 +18,9 @@
 #define BLOCK_LEFT @"BLOCK_LEFT"
 #define BLOCK_BOT @"BLOCK_BOT"
 
-
 #import <UIKit/UIKit.h>
 #import <Box2D/Box2D.h>
 #import "ModeAContactListener.h"
-#import "libdsmi_iphone.h"
 
 @class NoteBall;
 @class ModeACorner;
@@ -42,8 +40,6 @@
 	ModeACorner *cornerD;
 	
 	NSMutableArray *noteblocks;
-	libdsmi_iphone *libdsmi;
-
 }
 
 -(void) createPhysicsWorld;

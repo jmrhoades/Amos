@@ -8,7 +8,7 @@
 
 #import "ModeANoteBlock.h"
 #import "ModeAViewController.h"
-
+#import "AmosAppDelegate.h"
 
 @implementation ModeANoteBlock
 
@@ -74,9 +74,8 @@
 
 - (void)playNote:(int)note withVelocity:(int)vel {
 
-	NSLog(@"Note block hit Hit!");
-	
-	
+	//NSLog(@"Note block hit Hit!");
+
 	[UIView animateWithDuration:.01
 			delay:0
 			options:UIViewAnimationOptionAllowUserInteraction
@@ -94,7 +93,11 @@
 				;
 			}
 	];}];
-
+	
+	
+	AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	[delegate.midiManager playNote:note withVelocity:vel];
+	
 }
 
 /*
@@ -104,7 +107,7 @@
     
     //CGPoint location = [recognizer locationInView:self.view];
     
-    [self playNote:0 withVelocity:0];
+    [self playNote:0 withVelocity:64];
 }
 
 - (void)setWorld:(b2World *)world {
