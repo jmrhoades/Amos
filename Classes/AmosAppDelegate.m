@@ -23,11 +23,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	
+	midiManager = [[AmosMIDIManager alloc] init];
+
 	modeA = [[ModeAViewController alloc] init];
 	[window addSubview:[modeA view]];
     [window makeKeyAndVisible];
 	
-	midiManager = [[AmosMIDIManager alloc] init];
     
     return YES;
 }

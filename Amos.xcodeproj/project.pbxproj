@@ -13,6 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		28D7ACF80DDB3853001CB0EB /* ModeAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* ModeAViewController.m */; };
+		8D16480C1274A75700CAF761 /* temp_top_768x43.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D16480B1274A75700CAF761 /* temp_top_768x43.png */; };
+		8D1648131274A97900CAF761 /* amos_background_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D1648121274A97900CAF761 /* amos_background_01.png */; };
 		8D3F8981126AB22D00379B3F /* Box2DConfig.cmake in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F8927126AB22D00379B3F /* Box2DConfig.cmake */; };
 		8D3F8982126AB22D00379B3F /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8D3F8928126AB22D00379B3F /* CMakeLists.txt */; };
 		8D3F8983126AB22D00379B3F /* b2BroadPhase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F892A126AB22D00379B3F /* b2BroadPhase.cpp */; };
@@ -57,6 +59,21 @@
 		8D3F89AA126AB22D00379B3F /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897D126AB22D00379B3F /* b2RevoluteJoint.cpp */; };
 		8D3F89AB126AB22D00379B3F /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897F126AB22D00379B3F /* b2WeldJoint.cpp */; };
 		8D3F89D6126AC9B100379B3F /* NoteBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F89D5126AC9B100379B3F /* NoteBall.m */; };
+		8D60E60F1274CAF500F176A4 /* amos_corner_bot_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E60B1274CAF500F176A4 /* amos_corner_bot_left.png */; };
+		8D60E6101274CAF500F176A4 /* amos_corner_bot_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E60C1274CAF500F176A4 /* amos_corner_bot_right.png */; };
+		8D60E6111274CAF500F176A4 /* amos_corner_top_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E60D1274CAF500F176A4 /* amos_corner_top_left.png */; };
+		8D60E6121274CAF500F176A4 /* amos_corner_top_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E60E1274CAF500F176A4 /* amos_corner_top_right.png */; };
+		8D60E6231274D7E400F176A4 /* amos_circle_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E61D1274D7E400F176A4 /* amos_circle_base.png */; };
+		8D60E6241274D7E400F176A4 /* amos_circle_center_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E61E1274D7E400F176A4 /* amos_circle_center_default.png */; };
+		8D60E6251274D7E400F176A4 /* amos_circle_inner_ring_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E61F1274D7E400F176A4 /* amos_circle_inner_ring_default.png */; };
+		8D60E6261274D7E400F176A4 /* amos_circle_note_quarter.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E6201274D7E400F176A4 /* amos_circle_note_quarter.png */; };
+		8D60E6271274D7E400F176A4 /* amos_circle_outer_ring_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E6211274D7E400F176A4 /* amos_circle_outer_ring_default.png */; };
+		8D60E6581274E26100F176A4 /* amos_background_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E6571274E26100F176A4 /* amos_background_02.png */; };
+		8D60E6DD1274EE8300F176A4 /* amos_circle_outer_ring_panning.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E6DB1274EE8300F176A4 /* amos_circle_outer_ring_panning.png */; };
+		8D60E6E41274EEDE00F176A4 /* amos_circle_shine.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E6E31274EEDE00F176A4 /* amos_circle_shine.png */; };
+		8D60E748127542C200F176A4 /* amos1_noteblock_base_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E746127542C200F176A4 /* amos1_noteblock_base_128x128.png */; };
+		8D60E7AD12755C7B00F176A4 /* amos_circle_inner_ring_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E7AC12755C7B00F176A4 /* amos_circle_inner_ring_contact.png */; };
+		8D60E7EB12756A9500F176A4 /* amos1_noteblock_light_128x128.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D60E7EA12756A9500F176A4 /* amos1_noteblock_light_128x128.png */; };
 		8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */; };
 		8DC9A4B8126BC00000703E4B /* ModeACorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A4B7126BC00000703E4B /* ModeACorner.m */; };
 		8DC9A5D2126C240400703E4B /* ModeANoteBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A5D1126C240400703E4B /* ModeANoteBlock.m */; };
@@ -75,6 +92,8 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Amos_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Amos_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Amos-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Amos-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		8D16480B1274A75700CAF761 /* temp_top_768x43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp_top_768x43.png; sourceTree = "<group>"; };
+		8D1648121274A97900CAF761 /* amos_background_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_background_01.png; sourceTree = "<group>"; };
 		8D39E515126D74AF0068BAEA /* libdsmi_iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdsmi_iphone.a; sourceTree = "<group>"; };
 		8D39E516126D74AF0068BAEA /* libdsmi_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libdsmi_iphone.h; sourceTree = "<group>"; };
 		8D3F8926126AB22D00379B3F /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
@@ -164,6 +183,21 @@
 		8D3F8980126AB22D00379B3F /* b2WeldJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WeldJoint.h; sourceTree = "<group>"; };
 		8D3F89D4126AC9B100379B3F /* NoteBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBall.h; sourceTree = "<group>"; };
 		8D3F89D5126AC9B100379B3F /* NoteBall.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = NoteBall.m; sourceTree = "<group>"; };
+		8D60E60B1274CAF500F176A4 /* amos_corner_bot_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_corner_bot_left.png; sourceTree = "<group>"; };
+		8D60E60C1274CAF500F176A4 /* amos_corner_bot_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_corner_bot_right.png; sourceTree = "<group>"; };
+		8D60E60D1274CAF500F176A4 /* amos_corner_top_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_corner_top_left.png; sourceTree = "<group>"; };
+		8D60E60E1274CAF500F176A4 /* amos_corner_top_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_corner_top_right.png; sourceTree = "<group>"; };
+		8D60E61D1274D7E400F176A4 /* amos_circle_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_base.png; sourceTree = "<group>"; };
+		8D60E61E1274D7E400F176A4 /* amos_circle_center_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_center_default.png; sourceTree = "<group>"; };
+		8D60E61F1274D7E400F176A4 /* amos_circle_inner_ring_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_inner_ring_default.png; sourceTree = "<group>"; };
+		8D60E6201274D7E400F176A4 /* amos_circle_note_quarter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_note_quarter.png; sourceTree = "<group>"; };
+		8D60E6211274D7E400F176A4 /* amos_circle_outer_ring_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_outer_ring_default.png; sourceTree = "<group>"; };
+		8D60E6571274E26100F176A4 /* amos_background_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_background_02.png; sourceTree = "<group>"; };
+		8D60E6DB1274EE8300F176A4 /* amos_circle_outer_ring_panning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_outer_ring_panning.png; sourceTree = "<group>"; };
+		8D60E6E31274EEDE00F176A4 /* amos_circle_shine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_shine.png; sourceTree = "<group>"; };
+		8D60E746127542C200F176A4 /* amos1_noteblock_base_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos1_noteblock_base_128x128.png; sourceTree = "<group>"; };
+		8D60E7AC12755C7B00F176A4 /* amos_circle_inner_ring_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos_circle_inner_ring_contact.png; sourceTree = "<group>"; };
+		8D60E7EA12756A9500F176A4 /* amos1_noteblock_light_128x128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amos1_noteblock_light_128x128.png; sourceTree = "<group>"; };
 		8DA91CB2126D732F002441C1 /* libdsmi_iphone.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libdsmi_iphone.a; sourceTree = "<group>"; };
 		8DA91CB3126D732F002441C1 /* libdsmi_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libdsmi_iphone.h; sourceTree = "<group>"; };
 		8DC9A2B6126B7B8800703E4B /* ModeAContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeAContactListener.h; sourceTree = "<group>"; };
@@ -246,6 +280,23 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8D60E7EA12756A9500F176A4 /* amos1_noteblock_light_128x128.png */,
+				8D60E7AC12755C7B00F176A4 /* amos_circle_inner_ring_contact.png */,
+				8D60E746127542C200F176A4 /* amos1_noteblock_base_128x128.png */,
+				8D60E6E31274EEDE00F176A4 /* amos_circle_shine.png */,
+				8D60E6DB1274EE8300F176A4 /* amos_circle_outer_ring_panning.png */,
+				8D60E6571274E26100F176A4 /* amos_background_02.png */,
+				8D60E61D1274D7E400F176A4 /* amos_circle_base.png */,
+				8D60E61E1274D7E400F176A4 /* amos_circle_center_default.png */,
+				8D60E61F1274D7E400F176A4 /* amos_circle_inner_ring_default.png */,
+				8D60E6201274D7E400F176A4 /* amos_circle_note_quarter.png */,
+				8D60E6211274D7E400F176A4 /* amos_circle_outer_ring_default.png */,
+				8D60E60B1274CAF500F176A4 /* amos_corner_bot_left.png */,
+				8D60E60C1274CAF500F176A4 /* amos_corner_bot_right.png */,
+				8D60E60D1274CAF500F176A4 /* amos_corner_top_left.png */,
+				8D60E60E1274CAF500F176A4 /* amos_corner_top_right.png */,
+				8D1648121274A97900CAF761 /* amos_background_01.png */,
+				8D16480B1274A75700CAF761 /* temp_top_768x43.png */,
 				8D1107310486CEB800E47090 /* Amos-Info.plist */,
 			);
 			name = Resources;
@@ -473,6 +524,23 @@
 			files = (
 				8D3F8981126AB22D00379B3F /* Box2DConfig.cmake in Resources */,
 				8D3F8982126AB22D00379B3F /* CMakeLists.txt in Resources */,
+				8D16480C1274A75700CAF761 /* temp_top_768x43.png in Resources */,
+				8D1648131274A97900CAF761 /* amos_background_01.png in Resources */,
+				8D60E60F1274CAF500F176A4 /* amos_corner_bot_left.png in Resources */,
+				8D60E6101274CAF500F176A4 /* amos_corner_bot_right.png in Resources */,
+				8D60E6111274CAF500F176A4 /* amos_corner_top_left.png in Resources */,
+				8D60E6121274CAF500F176A4 /* amos_corner_top_right.png in Resources */,
+				8D60E6231274D7E400F176A4 /* amos_circle_base.png in Resources */,
+				8D60E6241274D7E400F176A4 /* amos_circle_center_default.png in Resources */,
+				8D60E6251274D7E400F176A4 /* amos_circle_inner_ring_default.png in Resources */,
+				8D60E6261274D7E400F176A4 /* amos_circle_note_quarter.png in Resources */,
+				8D60E6271274D7E400F176A4 /* amos_circle_outer_ring_default.png in Resources */,
+				8D60E6581274E26100F176A4 /* amos_background_02.png in Resources */,
+				8D60E6DD1274EE8300F176A4 /* amos_circle_outer_ring_panning.png in Resources */,
+				8D60E6E41274EEDE00F176A4 /* amos_circle_shine.png in Resources */,
+				8D60E748127542C200F176A4 /* amos1_noteblock_base_128x128.png in Resources */,
+				8D60E7AD12755C7B00F176A4 /* amos_circle_inner_ring_contact.png in Resources */,
+				8D60E7EB12756A9500F176A4 /* amos1_noteblock_light_128x128.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

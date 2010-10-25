@@ -43,12 +43,10 @@
 }
 
 -(void) createPhysicsWorld;
+-(void) createWorldObjects;
 -(void) addPhysicalBodyForView:(UIView *)physicalView;
 -(void) tick:(NSTimer *)timer;
 -(void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
--(void) panBallA:(UIPanGestureRecognizer *)gestureRecognizer;
--(void) panBallB:(UIPanGestureRecognizer *)gestureRecognizer;
--(void) panBallC:(UIPanGestureRecognizer *)gestureRecognizer;
 -(CGPoint) convertToGL:(CGPoint)uiPoint;
 -(void) addNoteBlock:(NSString *)typeName forIndex:(int)i;
 

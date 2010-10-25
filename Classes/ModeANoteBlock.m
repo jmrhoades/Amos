@@ -9,6 +9,8 @@
 #import "ModeANoteBlock.h"
 #import "ModeAViewController.h"
 #import "AmosAppDelegate.h"
+#import "AmosMIDIManager.h"
+#import "QuartzCore/QuartzCore.h"
 
 @implementation ModeANoteBlock
 
@@ -31,46 +33,80 @@
 		[self addGestureRecognizer:tapRecognizer];
 		tapRecognizer.delegate = self;
 		
+		
+		base = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"amos1_noteblock_base_128x128.png"]];
+		base.backgroundColor = [UIColor clearColor];
+		base.opaque = NO;
+		[self addSubview:base];
+		
+		
+		noteLabel = [[UILabel alloc] initWithFrame:CGRectMake(14, 54, 100, 14)];
+		noteLabel.backgroundColor = [UIColor clearColor];
+		noteLabel.opaque = NO;		
+		noteLabel.textAlignment = UITextAlignmentCenter;
+		noteLabel.shadowColor = [UIColor colorWithRed:1.0*0/256 green:1.0*0/256 blue:1.0*0/256 alpha:.5];
+		noteLabel.textColor = [UIColor colorWithRed:1.0*86/256 green:1.0*88/256 blue:1.0*92/256 alpha:.95];
+		noteLabel.shadowOffset = CGSizeMake(0,-1);
+		noteLabel.font = [UIFont systemFontOfSize:13.0];
+		[self addSubview:noteLabel];
+
+	
+		light = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"amos1_noteblock_light_128x128.png"]];
+		light.backgroundColor = [UIColor clearColor];
+		light.opaque = NO;
+		light.alpha = 0;
+		[self addSubview:light];
+		
+		
     }
     return self;
 }
 
 
-- (void) setBlockType:(NSString *)type {
-	blockType = type;
-	[self setNeedsDisplay];
+
+- (void) setNoteValue:(int)note {
+	noteValue = note;
+	NSLog(@"noteValue: %i", noteValue);
+
+	AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	NSString *name = [delegate.midiManager.midiNoteNamesMap objectAtIndex:noteValue];
+	NSLog(@"midiNoteNamesMap: %@", delegate.midiManager.midiNoteNamesMap);
+
+	NSLog(@"name: %@", name);
+
+	noteLabel.text = name;
 }
 
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
+
+- (void) setBlockType:(NSString *)type {
+	blockType = type;
+	float angle = 0;
 	
-	CGContextRef X = UIGraphicsGetCurrentContext();
-	CGContextSetAllowsAntialiasing(X, NO);
-    CGRect bounds =  CGContextGetClipBoundingBox(X);
-    CGPoint center = CGPointMake((bounds.size.width / 2), (bounds.size.height / 2));
-    //NSLog(@"--> (drawRect) bounds:'%@'", NSStringFromCGRect(bounds));
-    CGContextSetRGBFillColor(X, 0, 0, 0, 1.0);
-	CGContextBeginPath(X);
-    CGContextMoveToPoint(X, 0, 0);
-	
-	if ([blockType isEqualToString:BLOCK_TOP] || [blockType isEqualToString:BLOCK_BOT]) {
-		CGContextSetRGBFillColor(X, 0, 0, 0, 1.0);
-		CGContextFillRect(X, CGRectMake(0.0, 0.0, 64.0, 96.0));
-		
-		CGContextSetRGBFillColor(X, .25,.25,.25, 1.0);
-		CGContextFillRect(X, CGRectMake(63.0, 0.0, 1.0, 96.0));
+	if ([blockType isEqualToString:BLOCK_TOP]) {
+		angle = 0;
 	}
 	
-	if ([blockType isEqualToString:BLOCK_RIGHT] || [blockType isEqualToString:BLOCK_LEFT]) {
-		CGContextSetRGBFillColor(X, 0, 0, 0, 1.0);
-		CGContextFillRect(X, CGRectMake(0.0, 0.0, 96.0, 64.0));
-		
-		CGContextSetRGBFillColor(X, .25,.25,.25, 1.0);
-		CGContextFillRect(X, CGRectMake(0.0, 63.0, 96.0, 1.0));
+	if ([blockType isEqualToString:BLOCK_RIGHT]) {
+		angle = 90;
 	}
+	
+	if ([blockType isEqualToString:BLOCK_LEFT]) {
+		angle = 270;
+	}
+	
+	if ([blockType isEqualToString:BLOCK_BOT]) {
+		angle = 180;
+	}
+	
+	CGAffineTransform transform = CGAffineTransformMakeRotation( (angle * 3.14159265) / 180 );
+	base.layer.affineTransform = transform;
+	baseContact.layer.affineTransform = transform;	
+	noteLabel.layer.affineTransform = transform;	
+	light.layer.affineTransform = transform;
 	
 }
+
+
 
 - (void)playNote:(int)note withVelocity:(int)vel {
 
@@ -80,14 +116,14 @@
 			delay:0
 			options:UIViewAnimationOptionAllowUserInteraction
 			animations:^{ 
-				self.alpha = 0;
+				light.alpha = 1;
 			}
 			completion:^(BOOL finished){
 	[UIView animateWithDuration:.33
 			delay:0
 			options:UIViewAnimationOptionAllowUserInteraction
 			animations:^{
-				self.alpha = 1;
+				light.alpha = 0;
 			}
 			completion:^(BOOL finished){
 				;
@@ -107,15 +143,24 @@
     
     //CGPoint location = [recognizer locationInView:self.view];
     
-    [self playNote:0 withVelocity:64];
+    [self playNote:noteValue withVelocity:64];
 }
 
-- (void)setWorld:(b2World *)world {
+- (void)setWorld:(b2World *)aWorld withGroundBody:(b2Body *)aGroundBody {
 	
+	world = aWorld;	
+	groundBody = aGroundBody;
+	
+		
 	//bodyDef.type = b2_dynamicBody;
 	CGPoint p = self.center;
-	CGRect screen = [[UIScreen mainScreen] bounds];
-	bodyDef.position.Set(p.x/PTM_RATIO, (screen.size.height-p.y)/PTM_RATIO);
+	
+	CGRect screenSize = [[UIScreen mainScreen] bounds];
+	// TEMP - SHOULD BE BASED ON ORIENTATION, NOT FIXED
+	// Need to account for Top Tool Bar Height
+	screenSize.size.height = screenSize.size.height - 44;
+	
+	bodyDef.position.Set(p.x/PTM_RATIO, (screenSize.size.height-p.y)/PTM_RATIO);
 	bodyDef.userData = self;
 	body = world->CreateBody(&bodyDef);
 	b2PolygonShape shape;
@@ -125,25 +170,12 @@
 	fixtureDef.density = 3.0f;
 	fixtureDef.friction = 0.9f;
 	fixtureDef.restitution = 0.75f;
-	
-	if ([blockType isEqualToString:BLOCK_TOP]) {
-		shape.SetAsBox(64/PTM_RATIO/2, 96/PTM_RATIO/2, centerVec, 0);
-	}
-	
-	if ([blockType isEqualToString:BLOCK_RIGHT]) {
-		shape.SetAsBox(96/PTM_RATIO/2, 64/PTM_RATIO/2, centerVec, 0);
-	}
-	
-	if ([blockType isEqualToString:BLOCK_LEFT]) {
-		shape.SetAsBox(96/PTM_RATIO/2, 64/PTM_RATIO/2, centerVec, 0);
-	}
-	
-	if ([blockType isEqualToString:BLOCK_BOT]) {
-		shape.SetAsBox(64/PTM_RATIO/2, 96/PTM_RATIO/2, centerVec, 0);
-	}
-	
+	shape.SetAsBox(96/PTM_RATIO/2, 96/PTM_RATIO/2, centerVec, 0);
 	fixtureDef.shape = &shape;	
 	fixture = body->CreateFixture(&fixtureDef);
+	
+	
+	
 }
 
 

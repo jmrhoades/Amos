@@ -12,10 +12,11 @@
 
 @interface AmosMIDIManager : NSObject {
 	libdsmi_iphone *libdsmi;
-
+	NSArray *midiNoteNamesMap;
 }
 
 @property (nonatomic, retain) libdsmi_iphone *libdsmi;
+@property (nonatomic, retain) NSArray *midiNoteNamesMap;
 
 - (void)playNote:(int)note withVelocity:(int)vel;
 - (void)stopNoteByTimer:(NSTimer*)theTimer;
