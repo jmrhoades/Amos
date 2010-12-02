@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title>DSMI - Nintendo DS Music Interface</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			padding:10px;
+			font-size: 13px;
+		}
+		
+		#top {
+			position: relative;
+			padding-left: 80px;
+			margin-bottom: 10px;
+		}
+		
+		#icon {
+			display: block;
+			position: absolute;
+			top:-12px;
+			left:0;
+		}
+		
+		h2 {
+			font-size: 20px;
+			margin:5px 0 0 0;
+			padding:0;
+		}
+		
+		h3 {
+			font-size: 15px;
+			font-weight:normal;
+			margin:0;
+			padding:0;
+		}
+		
+		h4 {
+			font-size: 13px;
+			font-weight:bold;
+			margin:20px 0 5px 0;
+			padding:0;
+		}
+		
+		li {
+			margin: 0 0 
+			margin-bottom: 15px;
+		}
+		
+	</style>
+</head>
+<body>
+	
+<div id="top">
+<img src="dsmi_64x64.png" width="64" height="64" id="icon" />
+<h2>DSMI</h2>
+<h3>MIDI over WiFi</h3>
+</div>
+
+<h4>Mac OS X Setup:</h4>
+<ul>
+	<li>Download and install the "DSMI Server for OSX" from <strong>http://code.google.com/p/dsmi/downloads/list</strong></li>
+	<li>Start the DSMI server application on your Mac</li>
+	<li>Start Amos on your iPad</li>	
+	<li>Start your MIDI capable desktop app (Pro Tools, Logic, Live, etc.)</li>
+	<li>In that app, select <em>DSMIDIWiFi-out</em> from the list of available MIDI inputs</li>
+	<li>You should now be receiving MIDI notes from Amos to your desktop app. Email support@anythinghonest.com if you need further help.</li>	
+</ul>
+
+<h4>Windows Setup:</h4>
+<ul>
+	<li>Download and install the "DSMI Server for Windows" from <strong>http://code.google.com/p/dsmi/downloads/list</strong></li>
+	<li>You need a Windows MIDI loopback driver installed. MIDI YOKE NT 1.75 is free and recommended</li>
+	<li>Start the DSMI Server and MIDI YOKE on your Windows machine</li>
+	<li>Start Amos on your iPad</li>	
+	<li>In DSMI Server, select <em>In From MIDI Yoke: 1</em> as Input and <em>Out to MIDI Yoke: 2</em> as output</li>
+	<li>Start your MIDI capable desktop app (Pro Tools, Sonar, Live, etc.)</li>
+	<li>In that app, select <em>MIDI YOKE :2</em> from the list of available MIDI inputs</li>
+	<li>You should now be receiving MIDI notes from Amos to your desktop app. Email support@anythinghonest.com if you need further help.</li>
+</ul>
+
+</body>
+</html>
