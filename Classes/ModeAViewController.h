@@ -18,37 +18,89 @@
 #define BLOCK_LEFT @"BLOCK_LEFT"
 #define BLOCK_BOT @"BLOCK_BOT"
 
+#define CIRCLE_WHOLE_NOTE @"CIRCLE_WHOLE_NOTE"
+#define CIRCLE_HALF_NOTE @"CIRCLE_HALF_NOTE"
+#define CIRCLE_QUARTER_NOTE @"CIRCLE_QUARTER_NOTE"
+#define CIRCLE_EIGHTH_NOTE @"CIRCLE_EIGHTH_NOTE"
+#define CIRCLE_SIXTEENTH_NOTE @"CIRCLE_SIXTEENTH_NOTE"
+
 #import <UIKit/UIKit.h>
 #import <Box2D/Box2D.h>
 #import "ModeAContactListener.h"
 
-@class NoteBall;
 @class ModeACorner;
-@class ModeANoteBlock;
+@class NoteBlock;
+@class AmosPhysicsKeyboard;
+@class AmosSettingsButton;
+@class SettingsViewController;
+@class BottomBlock;
 
-@interface ModeAViewController : UIViewController <UIAccelerometerDelegate, UIGestureRecognizerDelegate> {
+@class ShapeCircle;
+
+
+@interface ModeAViewController : UIViewController <UIAccelerometerDelegate, UIGestureRecognizerDelegate, UIScrollViewDelegate, UIPopoverControllerDelegate> {
 	b2World *world;
 	NSTimer *tickTimer;
 	b2Body* groundBody;
 	ModeAContactListener *contactListener;
-	NoteBall *ballA;
-	NoteBall *ballB;
-	NoteBall *ballC;
+	
+	ShapeCircle *circleQuarterNote;
+	ShapeCircle *circleWholeNote;
+	ShapeCircle *circleSixteenthNote;
+	ShapeCircle *circleHalfNote;
+	ShapeCircle *circleEighthNote;
+
 	ModeACorner *cornerA;
 	ModeACorner *cornerB;
 	ModeACorner *cornerC;
 	ModeACorner *cornerD;
 	
-	NSMutableArray *noteblocks;
+	BottomBlock *bottomBlock;
+	
+	NSMutableArray *noteBlocks;
+	NSMutableArray *topKeyboardBlocks;
+
+	AmosPhysicsKeyboard *keyboardTop;
+	AmosPhysicsKeyboard *keyboardBot;
+	AmosPhysicsKeyboard *keyboardLeft;
+	AmosPhysicsKeyboard *keyboardRight;	
+	
+	UISlider *bpmSlider;
+	UILabel *bpmLabel;
+	AmosSettingsButton *settingsButton;
+	UILabel *titleLabel;
+	
+	SettingsViewController *settingsViewController;
 }
 
+
+
+@property (nonatomic, retain) ShapeCircle *circleQuarterNote;
+@property (nonatomic, retain) ShapeCircle *circleWholeNote;
+@property (nonatomic, retain) ShapeCircle *circleSixteenthNote;
+@property (nonatomic, retain) ShapeCircle *circleHalfNote;
+@property (nonatomic, retain) ShapeCircle *circleEighthNote;
+
+
+
+
+
 -(void) createPhysicsWorld;
+-(void) createEdgeWalls;
 -(void) createWorldObjects;
--(void) addPhysicalBodyForView:(UIView *)physicalView;
 -(void) tick:(NSTimer *)timer;
 -(void) accelerometer:(UIAccelerometer *)accelerometer didAccelerate:(UIAcceleration *)acceleration;
--(CGPoint) convertToGL:(CGPoint)uiPoint;
--(void) addNoteBlock:(NSString *)typeName forIndex:(int)i;
+-(void) createCorners;
+-(void) createKeyboards;
+- (void) bpmSliderAction:(id)sender;
+- (void) showSettings;
+
+-(void) noteSettingsDidChange;
+-(void) toggleShape:(int)shapeTag status:(bool)isOn;
+
+
+
+- (BOOL)popoverControllerShouldDismissPopover:(UIPopoverController *)popoverController;
 
 @end
 

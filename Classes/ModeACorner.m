@@ -31,25 +31,26 @@
 	cornerType = type;
 	
 	if ([cornerType isEqualToString:CORNER_TOPLEFT]) {
-		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"amos_corner_top_left.png"]];
+		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"corner_top_left.png"]];
 		[self addSubview:background];
 	}
 	
 	if ([cornerType isEqualToString:CORNER_TOPRIGHT]) {
-		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"amos_corner_top_right.png"]];
+		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"corner_top_right.png"]];
 		[self addSubview:background];
 	}
 	
 	if ([cornerType isEqualToString:CORNER_BOTRIGHT]) {
-		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"amos_corner_bot_right.png"]];
+		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"corner_bot_right.png"]];
 		[self addSubview:background];
 	}
 	
 	if ([cornerType isEqualToString:CORNER_BOTLEFT]) {
-		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"amos_corner_bot_left.png"]];
+		background = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"corner_bot_left.png"]];
 		[self addSubview:background];
 
 	}
+	
 }
 
 
@@ -57,27 +58,78 @@
 - (void)setWorld:(b2World *)world {
 	
 	
-	//bodyDef.type = b2_dynamicBody;
-	CGPoint p = self.center;
 	
-	CGRect screenSize = [[UIScreen mainScreen] bounds];
-	// TEMP - SHOULD BE BASED ON ORIENTATION, NOT FIXED
-	// Need to account for Top Tool Bar Height
-	screenSize.size.height = screenSize.size.height - 44;
-
-	bodyDef.position.Set(p.x/PTM_RATIO, (screenSize.size.height-p.y)/PTM_RATIO);
-	bodyDef.userData = self;
+	CGPoint p = self.center;
+	CGSize screenSize = self.superview.bounds.size;
+	bodyDef.position.Set(p.x/PTM_RATIO, (screenSize.height-p.y)/PTM_RATIO);
+	//bodyDef.userData = self;
+	//bodyDef.type = b2_dynamicBody;
 	body = world->CreateBody(&bodyDef);
 	b2PolygonShape shape;
 	b2Vec2 centerVec;
-	centerVec.Set(0,0);
 	b2FixtureDef fixtureDef;
-	fixtureDef.density = 3.0f;
+	fixtureDef.filter.groupIndex = -8;	
+	fixtureDef.density = 1.0f;
 	fixtureDef.friction = 0.9f;
 	fixtureDef.restitution = 0.75f;
-	shape.SetAsBox(96/PTM_RATIO/2, 96/PTM_RATIO/2, centerVec, 0);
-	fixtureDef.shape = &shape;	
-	fixture = body->CreateFixture(&fixtureDef);
+	
+		
+	if ([cornerType isEqualToString:CORNER_BOTLEFT]) {
+		
+		centerVec.Set((-40)/PTM_RATIO,-7/PTM_RATIO);
+		shape.SetAsBox(88/PTM_RATIO/2, 264/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+		
+		centerVec.Set(0,(-73)/PTM_RATIO);
+		shape.SetAsBox(168/PTM_RATIO/2, 132/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+	}
+	
+	if ([cornerType isEqualToString:CORNER_BOTRIGHT]) {
+		
+		centerVec.Set((40)/PTM_RATIO,-7/PTM_RATIO);
+		shape.SetAsBox(88/PTM_RATIO/2, 264/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+		
+		centerVec.Set(0,(-73)/PTM_RATIO);
+		shape.SetAsBox(168/PTM_RATIO/2, 132/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+		
+	}
+	
+	if ([cornerType isEqualToString:CORNER_TOPLEFT]) {
+		
+		centerVec.Set((-40+7)/PTM_RATIO,+7/PTM_RATIO);
+		shape.SetAsBox(88/PTM_RATIO/2, 264/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+		
+		centerVec.Set(-7/PTM_RATIO,(88+7)/PTM_RATIO);
+		shape.SetAsBox(168/PTM_RATIO/2, 88/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+	}
+	
+	
+	if ([cornerType isEqualToString:CORNER_TOPRIGHT]) {
+		
+		centerVec.Set((40+7)/PTM_RATIO,7/PTM_RATIO);
+		shape.SetAsBox(88/PTM_RATIO/2, 264/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+		
+		centerVec.Set(7/PTM_RATIO,(88+7)/PTM_RATIO);
+		shape.SetAsBox(168/PTM_RATIO/2, 88/PTM_RATIO/2, centerVec, 0);
+		fixtureDef.shape = &shape;		
+		fixture = body->CreateFixture(&fixtureDef);
+	}
+	
+
+	
 }
 
 

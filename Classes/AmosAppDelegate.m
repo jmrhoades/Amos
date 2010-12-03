@@ -22,7 +22,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
+	//[[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationPortrait];
+	//[[UIDevice currentDevice] setOrientation:UIInterfaceOrientationPortrait];
+	
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+	
+	
+	NSLog(@"convertToGL %@", [[UIDevice currentDevice] orientation]);
+
 	
 	midiManager = [[AmosMIDIManager alloc] init];
 

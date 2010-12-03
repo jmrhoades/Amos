@@ -12,14 +12,32 @@
 
 @interface AmosMIDIManager : NSObject {
 	libdsmi_iphone *libdsmi;
-	NSArray *midiNoteNamesMap;
+
+	NSMutableArray *noteSettings;
+	NSArray *midiNotes;
+	int noteSetting;
+	NSArray *midiNoteLabels;
+	NSMutableArray *midiNoteRange;
+	float BPM; 
+	float beatLength;
 }
 
 @property (nonatomic, retain) libdsmi_iphone *libdsmi;
-@property (nonatomic, retain) NSArray *midiNoteNamesMap;
+
+@property (nonatomic) float beatLength;
+
+@property (nonatomic, retain) NSMutableArray *noteSettings;
+@property (nonatomic, retain) NSArray *midiNotes;
+@property (nonatomic) int noteSetting;
+@property (nonatomic, retain) NSArray *midiNoteLabels;
+@property (nonatomic, retain) NSMutableArray *midiNoteRange;
 
 - (void)playNote:(int)note withVelocity:(int)vel;
-- (void)stopNoteByTimer:(NSTimer*)theTimer;
+- (void)endNote:(int)note;
 
+- (void)stopNoteByTimer:(NSTimer*)theTimer;
+- (void)setNoteSetting:(int)settingIndex;
+- (void)buildMidiNoteRange;
+- (void)setBPM:(int)bpm;
 
 @end
