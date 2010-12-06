@@ -11,6 +11,8 @@
 
 @interface SettingsViewController : UITableViewController {
 	UILabel *bpmLabel;
+	UILabel *octaveStartLabel;
+	UILabel *octaveCountLabel;
 }
 
 

@@ -79,6 +79,16 @@
 		8D66B919128BB23400D07516 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D66B912128BB23400D07516 /* Icon-Small@2x.png */; };
 		8D66B91B128BB23400D07516 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D66B914128BB23400D07516 /* Icon@2x.png */; };
 		8D66B91C128BB23400D07516 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D66B915128BB23400D07516 /* iTunesArtwork.png */; };
+		8D7A2A7112AC143200DAE927 /* MIDIToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A2A7012AC143200DAE927 /* MIDIToggleButton.m */; };
+		8D7A2A8D12AC68E700DAE927 /* button_bounce_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8412AC68E700DAE927 /* button_bounce_active.png */; };
+		8D7A2A8E12AC68E700DAE927 /* button_bounce_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8512AC68E700DAE927 /* button_bounce_off.png */; };
+		8D7A2A8F12AC68E700DAE927 /* button_bounce_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8612AC68E700DAE927 /* button_bounce_on.png */; };
+		8D7A2A9012AC68E700DAE927 /* button_midi_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8712AC68E700DAE927 /* button_midi_active.png */; };
+		8D7A2A9112AC68E700DAE927 /* button_midi_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8812AC68E700DAE927 /* button_midi_off.png */; };
+		8D7A2A9212AC68E700DAE927 /* button_midi_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8912AC68E700DAE927 /* button_midi_on.png */; };
+		8D7A2A9312AC68E700DAE927 /* button_settings_active.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8A12AC68E700DAE927 /* button_settings_active.png */; };
+		8D7A2A9412AC68E700DAE927 /* button_settings_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8B12AC68E700DAE927 /* button_settings_off.png */; };
+		8D7A2A9512AC68E700DAE927 /* button_settings_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8C12AC68E700DAE927 /* button_settings_on.png */; };
 		8D81742F127904C3009FFA2D /* AmosUIViewBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D81742E127904C3009FFA2D /* AmosUIViewBody.m */; };
 		8D81746312790C2A009FFA2D /* NoteBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D81746212790C2A009FFA2D /* NoteBlock.m */; };
 		8DA6361C1290D40F004CB4BC /* libdsmi_iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA636191290D40F004CB4BC /* libdsmi_iphone.m */; };
@@ -91,8 +101,6 @@
 		8DBA3CD512872F99004DB800 /* circle_note_eighth_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA3CD112872F99004DB800 /* circle_note_eighth_on.png */; };
 		8DBA3E3B1287D67F004DB800 /* note_block_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA3E3A1287D67F004DB800 /* note_block_down.png */; };
 		8DBA3EB01287E8E0004DB800 /* DSMIDIInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA3EAF1287E8E0004DB800 /* DSMIDIInfoViewController.m */; };
-		8DC1DC481281191D0007662B /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC1DC471281191D0007662B /* settings.png */; };
-		8DC1DC7D128121D90007662B /* settings_over.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DC1DC7C128121D90007662B /* settings_over.png */; };
 		8DC9A2B8126B7B8800703E4B /* ModeAContactListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */; };
 		8DC9A4B8126BC00000703E4B /* ModeACorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC9A4B7126BC00000703E4B /* ModeACorner.m */; };
 		8DD888F91283AD41001CFEA7 /* NoteSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DD888F81283AD41001CFEA7 /* NoteSetting.m */; };
@@ -232,6 +240,17 @@
 		8D66B912128BB23400D07516 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "assets/icons/Icon-Small@2x.png"; sourceTree = "<group>"; };
 		8D66B914128BB23400D07516 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "assets/icons/Icon@2x.png"; sourceTree = "<group>"; };
 		8D66B915128BB23400D07516 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = assets/icons/iTunesArtwork.png; sourceTree = "<group>"; };
+		8D7A2A6F12AC143200DAE927 /* MIDIToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIToggleButton.h; sourceTree = "<group>"; };
+		8D7A2A7012AC143200DAE927 /* MIDIToggleButton.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = MIDIToggleButton.m; sourceTree = "<group>"; };
+		8D7A2A8412AC68E700DAE927 /* button_bounce_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_bounce_active.png; path = assets/Buttons/button_bounce_active.png; sourceTree = "<group>"; };
+		8D7A2A8512AC68E700DAE927 /* button_bounce_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_bounce_off.png; path = assets/Buttons/button_bounce_off.png; sourceTree = "<group>"; };
+		8D7A2A8612AC68E700DAE927 /* button_bounce_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_bounce_on.png; path = assets/Buttons/button_bounce_on.png; sourceTree = "<group>"; };
+		8D7A2A8712AC68E700DAE927 /* button_midi_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_midi_active.png; path = assets/Buttons/button_midi_active.png; sourceTree = "<group>"; };
+		8D7A2A8812AC68E700DAE927 /* button_midi_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_midi_off.png; path = assets/Buttons/button_midi_off.png; sourceTree = "<group>"; };
+		8D7A2A8912AC68E700DAE927 /* button_midi_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_midi_on.png; path = assets/Buttons/button_midi_on.png; sourceTree = "<group>"; };
+		8D7A2A8A12AC68E700DAE927 /* button_settings_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_settings_active.png; path = assets/Buttons/button_settings_active.png; sourceTree = "<group>"; };
+		8D7A2A8B12AC68E700DAE927 /* button_settings_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_settings_off.png; path = assets/Buttons/button_settings_off.png; sourceTree = "<group>"; };
+		8D7A2A8C12AC68E700DAE927 /* button_settings_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_settings_on.png; path = assets/Buttons/button_settings_on.png; sourceTree = "<group>"; };
 		8D81742D127904C3009FFA2D /* AmosUIViewBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmosUIViewBody.h; sourceTree = "<group>"; };
 		8D81742E127904C3009FFA2D /* AmosUIViewBody.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = AmosUIViewBody.m; sourceTree = "<group>"; };
 		8D81746112790C2A009FFA2D /* NoteBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBlock.h; sourceTree = "<group>"; };
@@ -249,8 +268,6 @@
 		8DBA3E3A1287D67F004DB800 /* note_block_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note_block_down.png; path = assets/note_block_down.png; sourceTree = "<group>"; };
 		8DBA3EAE1287E8E0004DB800 /* DSMIDIInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSMIDIInfoViewController.h; sourceTree = "<group>"; };
 		8DBA3EAF1287E8E0004DB800 /* DSMIDIInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSMIDIInfoViewController.m; sourceTree = "<group>"; };
-		8DC1DC471281191D0007662B /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings.png; path = assets/settings.png; sourceTree = "<group>"; };
-		8DC1DC7C128121D90007662B /* settings_over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings_over.png; path = assets/settings_over.png; sourceTree = "<group>"; };
 		8DC9A2B6126B7B8800703E4B /* ModeAContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeAContactListener.h; sourceTree = "<group>"; };
 		8DC9A2B7126B7B8800703E4B /* ModeAContactListener.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ModeAContactListener.m; sourceTree = "<group>"; };
 		8DC9A4B6126BC00000703E4B /* ModeACorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeACorner.h; sourceTree = "<group>"; };
@@ -268,7 +285,7 @@
 		8DD88C561286725F001CFEA7 /* note_block_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note_block_base.png; path = assets/note_block_base.png; sourceTree = "<group>"; };
 		8DD88C7112867546001CFEA7 /* note_block_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note_block_light.png; path = assets/note_block_light.png; sourceTree = "<group>"; };
 		8DFBDF06126E9AB2002BFC48 /* AmosMIDIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmosMIDIManager.h; sourceTree = "<group>"; };
-		8DFBDF07126E9AB2002BFC48 /* AmosMIDIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmosMIDIManager.m; sourceTree = "<group>"; };
+		8DFBDF07126E9AB2002BFC48 /* AmosMIDIManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = AmosMIDIManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -352,7 +369,7 @@
 				8DBA3C79128725D3004DB800 /* Background */,
 				8DBA3C771287259F004DB800 /* Corners */,
 				8DBA3C7612872592004DB800 /* NoteBlock */,
-				8DBA3C78128725C0004DB800 /* NavBar */,
+				8DBA3C78128725C0004DB800 /* Buttons */,
 				8D1107310486CEB800E47090 /* Amos-Info.plist */,
 			);
 			name = Resources;
@@ -572,19 +589,26 @@
 			name = Corners;
 			sourceTree = "<group>";
 		};
-		8DBA3C78128725C0004DB800 /* NavBar */ = {
+		8DBA3C78128725C0004DB800 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				8D2BC3E8127FCE1C003C7D68 /* navbar.png */,
-				8DC1DC471281191D0007662B /* settings.png */,
-				8DC1DC7C128121D90007662B /* settings_over.png */,
+				8D7A2A8412AC68E700DAE927 /* button_bounce_active.png */,
+				8D7A2A8512AC68E700DAE927 /* button_bounce_off.png */,
+				8D7A2A8612AC68E700DAE927 /* button_bounce_on.png */,
+				8D7A2A8712AC68E700DAE927 /* button_midi_active.png */,
+				8D7A2A8812AC68E700DAE927 /* button_midi_off.png */,
+				8D7A2A8912AC68E700DAE927 /* button_midi_on.png */,
+				8D7A2A8A12AC68E700DAE927 /* button_settings_active.png */,
+				8D7A2A8B12AC68E700DAE927 /* button_settings_off.png */,
+				8D7A2A8C12AC68E700DAE927 /* button_settings_on.png */,
 			);
-			name = NavBar;
+			name = Buttons;
 			sourceTree = "<group>";
 		};
 		8DBA3C79128725D3004DB800 /* Background */ = {
 			isa = PBXGroup;
 			children = (
+				8D2BC3E8127FCE1C003C7D68 /* navbar.png */,
 				8D58C40212827035000B93CE /* background.png */,
 			);
 			name = Background;
@@ -609,10 +633,12 @@
 		8DD88C0C12866057001CFEA7 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				8D2BC45C127FE87B003C7D68 /* AmosSettingsButton.h */,
-				8D2BC45D127FE87B003C7D68 /* AmosSettingsButton.m */,
 				8D58C31D12823F0D000B93CE /* SettingsViewController.h */,
 				8D58C31E12823F0D000B93CE /* SettingsViewController.m */,
+				8D2BC45C127FE87B003C7D68 /* AmosSettingsButton.h */,
+				8D2BC45D127FE87B003C7D68 /* AmosSettingsButton.m */,
+				8D7A2A6F12AC143200DAE927 /* MIDIToggleButton.h */,
+				8D7A2A7012AC143200DAE927 /* MIDIToggleButton.m */,
 				8D58C426128278D7000B93CE /* NoteSettingsTableViewController.h */,
 				8D58C427128278D7000B93CE /* NoteSettingsTableViewController.m */,
 				8DBA3EAE1287E8E0004DB800 /* DSMIDIInfoViewController.h */,
@@ -676,8 +702,6 @@
 				8D3F8981126AB22D00379B3F /* Box2DConfig.cmake in Resources */,
 				8D3F8982126AB22D00379B3F /* CMakeLists.txt in Resources */,
 				8D2BC3E9127FCE1C003C7D68 /* navbar.png in Resources */,
-				8DC1DC481281191D0007662B /* settings.png in Resources */,
-				8DC1DC7D128121D90007662B /* settings_over.png in Resources */,
 				8D58C40312827035000B93CE /* background.png in Resources */,
 				8DD88C2412866896001CFEA7 /* corner_top_left.png in Resources */,
 				8DD88C3A12866DEB001CFEA7 /* corner_top_right.png in Resources */,
@@ -708,6 +732,15 @@
 				8D66B919128BB23400D07516 /* Icon-Small@2x.png in Resources */,
 				8D66B91B128BB23400D07516 /* Icon@2x.png in Resources */,
 				8D66B91C128BB23400D07516 /* iTunesArtwork.png in Resources */,
+				8D7A2A8D12AC68E700DAE927 /* button_bounce_active.png in Resources */,
+				8D7A2A8E12AC68E700DAE927 /* button_bounce_off.png in Resources */,
+				8D7A2A8F12AC68E700DAE927 /* button_bounce_on.png in Resources */,
+				8D7A2A9012AC68E700DAE927 /* button_midi_active.png in Resources */,
+				8D7A2A9112AC68E700DAE927 /* button_midi_off.png in Resources */,
+				8D7A2A9212AC68E700DAE927 /* button_midi_on.png in Resources */,
+				8D7A2A9312AC68E700DAE927 /* button_settings_active.png in Resources */,
+				8D7A2A9412AC68E700DAE927 /* button_settings_off.png in Resources */,
+				8D7A2A9512AC68E700DAE927 /* button_settings_on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +811,7 @@
 				8D0A7523128A6E6000D912CC /* BottomBlock.m in Sources */,
 				8DA6361C1290D40F004CB4BC /* libdsmi_iphone.m in Sources */,
 				8DA6361D1290D40F004CB4BC /* osc_client.c in Sources */,
+				8D7A2A7112AC143200DAE927 /* MIDIToggleButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

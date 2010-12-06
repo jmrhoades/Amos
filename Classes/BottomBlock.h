@@ -11,14 +11,27 @@
 #import <Box2D/Box2D.h>
 #import "AmosUIViewBody.h"
 
+@class ModeAViewController;
+
 @interface BottomBlock : AmosUIViewBody {
 	UIImageView *background;
-	UIImageView *up;
-	UIImageView *up_on;
+		
+	UIImageView *image_off;
+	UIImageView *image_on;	
+	UIImageView *image_active;
+	bool isOn;
+	ModeAViewController *controller;
 
 }
 
+@property (nonatomic, retain) ModeAViewController *controller;
+@property (nonatomic) bool isOn;
+
+
 - (void) playNote;
+- (void) toggle;
+- (void) tap:(UIPanGestureRecognizer *)gestureRecognizer;
+
 
 
 @end

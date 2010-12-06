@@ -114,7 +114,7 @@
 	
 	cell.selectionStyle = UITableViewCellSelectionStyleNone;
 	
-	UISwitch *control = [[UISwitch alloc] initWithFrame: CGRectMake(265, 10, 0, 0) ];
+	UISwitch *control = [[UISwitch alloc] initWithFrame: CGRectMake(265, 10, 0, 0)];
 	control.on = setting.isOn;
 	
 	if (setting.isOn) {
@@ -171,7 +171,6 @@
 		cell.textLabel.textColor = [UIColor lightGrayColor];		
 		NSLog(@"OFF");		
 	}
-	
 	
 	NoteSetting *setting = [noteSettings objectAtIndex:[sender tag]];
 	setting.isOn = [sender isOn];

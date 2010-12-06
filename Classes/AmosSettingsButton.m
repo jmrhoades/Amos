@@ -23,12 +23,18 @@
 		self.backgroundColor = [UIColor clearColor];
 		self.opaque = NO;
         
-		image = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"settings.png"]];
-		image.backgroundColor = [UIColor clearColor];
-		image.opaque = NO;
-		[self addSubview:image];
+		image_off = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"button_settings_off.png"]];
+		image_off.backgroundColor = [UIColor clearColor];
+		image_off.opaque = NO;
+		[self addSubview:image_off];
 		
-		image_active = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"settings_over.png"]];
+		image_on = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"button_settings_on.png"]];
+		image_on.backgroundColor = [UIColor clearColor];
+		image_on.opaque = NO;
+		image_on.alpha = 0;
+		[self addSubview:image_on];
+		
+		image_active = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"button_settings_active.png"]];
 		image_active.backgroundColor = [UIColor clearColor];
 		image_active.opaque = NO;
 		image_active.alpha = 0;
@@ -39,15 +45,30 @@
 		[self addGestureRecognizer:tapGesture];
 		[tapGesture release];
 		
+		isOn = NO;
+		
 	}
     return self;
 }
 
 - (void)tap:(UIPanGestureRecognizer *)gestureRecognizer {
-	image.alpha = 1;
-	image_active.alpha = 0;
+	
+	[self toggle];
 	
 	[controller showSettings];
+}
+
+- (void) toggle {
+	
+	isOn = !isOn;
+	
+	if (isOn) {
+		image_off.alpha = 0;
+		image_on.alpha = 1;
+	} else {
+		image_off.alpha = 1;
+		image_on.alpha = 0;
+	}
 }
 
 /*
@@ -60,15 +81,11 @@
 
 
 -(void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-
-	image.alpha = 0;
-	image_active.alpha = 1;
-	
+	//image_active.alpha = 1;
 }
 
 -(void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
-	image.alpha = 1;
-	image_active.alpha = 0;
+	//image_active.alpha = 0;
 }
 
 - (void)dealloc {

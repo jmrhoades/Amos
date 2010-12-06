@@ -34,8 +34,8 @@
 @class AmosSettingsButton;
 @class SettingsViewController;
 @class BottomBlock;
-
 @class ShapeCircle;
+@class MIDIToggleButton;
 
 
 @interface ModeAViewController : UIViewController <UIAccelerometerDelegate, UIGestureRecognizerDelegate, UIScrollViewDelegate, UIPopoverControllerDelegate> {
@@ -68,6 +68,8 @@
 	UISlider *bpmSlider;
 	UILabel *bpmLabel;
 	AmosSettingsButton *settingsButton;
+	MIDIToggleButton *midiOnOffButton;
+	
 	UILabel *titleLabel;
 	
 	SettingsViewController *settingsViewController;
@@ -81,6 +83,7 @@
 @property (nonatomic, retain) ShapeCircle *circleHalfNote;
 @property (nonatomic, retain) ShapeCircle *circleEighthNote;
 
+@property (nonatomic, retain) MIDIToggleButton *midiOnOffButton;
 
 
 
@@ -94,6 +97,8 @@
 -(void) createKeyboards;
 - (void) bpmSliderAction:(id)sender;
 - (void) showSettings;
+- (void) toggleMIDI;
+
 
 -(void) noteSettingsDidChange;
 -(void) toggleShape:(int)shapeTag status:(bool)isOn;

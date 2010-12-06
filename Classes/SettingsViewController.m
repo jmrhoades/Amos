@@ -41,7 +41,7 @@
 		footerLabel.shadowColor = [UIColor colorWithRed:1.0*0/256 green:1.0*0/256 blue:1.0*0/256 alpha:.5];
 		footerLabel.shadowOffset = CGSizeMake(0,-1);		[footerView addSubview:footerLabel];
 		footerLabel.textColor = [UIColor colorWithRed:1 green:1 blue:1 alpha:.35];
-		footerLabel.text = @"Amos 1.0";		
+		footerLabel.text = @"Amos 1.1";		
 		self.tableView.tableFooterView = footerView;
 		[footerView release];
 		
@@ -109,13 +109,13 @@
     // Return the number of rows in the section.
 	switch (section) {
         case(0):
-            return 1;
+            return 3;
 		break;
         case(1):
             return 3;
 		break;
         case(2):
-            return 1;
+            return 2;
 		break;
 		case(3):
             return 1;
@@ -131,16 +131,20 @@
     
 	NSString *CellIdentifier = [ NSString stringWithFormat: @"%d:%d", [ indexPath indexAtPosition: 0 ], [ indexPath indexAtPosition:1 ]];
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	cell = [ [ [ UITableViewCell alloc ] initWithFrame: CGRectZero reuseIdentifier: CellIdentifier] autorelease ];
-	
+	cell = [ [ [ UITableViewCell alloc ] initWithStyle:UITableViewCellStyleDefault  reuseIdentifier: CellIdentifier] autorelease ];
+
 	AmosAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
 	NSMutableArray *noteSettings = appDelegate.midiManager.noteSettings;
 	NoteSetting *setting;
 	
 	switch ([indexPath indexAtPosition: 0]) {
 		case(0):
+			
+			cell = [ [ [ UITableViewCell alloc ] initWithStyle:UITableViewCellStyleValue1  reuseIdentifier: CellIdentifier] autorelease ];
+			
 			switch([indexPath indexAtPosition: 1]) {
 				case(0): {
+					
 					NSString *label = @"";
 					int count = 0;
 					for (setting in noteSettings) {
@@ -148,15 +152,51 @@
 							if (count == 0) {
 								label = setting.label;
 							} else {
-								label = [NSString stringWithFormat:@"%@  %@",label, setting.label];
+								label = [NSString stringWithFormat:@"%@ %@",label, setting.label];
 							}
 							count++;
 						}
 					}
-					cell.textLabel.text = label;
+					cell.textLabel.text = @"Notes";
+					cell.detailTextLabel.text = label;
 					cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 				}
-			break;
+				break;
+				case(1): {
+					
+					cell.textLabel.text = @"Octave Count";
+					cell.detailTextLabel.text = @"9";
+					octaveCountLabel = cell.detailTextLabel;
+
+					UISlider *octaveCountControl = [ [ UISlider alloc ] initWithFrame: CGRectMake(160, 0, 170, 45) ];
+					octaveCountControl.minimumValue = 1.0;
+					octaveCountControl.maximumValue = 9.0;
+					octaveCountControl.tag = 0;
+					octaveCountControl.value = 9;
+					octaveCountControl.continuous = YES;
+					[octaveCountControl addTarget:self action:@selector(octaveCountAction:) forControlEvents:UIControlEventValueChanged];
+					[cell addSubview: octaveCountControl];
+					[octaveCountControl release];
+					
+				}
+				break;
+				case(2): {
+					cell.textLabel.text = @"Octave Start";
+					cell.detailTextLabel.text = @"0";
+					octaveStartLabel = cell.detailTextLabel;
+					
+					UISlider *octaveStartControl = [ [ UISlider alloc ] initWithFrame: CGRectMake(160, 0, 170, 45) ];
+					octaveStartControl.minimumValue = 0.0;
+					octaveStartControl.maximumValue = 8.0;
+					octaveStartControl.tag = 0;
+					octaveStartControl.value = 0;
+					octaveStartControl.continuous = YES;
+					[octaveStartControl addTarget:self action:@selector(octaveStartAction:) forControlEvents:UIControlEventValueChanged];
+					[cell addSubview: octaveStartControl];
+					[octaveStartControl release];
+					
+				}
+				break;
 		}
 		break;
 		case(1): {
@@ -184,39 +224,50 @@
 			[resetControl release];
 		}
 		break;
-			case(2): {
-				switch([indexPath indexAtPosition: 1]) {
-                    case(0):
-						cell.textLabel.text = @"120";
-						cell.selectionStyle = UITableViewCellSelectionStyleNone;
-						bpmLabel = cell.textLabel;
-				
-						UISlider *bpmControl = [ [ UISlider alloc ] initWithFrame: CGRectMake(58, 0, 300, 50) ];
-						bpmControl.minimumValue = 60.0;
-						bpmControl.maximumValue = 200.0;
-						bpmControl.tag = 0;
-						bpmControl.value = 120;
-						bpmControl.continuous = YES;
-						[bpmControl addTarget:self action:@selector(bpmSliderAction:) forControlEvents:UIControlEventValueChanged];
-						[cell addSubview: bpmControl];
-						[bpmControl release];
+		
+		case(2): {
+			
+			cell = [ [ [ UITableViewCell alloc ] initWithStyle:UITableViewCellStyleValue1  reuseIdentifier: CellIdentifier] autorelease ];
+			
+			switch([indexPath indexAtPosition: 1]) {
+				case(0):
+					cell.textLabel.text = @"DSMI";
+					cell.detailTextLabel.text = @"Channel 1";						
+					cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 					break;
-				}
-			}
-			break;
-			case(3): {
-				switch([indexPath indexAtPosition: 1]) {
-                    case(0):
-						cell.textLabel.text = @"DSMI";
-						cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+				case(1):
+					cell.textLabel.text = @"MIDI Mobilizer";
+					cell.detailTextLabel.text = @"Channel 1";												
+					cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 					break;
-				}
 			}
-			break;
 		}
-    
-    
+		break;
+			
+		case(3): {
+			switch([indexPath indexAtPosition: 1]) {
+				case(0):
+					cell = [ [ [ UITableViewCell alloc ] initWithStyle:UITableViewCellStyleValue1  reuseIdentifier: CellIdentifier] autorelease ];
 
+					cell.detailTextLabel.text = @"120";
+					cell.selectionStyle = UITableViewCellSelectionStyleNone;
+					bpmLabel = cell.detailTextLabel;
+				
+					UISlider *bpmControl = [ [ UISlider alloc ] initWithFrame: CGRectMake(20, 0, 300, 45) ];
+					bpmControl.minimumValue = 60.0;
+					bpmControl.maximumValue = 200.0;
+					bpmControl.tag = 0;
+					bpmControl.value = 120;
+					bpmControl.continuous = YES;
+					[bpmControl addTarget:self action:@selector(bpmSliderAction:) forControlEvents:UIControlEventValueChanged];
+					[cell addSubview: bpmControl];
+					[bpmControl release];
+				break;
+			}
+		}
+		break;
+			
+	}
     return cell;
 }
 
@@ -226,16 +277,16 @@
 {
     switch (section) {
         case(0):
-            return @"Scale";
+            return @"Keyboards";
 		break;
         case(1):
-			return @"Notes";
+			return @"Discs";
 		break;
         case(2):
-			return @"BPM";
+			return @"MIDI Out";
 		break;
 		case(3):
-			return @"MIDI Out";
+			return @"BPM";
 		break;
     }
     return nil;
@@ -268,6 +319,32 @@
 	[delegate.midiManager setBPM:val];	
 	
 }
+
+- (void)octaveCountAction:(UISlider*)sender
+{
+	
+	int val = round([sender value]);
+	NSLog(@"%i", val);
+	octaveCountLabel.text = [NSString stringWithFormat:@"%i", val];
+	
+	//AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	//[delegate.midiManager setBPM:val];	
+	
+}
+
+- (void)octaveStartAction:(UISlider*)sender
+{
+	
+	int val = round([sender value]);
+	NSLog(@"%i", val);
+	octaveStartLabel.text = [NSString stringWithFormat:@"%i", val];
+	
+	//AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	//[delegate.midiManager setBPM:val];	
+	
+}
+
+
 
 
 
@@ -320,25 +397,31 @@
 	switch ([indexPath indexAtPosition: 0]) {
 		case(0):
 			switch ([indexPath indexAtPosition: 1]) {
-				case(0):
+				case(0): {
 					[tableView deselectRowAtIndexPath:indexPath animated:NO];
 					NoteSettingsTableViewController *notesController = [[NoteSettingsTableViewController alloc] init];
 					notesController.contentSizeForViewInPopover = self.tableView.frame.size;
 					//notesController.contentSizeForViewInPopover = CGSizeMake(280, 570);
 					[self.navigationController pushViewController:notesController animated:YES];
 					[notesController release];
+				}
 				break;
 			}
 		break;
-		case(3):
+		case(2):
 			switch ([indexPath indexAtPosition: 1]) {
-				case(0):
+				case(0): {
 					[tableView deselectRowAtIndexPath:indexPath animated:NO];
 					DSMIDIInfoViewController *dsMidiInfoController = [[DSMIDIInfoViewController alloc] init];
 					dsMidiInfoController.contentSizeForViewInPopover = self.tableView.frame.size;
 					[self.navigationController pushViewController:dsMidiInfoController animated:YES];
 					[dsMidiInfoController release];
-					break;
+				}
+				break;
+				case(1): {
+					[tableView deselectRowAtIndexPath:indexPath animated:NO];
+				}
+				break;
 			}
 			break;
 			

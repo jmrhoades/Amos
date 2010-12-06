@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "libdsmi_iphone.h"
 
+@class ModeAViewController;
+
 
 @interface AmosMIDIManager : NSObject {
 	libdsmi_iphone *libdsmi;
@@ -20,7 +22,13 @@
 	NSMutableArray *midiNoteRange;
 	float BPM; 
 	float beatLength;
+	
+	bool isMIDIOn;
+	
+	ModeAViewController *controller;
+
 }
+@property (nonatomic, retain) ModeAViewController *controller;
 
 @property (nonatomic, retain) libdsmi_iphone *libdsmi;
 
@@ -32,12 +40,17 @@
 @property (nonatomic, retain) NSArray *midiNoteLabels;
 @property (nonatomic, retain) NSMutableArray *midiNoteRange;
 
-- (void)playNote:(int)note withVelocity:(int)vel;
-- (void)endNote:(int)note;
+@property (nonatomic) bool isMIDIOn;
 
-- (void)stopNoteByTimer:(NSTimer*)theTimer;
-- (void)setNoteSetting:(int)settingIndex;
-- (void)buildMidiNoteRange;
-- (void)setBPM:(int)bpm;
+
+- (void) playNote:(int)note withVelocity:(int)vel;
+- (void) endNote:(int)note;
+
+- (void) stopNoteByTimer:(NSTimer*)theTimer;
+- (void) setNoteSetting:(int)settingIndex;
+- (void) buildMidiNoteRange;
+- (void) setBPM:(int)bpm;
+- (void) stopMIDI;
+- (void) toggleMIDIOn;
 
 @end

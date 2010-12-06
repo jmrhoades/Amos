@@ -8,9 +8,13 @@
 
 #import "AmosMIDIManager.h"
 #import "NoteSetting.h"
+#import "ModeAViewController.h"
+#import "MIDIToggleButton.h"
+
 
 @implementation AmosMIDIManager
 
+@synthesize controller;
 @synthesize libdsmi;
 @synthesize noteSettings;
 @synthesize midiNotes;
@@ -18,6 +22,7 @@
 @synthesize midiNoteLabels;
 @synthesize midiNoteRange;
 @synthesize beatLength;
+@synthesize isMIDIOn;
 
 -(id) init {
 	if (self = [super init]) {
@@ -112,6 +117,8 @@
 		[noteSettings retain];
 		
 		[self setBPM:120];
+		
+		self.isMIDIOn = YES;
 
 	}
 	
@@ -122,29 +129,43 @@
 
 
 - (void)playNote:(int)note withVelocity:(int)vel {
-	//NSLog(@"AmosMIDIManager: Play note. %i %i", note, vel);
 	
-	[libdsmi writeMIDIMessage:NOTE_ON MIDIChannel:0 withData1:note withData2:vel];
+	if (self.isMIDIOn) {
 	
-	//NSNumber *tNote = [NSNumber numberWithInt:note];
-
-	//NSDictionary *userInfo =  [NSDictionary dictionaryWithObject:tNote forKey:@"note"];
+		//NSLog(@"AmosMIDIManager: Play note. %i %i", note, vel);
 		
-	//[NSTimer scheduledTimerWithTimeInterval:.5 target:self selector:@selector(stopNoteByTimer:) userInfo:userInfo repeats:NO];
-
+		[libdsmi writeMIDIMessage:NOTE_ON MIDIChannel:0 withData1:note withData2:vel];
+		
+		[controller.midiOnOffButton playNote];
+		
+		//NSNumber *tNote = [NSNumber numberWithInt:note];
+		
+		//NSDictionary *userInfo =  [NSDictionary dictionaryWithObject:tNote forKey:@"note"];
+		
+		//[NSTimer scheduledTimerWithTimeInterval:.5 target:self selector:@selector(stopNoteByTimer:) userInfo:userInfo repeats:NO];
+	
+	}
+	
 }
 
 - (void)stopNoteByTimer:(NSTimer*)theTimer  {
-	//NSLog(@"AmosMIDIManager: stopNoteByTimer.");
 	
-	NSNumber *note = [[theTimer userInfo] objectForKey:@"note"];
+	if (self.isMIDIOn) {
 	
-	[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:[note intValue] withData2:30];
+		//NSLog(@"AmosMIDIManager: stopNoteByTimer.");
+	
+		NSNumber *note = [[theTimer userInfo] objectForKey:@"note"];
+	
+		[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:[note intValue] withData2:30];
+	}
 		
 }
 
 - (void)endNote:(int)note {
-	[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:note withData2:30];
+	if (self.isMIDIOn) {
+
+		[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:note withData2:30];
+	}
 }
 
 
@@ -164,10 +185,8 @@
 	}
 	
 	int startingOctave = 0;
+	int numberOfOctaves = 9;
 	
-	
-	
-	int numberOfOctaves = 7;
 	midiNoteRange = [[NSMutableArray alloc] init];
 	for (int i = 0; i < numberOfOctaves; i++) {
 		
@@ -193,5 +212,20 @@
 
 }
 
+- (void)stopMIDI {
+	// Send off messages to every note
+	for (int i = 0; i < 127; i++) {
+		[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:i withData2:0];
+	}
+	
+}
+
+- (void) toggleMIDIOn {
+	
+	self.isMIDIOn = !self.isMIDIOn;	
+	[self stopMIDI];
+	
+	
+}
 
 @end

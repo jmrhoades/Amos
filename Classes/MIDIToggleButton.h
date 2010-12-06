@@ -1,8 +1,8 @@
 //
-//  AmosSetNotesButton.h
-//  AmosUIView
+//  MIDIToggleButton.h
+//  Amos
 //
-//  Created by Justin Rhoades on 11/1/10.
+//  Created by Justin Rhoades on 12/5/10.
 //  Copyright 2010 Anything Honest. All rights reserved.
 //
 
@@ -10,19 +10,21 @@
 
 @class ModeAViewController;
 
-@interface AmosSettingsButton : UIView <UIGestureRecognizerDelegate> {
+
+@interface MIDIToggleButton : UIView <UIGestureRecognizerDelegate> {
 	
 	UIImageView *image_off;
 	UIImageView *image_on;	
 	UIImageView *image_active;
-	bool isOn;
 	ModeAViewController *controller;
-
+	bool isOn;
 }
 
 @property (nonatomic, retain) ModeAViewController *controller;
+@property (nonatomic) bool isOn;
 
-- (void) toggle;
 - (void)tap:(UIPanGestureRecognizer *)gestureRecognizer;
+- (void) toggle;
+- (void) playNote;
 
 @end

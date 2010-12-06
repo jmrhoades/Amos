@@ -6,15 +6,11 @@
 //  Copyright 2010 Anything Honest. All rights reserved.
 //
 
-
 #import <QuartzCore/QuartzCore.h>
 #import "ModeAViewController.h"
-
 #import "ShapeCircle.h"
-
 #import "ModeACorner.h"
 #import "NoteBlock.h"
-
 #import "AmosPhysicsKeyboard.h"
 #import "AmosSettingsButton.h"
 #import "SettingsViewController.h"
@@ -22,6 +18,7 @@
 #import "AmosAppDelegate.h"
 #import "AmosMIDIManager.h"
 #import "BottomBlock.h"
+#import "MIDIToggleButton.h"
 
 @implementation ModeAViewController
 
@@ -30,6 +27,8 @@
 @synthesize circleWholeNote;
 @synthesize circleHalfNote;
 @synthesize circleEighthNote;
+
+@synthesize midiOnOffButton;
 
 // Implement loadView to create a view hierarchy programmatically, without using a nib.
 - (void)loadView {
@@ -61,11 +60,16 @@
 	[temp_top release];
 
 	// Settings popover trigger
-	settingsButton = [[AmosSettingsButton alloc] initWithFrame:CGRectMake(700, 0, 43, 43)];
+	settingsButton = [[AmosSettingsButton alloc] initWithFrame:CGRectMake(768-25-50, 0, 50, 50)];
 	settingsButton.controller = self;
-	//settingsButton.alpha = .5;
 	[self.view addSubview:settingsButton];
 	
+	// MIDI Toggle Button
+	midiOnOffButton = [[MIDIToggleButton alloc] initWithFrame:CGRectMake(25, 0, 50, 50)];
+	midiOnOffButton.controller = self;
+	[self.view addSubview:midiOnOffButton];
+	
+	/*
 	// Centered title
 	titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(354, 11, 60, 20)];
 	titleLabel.backgroundColor = [UIColor clearColor];
@@ -78,6 +82,7 @@
 	titleLabel.text = @"Amos";
 	//titleLabel.alpha = .5;
 	[self.view addSubview:titleLabel];
+	 */
 
 	//Configure and start accelerometer
 	[[UIAccelerometer sharedAccelerometer] setUpdateInterval:(1.0 / 60.0)];
@@ -132,16 +137,19 @@
 	settingsController.contentSizeForViewInPopover = tableSize;
 	UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:settingsController];
 	UIPopoverController *popover = [[UIPopoverController alloc] initWithContentViewController:navController];
-	popover.popoverContentSize = CGSizeMake(380, 570);
+	popover.popoverContentSize = CGSizeMake(380, 690);
 	popover.delegate = self;
-	[popover presentPopoverFromRect:settingsButton.frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
+	CGRect f = settingsButton.frame;
+	f.origin.x -= 9;
+	[popover presentPopoverFromRect:f inView:self.view permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
 
 	[settingsController release];
 	[navController release];
 	//[popover release];
 }
 
-- (BOOL)popoverControllerShouldDismissPopover:(UIPopoverController *)popoverController {	
+- (BOOL)popoverControllerShouldDismissPopover:(UIPopoverController *)popoverController {
+	[settingsButton toggle];
 	return YES;
 }
 
@@ -155,6 +163,12 @@
 	[keyboardLeft updateNotes];	
 	[keyboardRight updateNotes];	
 }
+
+-(void) toggleMIDI {
+	AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	[delegate.midiManager toggleMIDIOn];	
+}
+	
 
 -(void) toggleShape:(int)shapeTag status:(bool)isOn {
 	NSLog(@"toggleShape %d %d", shapeTag, isOn);
@@ -430,27 +444,33 @@
 		}
 		
 		
-		// Bottom block checks
-		float bottomForceX = 50;
-		float bottomForceY = 3500;
-		if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleQuarterNote.fixture) || (contact.fixtureA == circleQuarterNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
-			[bottomBlock playNote];
-			b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
-			circleQuarterNote.body->ApplyLinearImpulse(force, circleQuarterNote.body->GetPosition());
+		if (bottomBlock.isOn) {
+			
+			
+			// Bottom block checks
+			float bottomForceX = 50;
+			float bottomForceY = 3500;
+			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleQuarterNote.fixture) || (contact.fixtureA == circleQuarterNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
+				[bottomBlock playNote];
+				b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
+				circleQuarterNote.body->ApplyLinearImpulse(force, circleQuarterNote.body->GetPosition());
+			}
+			
+			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleHalfNote.fixture) || (contact.fixtureA == circleHalfNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
+				[bottomBlock playNote];
+				b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
+				circleHalfNote.body->ApplyLinearImpulse(force, circleHalfNote.body->GetPosition());
+			}
+			
+			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleEighthNote.fixture) || (contact.fixtureA == circleEighthNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
+				[bottomBlock playNote];
+				b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
+				circleEighthNote.body->ApplyLinearImpulse(force, circleEighthNote.body->GetPosition());
+			}
+			
+			
 		}
 		
-		if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleHalfNote.fixture) || (contact.fixtureA == circleHalfNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
-			[bottomBlock playNote];
-			b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
-			circleHalfNote.body->ApplyLinearImpulse(force, circleHalfNote.body->GetPosition());
-		}
-		
-		if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleEighthNote.fixture) || (contact.fixtureA == circleEighthNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
-			[bottomBlock playNote];
-			b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
-			circleEighthNote.body->ApplyLinearImpulse(force, circleEighthNote.body->GetPosition());
-		}
-
 	}
 	
 	// Clean up
