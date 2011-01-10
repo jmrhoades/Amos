@@ -160,16 +160,16 @@
 
 - (void)switchAction:(UISwitch*)sender
 {
-	NSLog(@"switchAction: sender = %d, isOn %d",  [sender tag], [sender isOn]);
+	//NSLog(@"switchAction: sender = %d, isOn %d",  [sender tag], [sender isOn]);
 	NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[sender tag] inSection:0];
 	UITableViewCell *cell =  [self.tableView cellForRowAtIndexPath:indexPath];
 
 	if ([sender isOn]) {
 		cell.textLabel.textColor = [UIColor blackColor];	
-		NSLog(@"ON");
+		//NSLog(@"ON");
 	} else {
 		cell.textLabel.textColor = [UIColor lightGrayColor];		
-		NSLog(@"OFF");		
+		//NSLog(@"OFF");		
 	}
 	
 	NoteSetting *setting = [noteSettings objectAtIndex:[sender tag]];

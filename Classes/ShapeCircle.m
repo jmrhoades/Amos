@@ -42,7 +42,7 @@
 		duration = 4;
 	}
 	
-	if (circleSize == CIRCLE_HALF_NOTE) {
+	if (circleSize == DISC_LARGE) {
 		base = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_half_base.png"]];
 		noteOn = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_half_on.png"]];
 		panLight = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_half_pan.png"]];			
@@ -51,14 +51,14 @@
 
 	}
 	
-	if (circleSize == CIRCLE_QUARTER_NOTE) {
+	if (circleSize == DISC_MEDIUM) {
 		base = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_quarter_base.png"]];
 		noteOn = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_quarter_on.png"]];
 		panLight = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_quarter_pan.png"]];			
 		duration = 1;		
 	}
 	
-	if (circleSize == CIRCLE_EIGHTH_NOTE) {
+	if (circleSize == DISC_SMALL) {
 		base = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_eighth_base.png"]];
 		noteOn = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_eighth_on.png"]];
 		panLight = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"circle_note_eighth_pan.png"]];			
@@ -116,15 +116,15 @@
 	if (circleSize == CIRCLE_SIXTEENTH_NOTE) {
 		size = 64/PTM_RATIO;
 	}
-	if (circleSize == CIRCLE_EIGHTH_NOTE) {
+	if (circleSize == DISC_SMALL) {
 		size = 72/PTM_RATIO;
 		size = 4.5;	
 	}
-	if (circleSize == CIRCLE_QUARTER_NOTE) {
+	if (circleSize == DISC_MEDIUM) {
 		size = 80/PTM_RATIO;
 		fixtureDef.friction = 0.15f;
 	}
-	if (circleSize == CIRCLE_HALF_NOTE) {
+	if (circleSize == DISC_LARGE) {
 		size = 88/PTM_RATIO;
 		size = 5.5f;
 		fixtureDef.friction = 0.2f;

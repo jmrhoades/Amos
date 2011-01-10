@@ -120,9 +120,8 @@
 	AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];	
 	float interval = (delegate.midiManager.beatLength * duration)/1000;
 
-	NSNumber *tNote = [NSNumber numberWithInt:note];
-	NSDictionary *userInfo =  [NSDictionary dictionaryWithObject:tNote forKey:@"note"];
-	
+	NSDictionary *userInfo =  [NSDictionary dictionaryWithObjectsAndKeys: @"note", [NSNumber numberWithInt:note], [NSNumber numberWithInt:note], [NSNumber numberWithInt:delegate.midiManager.midiChannelWiFi], @"channelUSB", [NSNumber numberWithInt:delegate.midiManager.midiChannelUSB], nil];
+
 	[delegate.midiManager playNote:note withVelocity:vel];
 	
 	//interval = 1;

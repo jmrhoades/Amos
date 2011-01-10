@@ -8,7 +8,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 #import "ModeAViewController.h"
-#import "ShapeCircle.h"
+#import "AmosDisc.h"
 #import "ModeACorner.h"
 #import "NoteBlock.h"
 #import "AmosPhysicsKeyboard.h"
@@ -22,11 +22,9 @@
 
 @implementation ModeAViewController
 
-@synthesize circleQuarterNote;
-@synthesize circleSixteenthNote;
-@synthesize circleWholeNote;
-@synthesize circleHalfNote;
-@synthesize circleEighthNote;
+@synthesize discMedium;
+@synthesize discLarge;
+@synthesize discSmall;
 
 @synthesize midiOnOffButton;
 
@@ -91,7 +89,8 @@
 	
 	//NSLog(@"convertToGL %@", [[UIDevice currentDevice] orientation]);
 	
-	
+	midiCheckTimer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(checkMIDI) userInfo:nil repeats:YES];
+
 	
 }
 
@@ -171,16 +170,16 @@
 	
 
 -(void) toggleShape:(int)shapeTag status:(bool)isOn {
-	NSLog(@"toggleShape %d %d", shapeTag, isOn);
+	//NSLog(@"toggleShape %d %d", shapeTag, isOn);
 
 	switch(shapeTag) {
 		case(1): 
 			
 			// Circle Half Note
 			if (isOn) {
-				[circleHalfNote turnOn];		
+				[discLarge turnOn];		
 			} else {
-				[circleHalfNote turnOff];		
+				[discLarge turnOff];		
 			}
 			
 			break;
@@ -189,9 +188,9 @@
 			
 			// Circle Quarter Note
 			if (isOn) {
-				[circleQuarterNote turnOn];		
+				[discMedium turnOn];		
 			} else {
-				[circleQuarterNote turnOff];		
+				[discMedium turnOff];		
 			}
 			
 			break;
@@ -200,9 +199,9 @@
 			
 			// Circle Eighth Note
 			if (isOn) {
-				[circleEighthNote turnOn];		
+				[discSmall turnOn];		
 			} else {
-				[circleEighthNote turnOff];		
+				[discSmall turnOff];		
 			}
 			
 			break;
@@ -242,6 +241,13 @@
 	
 	tickTimer = [NSTimer scheduledTimerWithTimeInterval:1.0/60.0 target:self selector:@selector(tick:) userInfo:nil repeats:YES];
 
+
+}
+
+-(void) checkMIDI {
+	
+	AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
+	[delegate.midiManager midiSetupChanged];	
 	
 }
 
@@ -287,23 +293,23 @@
 	CGSize screenSize = self.view.bounds.size;
 
 	
-	circleHalfNote = [[ShapeCircle alloc] initWithFrame:CGRectMake(screenSize.width/2, screenSize.height/2, 192, 192)];
-	circleHalfNote.container = self.view;
-	[circleHalfNote setCircleSize:CIRCLE_HALF_NOTE];
-	[circleHalfNote setWorld:world withGroundBody:groundBody];
-	//[circleHalfNote turnOn];
+	discLarge = [[AmosDisc alloc] initWithFrame:CGRectMake(screenSize.width/2, screenSize.height/2, 192, 192)];
+	discLarge.container = self.view;
+	[discLarge setCircleSize:DISC_LARGE];
+	[discLarge setWorld:world withGroundBody:groundBody];
+	[discLarge turnOn];
 	
-	circleQuarterNote = [[ShapeCircle alloc] initWithFrame:CGRectMake(screenSize.width/2, screenSize.height/2, 176, 176)];
-	circleQuarterNote.container = self.view;
-	[circleQuarterNote setCircleSize:CIRCLE_QUARTER_NOTE];
-	[circleQuarterNote setWorld:world withGroundBody:groundBody];
-	[circleQuarterNote turnOn];
+	discMedium = [[AmosDisc alloc] initWithFrame:CGRectMake(screenSize.width/2, screenSize.height/2, 176, 176)];
+	discMedium.container = self.view;
+	[discMedium setCircleSize:DISC_MEDIUM];
+	[discMedium setWorld:world withGroundBody:groundBody];
+	[discMedium turnOn];
 	
-	circleEighthNote = [[ShapeCircle alloc] initWithFrame:CGRectMake(screenSize.width/2, screenSize.height/2, 160, 160)];
-	circleEighthNote.container = self.view;
-	[circleEighthNote setCircleSize:CIRCLE_EIGHTH_NOTE];
-	[circleEighthNote setWorld:world withGroundBody:groundBody];
-	[circleEighthNote turnOn];
+	discSmall = [[AmosDisc alloc] initWithFrame:CGRectMake(screenSize.width/2, screenSize.height/2, 160, 160)];
+	discSmall.container = self.view;
+	[discSmall setCircleSize:DISC_SMALL];
+	[discSmall setWorld:world withGroundBody:groundBody];
+	[discSmall turnOn];
  
 }
 
@@ -374,11 +380,33 @@
 		if (b->GetUserData() != NULL) 
 		{
 			UIView *oneView = (UIView *)b->GetUserData();
+			
 			// y Position subtracted because of flipped coordinate system
 			CGPoint newCenter = CGPointMake(b->GetPosition().x * PTM_RATIO, screenSize.height - b->GetPosition().y * PTM_RATIO);
 			oneView.center = newCenter;
 			CGAffineTransform transform = CGAffineTransformMakeRotation(- b->GetAngle());
 			oneView.transform = transform;
+			
+			if ([oneView class] == [AmosDisc class]) {
+				
+				//NSLog(@"AmosDisc");
+					
+				AmosDisc *discView = (AmosDisc *)oneView;
+				
+				if ( discView.isConfigOpen == YES) {
+					
+					//NSLog(@"AmosDisc: IS OPEN");
+					
+					discView.frame.origin.x = ceil(discView.frame.origin.x);
+					discView.frame.origin.y = ceil(discView.frame.origin.x);
+					
+					CGAffineTransform transform = CGAffineTransformMakeRotation(0);
+					discView.transform = transform;
+				
+				}
+			
+			}
+				
 		}	
 	}
 	
@@ -398,74 +426,73 @@
 		
 		for (NoteBlock *noteblock in noteBlocks) {
 			
-			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == circleQuarterNote.fixture) || (contact.fixtureA == circleQuarterNote.fixture && contact.fixtureB == noteblock.fixture)) {
+			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == discMedium.fixture) || (contact.fixtureA == discMedium.fixture && contact.fixtureB == noteblock.fixture)) {
 				// Triggers animation and send message to MIDI controller
 				[noteblock playNote:0 withVelocity:vel];
-				circleQuarterNote.noteValue = noteblock.noteValue;
-				[circleQuarterNote playNote:noteblock.noteValue withVelocity:vel];
+				discMedium.noteValue = noteblock.noteValue;
+				[discMedium playNote:noteblock.noteValue withVelocity:vel];
 				isQuarterNote = YES;
 			}
 			
-			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == circleHalfNote.fixture) || (contact.fixtureA == circleHalfNote.fixture && contact.fixtureB == noteblock.fixture)) {
+			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == discLarge.fixture) || (contact.fixtureA == discLarge.fixture && contact.fixtureB == noteblock.fixture)) {
 				// Triggers animation and send message to MIDI controller
 				[noteblock playNote:0 withVelocity:vel];
-				circleHalfNote.noteValue = noteblock.noteValue;				
-				[circleHalfNote playNote:noteblock.noteValue withVelocity:vel];
+				discLarge.noteValue = noteblock.noteValue;				
+				[discLarge playNote:noteblock.noteValue withVelocity:vel];
 				isHalfNote = YES;
 			}
 						
-			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == circleEighthNote.fixture) || (contact.fixtureA == circleEighthNote.fixture && contact.fixtureB == noteblock.fixture)) {
+			if ((contact.fixtureA == noteblock.fixture && contact.fixtureB == discSmall.fixture) || (contact.fixtureA == discSmall.fixture && contact.fixtureB == noteblock.fixture)) {
 				// Triggers animation and send message to MIDI controller
 				[noteblock playNote:0 withVelocity:vel];
-				circleEighthNote.noteValue = noteblock.noteValue;
-				[circleEighthNote playNote:noteblock.noteValue withVelocity:vel];
+				discSmall.noteValue = noteblock.noteValue;
+				[discSmall playNote:noteblock.noteValue withVelocity:vel];
 				isEighthNote = YES;
 			}
 			
 		}
 		
 		
-		if (contact.fixtureA == circleQuarterNote.fixture  || contact.fixtureB == circleQuarterNote.fixture) {
+		if (contact.fixtureA == discMedium.fixture  || contact.fixtureB == discMedium.fixture) {
 			if (isQuarterNote == NO) {
-				[circleQuarterNote playNote:circleQuarterNote.noteValue withVelocity:vel];
+				[discMedium playNote:discMedium.noteValue withVelocity:vel];
 			}
 		}
 		
-		if (contact.fixtureA == circleHalfNote.fixture  || contact.fixtureB == circleHalfNote.fixture) {
+		if (contact.fixtureA == discLarge.fixture  || contact.fixtureB == discLarge.fixture) {
 			if (isHalfNote == NO) {
-				[circleHalfNote playNote:circleHalfNote.noteValue withVelocity:vel];
+				[discLarge playNote:discLarge.noteValue withVelocity:vel];
 			}
 		}
 		
-		if (contact.fixtureA == circleEighthNote.fixture  || contact.fixtureB == circleEighthNote.fixture) {
+		if (contact.fixtureA == discSmall.fixture  || contact.fixtureB == discSmall.fixture) {
 			if (isHalfNote == NO) {
-				[circleEighthNote playNote:circleEighthNote.noteValue withVelocity:vel];
+				[discSmall playNote:discSmall.noteValue withVelocity:vel];
 			}
 		}
 		
 		
 		if (bottomBlock.isOn) {
 			
-			
 			// Bottom block checks
 			float bottomForceX = 50;
 			float bottomForceY = 3500;
-			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleQuarterNote.fixture) || (contact.fixtureA == circleQuarterNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
+			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == discMedium.fixture) || (contact.fixtureA == discMedium.fixture && contact.fixtureB == bottomBlock.fixture)) {
 				[bottomBlock playNote];
 				b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
-				circleQuarterNote.body->ApplyLinearImpulse(force, circleQuarterNote.body->GetPosition());
+				discMedium.body->ApplyLinearImpulse(force, discMedium.body->GetPosition());
 			}
 			
-			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleHalfNote.fixture) || (contact.fixtureA == circleHalfNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
+			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == discLarge.fixture) || (contact.fixtureA == discLarge.fixture && contact.fixtureB == bottomBlock.fixture)) {
 				[bottomBlock playNote];
 				b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
-				circleHalfNote.body->ApplyLinearImpulse(force, circleHalfNote.body->GetPosition());
+				discLarge.body->ApplyLinearImpulse(force, discLarge.body->GetPosition());
 			}
 			
-			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == circleEighthNote.fixture) || (contact.fixtureA == circleEighthNote.fixture && contact.fixtureB == bottomBlock.fixture)) {
+			if ((contact.fixtureA == bottomBlock.fixture && contact.fixtureB == discSmall.fixture) || (contact.fixtureA == discSmall.fixture && contact.fixtureB == bottomBlock.fixture)) {
 				[bottomBlock playNote];
 				b2Vec2 force = b2Vec2(bottomForceX, bottomForceY);
-				circleEighthNote.body->ApplyLinearImpulse(force, circleEighthNote.body->GetPosition());
+				discSmall.body->ApplyLinearImpulse(force, discSmall.body->GetPosition());
 			}
 			
 			
@@ -509,7 +536,8 @@
 
 - (void)dealloc {
 	
-	
+	[midiCheckTimer invalidate], midiCheckTimer = nil;
+
 	[tickTimer invalidate], tickTimer = nil;
 	[super dealloc];
 }

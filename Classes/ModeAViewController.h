@@ -19,9 +19,9 @@
 #define BLOCK_BOT @"BLOCK_BOT"
 
 #define CIRCLE_WHOLE_NOTE @"CIRCLE_WHOLE_NOTE"
-#define CIRCLE_HALF_NOTE @"CIRCLE_HALF_NOTE"
-#define CIRCLE_QUARTER_NOTE @"CIRCLE_QUARTER_NOTE"
-#define CIRCLE_EIGHTH_NOTE @"CIRCLE_EIGHTH_NOTE"
+#define DISC_LARGE @"DISC_LARGE"
+#define DISC_MEDIUM @"DISC_MEDIUM"
+#define DISC_SMALL @"DISC_SMALL"
 #define CIRCLE_SIXTEENTH_NOTE @"CIRCLE_SIXTEENTH_NOTE"
 
 #import <UIKit/UIKit.h>
@@ -34,21 +34,20 @@
 @class AmosSettingsButton;
 @class SettingsViewController;
 @class BottomBlock;
-@class ShapeCircle;
+@class AmosDisc;
 @class MIDIToggleButton;
 
 
 @interface ModeAViewController : UIViewController <UIAccelerometerDelegate, UIGestureRecognizerDelegate, UIScrollViewDelegate, UIPopoverControllerDelegate> {
 	b2World *world;
 	NSTimer *tickTimer;
+	NSTimer *midiCheckTimer;
 	b2Body* groundBody;
 	ModeAContactListener *contactListener;
 	
-	ShapeCircle *circleQuarterNote;
-	ShapeCircle *circleWholeNote;
-	ShapeCircle *circleSixteenthNote;
-	ShapeCircle *circleHalfNote;
-	ShapeCircle *circleEighthNote;
+	AmosDisc *discMedium;
+	AmosDisc *discLarge;
+	AmosDisc *discSmall;
 
 	ModeACorner *cornerA;
 	ModeACorner *cornerB;
@@ -76,12 +75,9 @@
 }
 
 
-
-@property (nonatomic, retain) ShapeCircle *circleQuarterNote;
-@property (nonatomic, retain) ShapeCircle *circleWholeNote;
-@property (nonatomic, retain) ShapeCircle *circleSixteenthNote;
-@property (nonatomic, retain) ShapeCircle *circleHalfNote;
-@property (nonatomic, retain) ShapeCircle *circleEighthNote;
+@property (nonatomic, retain) AmosDisc *discLarge;
+@property (nonatomic, retain) AmosDisc *discMedium;
+@property (nonatomic, retain) AmosDisc *discSmall;
 
 @property (nonatomic, retain) MIDIToggleButton *midiOnOffButton;
 
@@ -103,7 +99,7 @@
 -(void) noteSettingsDidChange;
 -(void) toggleShape:(int)shapeTag status:(bool)isOn;
 
-
+-(void) checkMIDI;
 
 - (BOOL)popoverControllerShouldDismissPopover:(UIPopoverController *)popoverController;
 

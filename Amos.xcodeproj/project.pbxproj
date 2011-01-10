@@ -70,6 +70,9 @@
 		8D3F89AA126AB22D00379B3F /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897D126AB22D00379B3F /* b2RevoluteJoint.cpp */; };
 		8D3F89AB126AB22D00379B3F /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F897F126AB22D00379B3F /* b2WeldJoint.cpp */; };
 		8D450C1B127E5CEE000904B0 /* AmosPhysicsKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D450C1A127E5CEE000904B0 /* AmosPhysicsKeyboard.m */; };
+		8D4BD54612D4102000859DCF /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4BD54512D4102000859DCF /* ExternalAccessory.framework */; };
+		8D4BD55012D4103D00859DCF /* libmmz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D4BD54F12D4103D00859DCF /* libmmz.a */; };
+		8D4BD57D12D44E5200859DCF /* MIDIMobilizerChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4BD57C12D44E5200859DCF /* MIDIMobilizerChannel.m */; };
 		8D58C31F12823F0D000B93CE /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58C31E12823F0D000B93CE /* SettingsViewController.m */; };
 		8D58C40312827035000B93CE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D58C40212827035000B93CE /* background.png */; };
 		8D58C428128278D7000B93CE /* NoteSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58C427128278D7000B93CE /* NoteSettingsTableViewController.m */; };
@@ -91,6 +94,20 @@
 		8D7A2A9512AC68E700DAE927 /* button_settings_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D7A2A8C12AC68E700DAE927 /* button_settings_on.png */; };
 		8D81742F127904C3009FFA2D /* AmosUIViewBody.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D81742E127904C3009FFA2D /* AmosUIViewBody.m */; };
 		8D81746312790C2A009FFA2D /* NoteBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D81746212790C2A009FFA2D /* NoteBlock.m */; };
+		8D92FA1212ADDF1500F2F9E2 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D92FA1112ADDF1500F2F9E2 /* CoreMIDI.framework */; };
+		8D92FA7C12AE13B400F2F9E2 /* PYMIDIEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA6712AE13B400F2F9E2 /* PYMIDIEndpoint.m */; };
+		8D92FA7D12AE13B400F2F9E2 /* PYMIDIEndpointDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA6912AE13B400F2F9E2 /* PYMIDIEndpointDescriptor.m */; };
+		8D92FA7E12AE13B400F2F9E2 /* PYMIDIEndpointSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA6B12AE13B400F2F9E2 /* PYMIDIEndpointSet.m */; };
+		8D92FA7F12AE13B400F2F9E2 /* PYMIDIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA6D12AE13B400F2F9E2 /* PYMIDIManager.m */; };
+		8D92FA8012AE13B400F2F9E2 /* PYMIDIRealDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA6F12AE13B400F2F9E2 /* PYMIDIRealDestination.m */; };
+		8D92FA8112AE13B400F2F9E2 /* PYMIDIRealEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA7112AE13B400F2F9E2 /* PYMIDIRealEndpoint.m */; };
+		8D92FA8212AE13B400F2F9E2 /* PYMIDIRealSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA7312AE13B400F2F9E2 /* PYMIDIRealSource.m */; };
+		8D92FA8312AE13B400F2F9E2 /* PYMIDIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA7512AE13B400F2F9E2 /* PYMIDIUtils.m */; };
+		8D92FA8412AE13B400F2F9E2 /* PYMIDIVirtualDestination.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA7712AE13B400F2F9E2 /* PYMIDIVirtualDestination.m */; };
+		8D92FA8512AE13B400F2F9E2 /* PYMIDIVirtualEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA7912AE13B400F2F9E2 /* PYMIDIVirtualEndpoint.m */; };
+		8D92FA8612AE13B400F2F9E2 /* PYMIDIVirtualSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FA7B12AE13B400F2F9E2 /* PYMIDIVirtualSource.m */; };
+		8D92FAEC12B09EDF00F2F9E2 /* MIDIChannelWiFi.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FAEB12B09EDF00F2F9E2 /* MIDIChannelWiFi.m */; };
+		8D92FB4012B1E57C00F2F9E2 /* MIDIChannelUSB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D92FB3F12B1E57C00F2F9E2 /* MIDIChannelUSB.m */; };
 		8DA6361C1290D40F004CB4BC /* libdsmi_iphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA636191290D40F004CB4BC /* libdsmi_iphone.m */; };
 		8DA6361D1290D40F004CB4BC /* osc_client.c in Sources */ = {isa = PBXBuildFile; fileRef = 8DA6361A1290D40F004CB4BC /* osc_client.c */; };
 		8DBA3C9A12872663004DB800 /* circle_note_half_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA3C9612872663004DB800 /* circle_note_half_base.png */; };
@@ -112,8 +129,53 @@
 		8DD88C4D12866FEE001CFEA7 /* corner_bot_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD88C4B12866FEE001CFEA7 /* corner_bot_right.png */; };
 		8DD88C571286725F001CFEA7 /* note_block_base.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD88C561286725F001CFEA7 /* note_block_base.png */; };
 		8DD88C7212867546001CFEA7 /* note_block_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DD88C7112867546001CFEA7 /* note_block_light.png */; };
+		8DDE465812D817620035E0D0 /* AmosDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE465712D817620035E0D0 /* AmosDisc.m */; };
+		8DDE468B12D914230035E0D0 /* DiscSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE468A12D914230035E0D0 /* DiscSettings.m */; };
+		8DDE478A12DAE0120035E0D0 /* discSettingsBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE478912DAE0120035E0D0 /* discSettingsBackground.png */; };
+		8DDE479012DAE0350035E0D0 /* eighthOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE478B12DAE0350035E0D0 /* eighthOn.png */; };
+		8DDE479112DAE0350035E0D0 /* halfOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE478C12DAE0350035E0D0 /* halfOn.png */; };
+		8DDE479212DAE0350035E0D0 /* quarterOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE478D12DAE0350035E0D0 /* quarterOn.png */; };
+		8DDE479312DAE0350035E0D0 /* sixteenthOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE478E12DAE0350035E0D0 /* sixteenthOn.png */; };
+		8DDE479412DAE0350035E0D0 /* wholeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE478F12DAE0350035E0D0 /* wholeOn.png */; };
+		8DDE482912DAF9970035E0D0 /* midiChannel1On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE481912DAF9970035E0D0 /* midiChannel1On.png */; };
+		8DDE482A12DAF9970035E0D0 /* midiChannel2On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE481A12DAF9970035E0D0 /* midiChannel2On.png */; };
+		8DDE482B12DAF9970035E0D0 /* midiChannel3On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE481B12DAF9970035E0D0 /* midiChannel3On.png */; };
+		8DDE482C12DAF9970035E0D0 /* midiChannel4On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE481C12DAF9970035E0D0 /* midiChannel4On.png */; };
+		8DDE482D12DAF9970035E0D0 /* midiChannel5On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE481D12DAF9970035E0D0 /* midiChannel5On.png */; };
+		8DDE482E12DAF9970035E0D0 /* midiChannel6On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE481E12DAF9970035E0D0 /* midiChannel6On.png */; };
+		8DDE482F12DAF9970035E0D0 /* midiChannel7On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE481F12DAF9970035E0D0 /* midiChannel7On.png */; };
+		8DDE483012DAF9970035E0D0 /* midiChannel8On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482012DAF9970035E0D0 /* midiChannel8On.png */; };
+		8DDE483112DAF9970035E0D0 /* midiChannel9On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482112DAF9970035E0D0 /* midiChannel9On.png */; };
+		8DDE483212DAF9970035E0D0 /* midiChannel10On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482212DAF9970035E0D0 /* midiChannel10On.png */; };
+		8DDE483312DAF9970035E0D0 /* midiChannel11On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482312DAF9970035E0D0 /* midiChannel11On.png */; };
+		8DDE483412DAF9970035E0D0 /* midiChannel12On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482412DAF9970035E0D0 /* midiChannel12On.png */; };
+		8DDE483512DAF9970035E0D0 /* midiChannel13On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482512DAF9970035E0D0 /* midiChannel13On.png */; };
+		8DDE483612DAF9970035E0D0 /* midiChannel14On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482612DAF9970035E0D0 /* midiChannel14On.png */; };
+		8DDE483712DAF9970035E0D0 /* midiChannel15On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482712DAF9970035E0D0 /* midiChannel15On.png */; };
+		8DDE483812DAF9970035E0D0 /* midiChannel16On.png in Resources */ = {isa = PBXBuildFile; fileRef = 8DDE482812DAF9970035E0D0 /* midiChannel16On.png */; };
 		8DFBDF08126E9AB2002BFC48 /* AmosMIDIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFBDF07126E9AB2002BFC48 /* AmosMIDIManager.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8D92FA8A12AE142200F2F9E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D92FA9412AE14F700F2F9E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -229,6 +291,11 @@
 		8D3F8980126AB22D00379B3F /* b2WeldJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2WeldJoint.h; sourceTree = "<group>"; };
 		8D450C19127E5CEE000904B0 /* AmosPhysicsKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmosPhysicsKeyboard.h; sourceTree = "<group>"; };
 		8D450C1A127E5CEE000904B0 /* AmosPhysicsKeyboard.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = AmosPhysicsKeyboard.m; sourceTree = "<group>"; };
+		8D4BD54512D4102000859DCF /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		8D4BD54F12D4103D00859DCF /* libmmz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmmz.a; sourceTree = "<group>"; };
+		8D4BD55612D4185100859DCF /* mmz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmz.h; sourceTree = "<group>"; };
+		8D4BD57B12D44E5200859DCF /* MIDIMobilizerChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIMobilizerChannel.h; sourceTree = "<group>"; };
+		8D4BD57C12D44E5200859DCF /* MIDIMobilizerChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIMobilizerChannel.m; sourceTree = "<group>"; };
 		8D58C31D12823F0D000B93CE /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		8D58C31E12823F0D000B93CE /* SettingsViewController.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = SettingsViewController.m; sourceTree = "<group>"; };
 		8D58C40212827035000B93CE /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = assets/background.png; sourceTree = "<group>"; };
@@ -255,6 +322,34 @@
 		8D81742E127904C3009FFA2D /* AmosUIViewBody.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = AmosUIViewBody.m; sourceTree = "<group>"; };
 		8D81746112790C2A009FFA2D /* NoteBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteBlock.h; sourceTree = "<group>"; };
 		8D81746212790C2A009FFA2D /* NoteBlock.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = NoteBlock.m; sourceTree = "<group>"; };
+		8D92FA1112ADDF1500F2F9E2 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = System/Library/Frameworks/CoreMIDI.framework; sourceTree = SDKROOT; };
+		8D92FA6512AE13B400F2F9E2 /* PYMIDI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDI.h; sourceTree = "<group>"; };
+		8D92FA6612AE13B400F2F9E2 /* PYMIDIEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIEndpoint.h; sourceTree = "<group>"; };
+		8D92FA6712AE13B400F2F9E2 /* PYMIDIEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIEndpoint.m; sourceTree = "<group>"; };
+		8D92FA6812AE13B400F2F9E2 /* PYMIDIEndpointDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIEndpointDescriptor.h; sourceTree = "<group>"; };
+		8D92FA6912AE13B400F2F9E2 /* PYMIDIEndpointDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIEndpointDescriptor.m; sourceTree = "<group>"; };
+		8D92FA6A12AE13B400F2F9E2 /* PYMIDIEndpointSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIEndpointSet.h; sourceTree = "<group>"; };
+		8D92FA6B12AE13B400F2F9E2 /* PYMIDIEndpointSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIEndpointSet.m; sourceTree = "<group>"; };
+		8D92FA6C12AE13B400F2F9E2 /* PYMIDIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIManager.h; sourceTree = "<group>"; };
+		8D92FA6D12AE13B400F2F9E2 /* PYMIDIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIManager.m; sourceTree = "<group>"; };
+		8D92FA6E12AE13B400F2F9E2 /* PYMIDIRealDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIRealDestination.h; sourceTree = "<group>"; };
+		8D92FA6F12AE13B400F2F9E2 /* PYMIDIRealDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIRealDestination.m; sourceTree = "<group>"; };
+		8D92FA7012AE13B400F2F9E2 /* PYMIDIRealEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIRealEndpoint.h; sourceTree = "<group>"; };
+		8D92FA7112AE13B400F2F9E2 /* PYMIDIRealEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIRealEndpoint.m; sourceTree = "<group>"; };
+		8D92FA7212AE13B400F2F9E2 /* PYMIDIRealSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIRealSource.h; sourceTree = "<group>"; };
+		8D92FA7312AE13B400F2F9E2 /* PYMIDIRealSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIRealSource.m; sourceTree = "<group>"; };
+		8D92FA7412AE13B400F2F9E2 /* PYMIDIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIUtils.h; sourceTree = "<group>"; };
+		8D92FA7512AE13B400F2F9E2 /* PYMIDIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIUtils.m; sourceTree = "<group>"; };
+		8D92FA7612AE13B400F2F9E2 /* PYMIDIVirtualDestination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualDestination.h; sourceTree = "<group>"; };
+		8D92FA7712AE13B400F2F9E2 /* PYMIDIVirtualDestination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualDestination.m; sourceTree = "<group>"; };
+		8D92FA7812AE13B400F2F9E2 /* PYMIDIVirtualEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualEndpoint.h; sourceTree = "<group>"; };
+		8D92FA7912AE13B400F2F9E2 /* PYMIDIVirtualEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualEndpoint.m; sourceTree = "<group>"; };
+		8D92FA7A12AE13B400F2F9E2 /* PYMIDIVirtualSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYMIDIVirtualSource.h; sourceTree = "<group>"; };
+		8D92FA7B12AE13B400F2F9E2 /* PYMIDIVirtualSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYMIDIVirtualSource.m; sourceTree = "<group>"; };
+		8D92FAEA12B09EDF00F2F9E2 /* MIDIChannelWiFi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIChannelWiFi.h; sourceTree = "<group>"; };
+		8D92FAEB12B09EDF00F2F9E2 /* MIDIChannelWiFi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIChannelWiFi.m; sourceTree = "<group>"; };
+		8D92FB3E12B1E57C00F2F9E2 /* MIDIChannelUSB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIDIChannelUSB.h; sourceTree = "<group>"; };
+		8D92FB3F12B1E57C00F2F9E2 /* MIDIChannelUSB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIDIChannelUSB.m; sourceTree = "<group>"; };
 		8DA636181290D40F004CB4BC /* libdsmi_iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libdsmi_iphone.h; path = "../../Libraries/dsmi-read-only/iPhone/libdsmi_iphone/libdsmi_iphone.h"; sourceTree = SOURCE_ROOT; };
 		8DA636191290D40F004CB4BC /* libdsmi_iphone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = libdsmi_iphone.m; path = "../../Libraries/dsmi-read-only/iPhone/libdsmi_iphone/libdsmi_iphone.m"; sourceTree = SOURCE_ROOT; };
 		8DA6361A1290D40F004CB4BC /* osc_client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = osc_client.c; path = "../../Libraries/dsmi-read-only/iPhone/libdsmi_iphone/osc_client.c"; sourceTree = SOURCE_ROOT; };
@@ -284,6 +379,32 @@
 		8DD88C4B12866FEE001CFEA7 /* corner_bot_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = corner_bot_right.png; path = assets/corner_bot_right.png; sourceTree = "<group>"; };
 		8DD88C561286725F001CFEA7 /* note_block_base.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note_block_base.png; path = assets/note_block_base.png; sourceTree = "<group>"; };
 		8DD88C7112867546001CFEA7 /* note_block_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = note_block_light.png; path = assets/note_block_light.png; sourceTree = "<group>"; };
+		8DDE465612D817620035E0D0 /* AmosDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmosDisc.h; sourceTree = "<group>"; };
+		8DDE465712D817620035E0D0 /* AmosDisc.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = AmosDisc.m; sourceTree = "<group>"; };
+		8DDE468912D914230035E0D0 /* DiscSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscSettings.h; sourceTree = "<group>"; };
+		8DDE468A12D914230035E0D0 /* DiscSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscSettings.m; sourceTree = "<group>"; };
+		8DDE478912DAE0120035E0D0 /* discSettingsBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = discSettingsBackground.png; path = assets/DiscSettings/discSettingsBackground.png; sourceTree = "<group>"; };
+		8DDE478B12DAE0350035E0D0 /* eighthOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = eighthOn.png; path = assets/DiscSettings/eighthOn.png; sourceTree = "<group>"; };
+		8DDE478C12DAE0350035E0D0 /* halfOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = halfOn.png; path = assets/DiscSettings/halfOn.png; sourceTree = "<group>"; };
+		8DDE478D12DAE0350035E0D0 /* quarterOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = quarterOn.png; path = assets/DiscSettings/quarterOn.png; sourceTree = "<group>"; };
+		8DDE478E12DAE0350035E0D0 /* sixteenthOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sixteenthOn.png; path = assets/DiscSettings/sixteenthOn.png; sourceTree = "<group>"; };
+		8DDE478F12DAE0350035E0D0 /* wholeOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wholeOn.png; path = assets/DiscSettings/wholeOn.png; sourceTree = "<group>"; };
+		8DDE481912DAF9970035E0D0 /* midiChannel1On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel1On.png; path = assets/DiscSettings/midiChannel1On.png; sourceTree = "<group>"; };
+		8DDE481A12DAF9970035E0D0 /* midiChannel2On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel2On.png; path = assets/DiscSettings/midiChannel2On.png; sourceTree = "<group>"; };
+		8DDE481B12DAF9970035E0D0 /* midiChannel3On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel3On.png; path = assets/DiscSettings/midiChannel3On.png; sourceTree = "<group>"; };
+		8DDE481C12DAF9970035E0D0 /* midiChannel4On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel4On.png; path = assets/DiscSettings/midiChannel4On.png; sourceTree = "<group>"; };
+		8DDE481D12DAF9970035E0D0 /* midiChannel5On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel5On.png; path = assets/DiscSettings/midiChannel5On.png; sourceTree = "<group>"; };
+		8DDE481E12DAF9970035E0D0 /* midiChannel6On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel6On.png; path = assets/DiscSettings/midiChannel6On.png; sourceTree = "<group>"; };
+		8DDE481F12DAF9970035E0D0 /* midiChannel7On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel7On.png; path = assets/DiscSettings/midiChannel7On.png; sourceTree = "<group>"; };
+		8DDE482012DAF9970035E0D0 /* midiChannel8On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel8On.png; path = assets/DiscSettings/midiChannel8On.png; sourceTree = "<group>"; };
+		8DDE482112DAF9970035E0D0 /* midiChannel9On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel9On.png; path = assets/DiscSettings/midiChannel9On.png; sourceTree = "<group>"; };
+		8DDE482212DAF9970035E0D0 /* midiChannel10On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel10On.png; path = assets/DiscSettings/midiChannel10On.png; sourceTree = "<group>"; };
+		8DDE482312DAF9970035E0D0 /* midiChannel11On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel11On.png; path = assets/DiscSettings/midiChannel11On.png; sourceTree = "<group>"; };
+		8DDE482412DAF9970035E0D0 /* midiChannel12On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel12On.png; path = assets/DiscSettings/midiChannel12On.png; sourceTree = "<group>"; };
+		8DDE482512DAF9970035E0D0 /* midiChannel13On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel13On.png; path = assets/DiscSettings/midiChannel13On.png; sourceTree = "<group>"; };
+		8DDE482612DAF9970035E0D0 /* midiChannel14On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel14On.png; path = assets/DiscSettings/midiChannel14On.png; sourceTree = "<group>"; };
+		8DDE482712DAF9970035E0D0 /* midiChannel15On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel15On.png; path = assets/DiscSettings/midiChannel15On.png; sourceTree = "<group>"; };
+		8DDE482812DAF9970035E0D0 /* midiChannel16On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = midiChannel16On.png; path = assets/DiscSettings/midiChannel16On.png; sourceTree = "<group>"; };
 		8DFBDF06126E9AB2002BFC48 /* AmosMIDIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmosMIDIManager.h; sourceTree = "<group>"; };
 		8DFBDF07126E9AB2002BFC48 /* AmosMIDIManager.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = AmosMIDIManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -296,6 +417,9 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				8D92FA1212ADDF1500F2F9E2 /* CoreMIDI.framework in Frameworks */,
+				8D4BD54612D4102000859DCF /* ExternalAccessory.framework in Frameworks */,
+				8D4BD55012D4103D00859DCF /* libmmz.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +470,7 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8D4BD55612D4185100859DCF /* mmz.h */,
 				8DA6361E1290D415004CB4BC /* DSMIDI */,
 				8D3F8925126AB22D00379B3F /* Box2D */,
 				32CA4F630368D1EE00C91783 /* Amos_Prefix.pch */,
@@ -357,6 +482,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8DDE476E12DADAB80035E0D0 /* Disc Settings */,
 				8D66B90F128BB23400D07516 /* Icon.png */,
 				8D66B910128BB23400D07516 /* Icon-Small-50.png */,
 				8D66B911128BB23400D07516 /* Icon-Small.png */,
@@ -378,9 +504,13 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D4BD54F12D4103D00859DCF /* libmmz.a */,
+				8D4BD54512D4102000859DCF /* ExternalAccessory.framework */,
+				8D92FA6412AE13B400F2F9E2 /* PYMIDI */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				8D92FA1112ADDF1500F2F9E2 /* CoreMIDI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -549,8 +679,40 @@
 				8DD88B50128613E1001CFEA7 /* ShapeCircle.m */,
 				8D0A7521128A6E6000D912CC /* BottomBlock.h */,
 				8D0A7522128A6E6000D912CC /* BottomBlock.m */,
+				8DDE465612D817620035E0D0 /* AmosDisc.h */,
+				8DDE465712D817620035E0D0 /* AmosDisc.m */,
 			);
 			name = UIViewBodies;
+			sourceTree = "<group>";
+		};
+		8D92FA6412AE13B400F2F9E2 /* PYMIDI */ = {
+			isa = PBXGroup;
+			children = (
+				8D92FA6512AE13B400F2F9E2 /* PYMIDI.h */,
+				8D92FA6612AE13B400F2F9E2 /* PYMIDIEndpoint.h */,
+				8D92FA6712AE13B400F2F9E2 /* PYMIDIEndpoint.m */,
+				8D92FA6812AE13B400F2F9E2 /* PYMIDIEndpointDescriptor.h */,
+				8D92FA6912AE13B400F2F9E2 /* PYMIDIEndpointDescriptor.m */,
+				8D92FA6A12AE13B400F2F9E2 /* PYMIDIEndpointSet.h */,
+				8D92FA6B12AE13B400F2F9E2 /* PYMIDIEndpointSet.m */,
+				8D92FA6C12AE13B400F2F9E2 /* PYMIDIManager.h */,
+				8D92FA6D12AE13B400F2F9E2 /* PYMIDIManager.m */,
+				8D92FA6E12AE13B400F2F9E2 /* PYMIDIRealDestination.h */,
+				8D92FA6F12AE13B400F2F9E2 /* PYMIDIRealDestination.m */,
+				8D92FA7012AE13B400F2F9E2 /* PYMIDIRealEndpoint.h */,
+				8D92FA7112AE13B400F2F9E2 /* PYMIDIRealEndpoint.m */,
+				8D92FA7212AE13B400F2F9E2 /* PYMIDIRealSource.h */,
+				8D92FA7312AE13B400F2F9E2 /* PYMIDIRealSource.m */,
+				8D92FA7412AE13B400F2F9E2 /* PYMIDIUtils.h */,
+				8D92FA7512AE13B400F2F9E2 /* PYMIDIUtils.m */,
+				8D92FA7612AE13B400F2F9E2 /* PYMIDIVirtualDestination.h */,
+				8D92FA7712AE13B400F2F9E2 /* PYMIDIVirtualDestination.m */,
+				8D92FA7812AE13B400F2F9E2 /* PYMIDIVirtualEndpoint.h */,
+				8D92FA7912AE13B400F2F9E2 /* PYMIDIVirtualEndpoint.m */,
+				8D92FA7A12AE13B400F2F9E2 /* PYMIDIVirtualSource.h */,
+				8D92FA7B12AE13B400F2F9E2 /* PYMIDIVirtualSource.m */,
+			);
+			path = PYMIDI;
 			sourceTree = "<group>";
 		};
 		8DA6361E1290D415004CB4BC /* DSMIDI */ = {
@@ -643,8 +805,45 @@
 				8D58C427128278D7000B93CE /* NoteSettingsTableViewController.m */,
 				8DBA3EAE1287E8E0004DB800 /* DSMIDIInfoViewController.h */,
 				8DBA3EAF1287E8E0004DB800 /* DSMIDIInfoViewController.m */,
+				8D92FAEA12B09EDF00F2F9E2 /* MIDIChannelWiFi.h */,
+				8D92FAEB12B09EDF00F2F9E2 /* MIDIChannelWiFi.m */,
+				8D92FB3E12B1E57C00F2F9E2 /* MIDIChannelUSB.h */,
+				8D92FB3F12B1E57C00F2F9E2 /* MIDIChannelUSB.m */,
+				8D4BD57B12D44E5200859DCF /* MIDIMobilizerChannel.h */,
+				8D4BD57C12D44E5200859DCF /* MIDIMobilizerChannel.m */,
+				8DDE468912D914230035E0D0 /* DiscSettings.h */,
+				8DDE468A12D914230035E0D0 /* DiscSettings.m */,
 			);
 			name = Settings;
+			sourceTree = "<group>";
+		};
+		8DDE476E12DADAB80035E0D0 /* Disc Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8DDE481912DAF9970035E0D0 /* midiChannel1On.png */,
+				8DDE481A12DAF9970035E0D0 /* midiChannel2On.png */,
+				8DDE481B12DAF9970035E0D0 /* midiChannel3On.png */,
+				8DDE481C12DAF9970035E0D0 /* midiChannel4On.png */,
+				8DDE481D12DAF9970035E0D0 /* midiChannel5On.png */,
+				8DDE481E12DAF9970035E0D0 /* midiChannel6On.png */,
+				8DDE481F12DAF9970035E0D0 /* midiChannel7On.png */,
+				8DDE482012DAF9970035E0D0 /* midiChannel8On.png */,
+				8DDE482112DAF9970035E0D0 /* midiChannel9On.png */,
+				8DDE482212DAF9970035E0D0 /* midiChannel10On.png */,
+				8DDE482312DAF9970035E0D0 /* midiChannel11On.png */,
+				8DDE482412DAF9970035E0D0 /* midiChannel12On.png */,
+				8DDE482512DAF9970035E0D0 /* midiChannel13On.png */,
+				8DDE482612DAF9970035E0D0 /* midiChannel14On.png */,
+				8DDE482712DAF9970035E0D0 /* midiChannel15On.png */,
+				8DDE482812DAF9970035E0D0 /* midiChannel16On.png */,
+				8DDE478B12DAE0350035E0D0 /* eighthOn.png */,
+				8DDE478C12DAE0350035E0D0 /* halfOn.png */,
+				8DDE478D12DAE0350035E0D0 /* quarterOn.png */,
+				8DDE478E12DAE0350035E0D0 /* sixteenthOn.png */,
+				8DDE478F12DAE0350035E0D0 /* wholeOn.png */,
+				8DDE478912DAE0120035E0D0 /* discSettingsBackground.png */,
+			);
+			name = "Disc Settings";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -657,6 +856,8 @@
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				8D92FA8A12AE142200F2F9E2 /* CopyFiles */,
+				8D92FA9412AE14F700F2F9E2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -741,6 +942,28 @@
 				8D7A2A9312AC68E700DAE927 /* button_settings_active.png in Resources */,
 				8D7A2A9412AC68E700DAE927 /* button_settings_off.png in Resources */,
 				8D7A2A9512AC68E700DAE927 /* button_settings_on.png in Resources */,
+				8DDE478A12DAE0120035E0D0 /* discSettingsBackground.png in Resources */,
+				8DDE479012DAE0350035E0D0 /* eighthOn.png in Resources */,
+				8DDE479112DAE0350035E0D0 /* halfOn.png in Resources */,
+				8DDE479212DAE0350035E0D0 /* quarterOn.png in Resources */,
+				8DDE479312DAE0350035E0D0 /* sixteenthOn.png in Resources */,
+				8DDE479412DAE0350035E0D0 /* wholeOn.png in Resources */,
+				8DDE482912DAF9970035E0D0 /* midiChannel1On.png in Resources */,
+				8DDE482A12DAF9970035E0D0 /* midiChannel2On.png in Resources */,
+				8DDE482B12DAF9970035E0D0 /* midiChannel3On.png in Resources */,
+				8DDE482C12DAF9970035E0D0 /* midiChannel4On.png in Resources */,
+				8DDE482D12DAF9970035E0D0 /* midiChannel5On.png in Resources */,
+				8DDE482E12DAF9970035E0D0 /* midiChannel6On.png in Resources */,
+				8DDE482F12DAF9970035E0D0 /* midiChannel7On.png in Resources */,
+				8DDE483012DAF9970035E0D0 /* midiChannel8On.png in Resources */,
+				8DDE483112DAF9970035E0D0 /* midiChannel9On.png in Resources */,
+				8DDE483212DAF9970035E0D0 /* midiChannel10On.png in Resources */,
+				8DDE483312DAF9970035E0D0 /* midiChannel11On.png in Resources */,
+				8DDE483412DAF9970035E0D0 /* midiChannel12On.png in Resources */,
+				8DDE483512DAF9970035E0D0 /* midiChannel13On.png in Resources */,
+				8DDE483612DAF9970035E0D0 /* midiChannel14On.png in Resources */,
+				8DDE483712DAF9970035E0D0 /* midiChannel15On.png in Resources */,
+				8DDE483812DAF9970035E0D0 /* midiChannel16On.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -812,6 +1035,22 @@
 				8DA6361C1290D40F004CB4BC /* libdsmi_iphone.m in Sources */,
 				8DA6361D1290D40F004CB4BC /* osc_client.c in Sources */,
 				8D7A2A7112AC143200DAE927 /* MIDIToggleButton.m in Sources */,
+				8D92FA7C12AE13B400F2F9E2 /* PYMIDIEndpoint.m in Sources */,
+				8D92FA7D12AE13B400F2F9E2 /* PYMIDIEndpointDescriptor.m in Sources */,
+				8D92FA7E12AE13B400F2F9E2 /* PYMIDIEndpointSet.m in Sources */,
+				8D92FA7F12AE13B400F2F9E2 /* PYMIDIManager.m in Sources */,
+				8D92FA8012AE13B400F2F9E2 /* PYMIDIRealDestination.m in Sources */,
+				8D92FA8112AE13B400F2F9E2 /* PYMIDIRealEndpoint.m in Sources */,
+				8D92FA8212AE13B400F2F9E2 /* PYMIDIRealSource.m in Sources */,
+				8D92FA8312AE13B400F2F9E2 /* PYMIDIUtils.m in Sources */,
+				8D92FA8412AE13B400F2F9E2 /* PYMIDIVirtualDestination.m in Sources */,
+				8D92FA8512AE13B400F2F9E2 /* PYMIDIVirtualEndpoint.m in Sources */,
+				8D92FA8612AE13B400F2F9E2 /* PYMIDIVirtualSource.m in Sources */,
+				8D92FAEC12B09EDF00F2F9E2 /* MIDIChannelWiFi.m in Sources */,
+				8D92FB4012B1E57C00F2F9E2 /* MIDIChannelUSB.m in Sources */,
+				8D4BD57D12D44E5200859DCF /* MIDIMobilizerChannel.m in Sources */,
+				8DDE465812D817620035E0D0 /* AmosDisc.m in Sources */,
+				8DDE468B12D914230035E0D0 /* DiscSettings.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -828,7 +1067,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Amos_Prefix.pch;
 				INFOPLIST_FILE = "Amos-Info.plist";
-				"OTHER_LDFLAGS[sdk=iphoneos*][arch=armv7]" = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphoneos*][arch=armv7]" = "-all_load";
 				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "";
 				PRODUCT_NAME = Amos;
 			};
@@ -842,6 +1085,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Amos_Prefix.pch;
 				INFOPLIST_FILE = "Amos-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = Amos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -872,6 +1119,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Amos_Prefix.pch;
 				INFOPLIST_FILE = "Amos-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = Amos;
 				VALIDATE_PRODUCT = YES;
 			};

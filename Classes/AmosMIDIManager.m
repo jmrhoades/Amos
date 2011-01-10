@@ -10,6 +10,9 @@
 #import "NoteSetting.h"
 #import "ModeAViewController.h"
 #import "MIDIToggleButton.h"
+#import "PYMIDIManager.h"
+#import "PYMIDIEndpoint.h"
+#import "mmz.h"
 
 
 @implementation AmosMIDIManager
@@ -23,6 +26,11 @@
 @synthesize midiNoteRange;
 @synthesize beatLength;
 @synthesize isMIDIOn;
+@synthesize midiChannelUSB;
+@synthesize midiChannelWiFi;
+@synthesize midiEndPoint;
+@synthesize midiChannelMIDIMobilizer;
+@synthesize isMIDIMobilizerConnected;
 
 -(id) init {
 	if (self = [super init]) {
@@ -119,12 +127,66 @@
 		[self setBPM:120];
 		
 		self.isMIDIOn = YES;
-
+		
+		self.midiChannelUSB = 0;
+		self.midiChannelWiFi = 0;
+		self.midiChannelMIDIMobilizer = 0;
+		self.isMIDIMobilizerConnected = NO;
+				
+		octaveCount = 2;
+		octaveStart = 4;
+		
+		[self buildMidiNoteRange];
+		
+		[self getMIDIEndPoint];
+		
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(midiSetupChanged) name:@"PYMIDISetupChanged" object:nil];
+		
+		
+		//
+		// Line6 MIDIMobilizer 
+		//
+		
+		[MZController startupWithDelegate:self];
+		
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(statusChanged) name:@"MZMIDIMobilizerDidConnect" object:nil];
+		[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(statusChanged) name:@"MZMIDIMobilizerDidDisconnect" object:nil];
+		
 	}
 	
-	[self buildMidiNoteRange];
+		
+	//PYMIDIManager*  manager = [PYMIDIManager sharedInstance];
+    //NSArray* endpointArray = [manager realSources];
+    //NSEnumerator* enumerator = [endpointArray objectEnumerator];
+    //PYMIDIEndpoint* endpoint;
+    //while (endpoint = [enumerator nextObject]) {
+        //[myPopUp addItemWithTitle:[endpoint displayName]];
+        //[[myPopUp lastItem] setRepresentedObject:endpoint];
+    //}
+	 
 	
 	return self;
+}
+
+
+- (void)statusChanged
+{
+	self.isMIDIMobilizerConnected = [[MZController sharedController] isHardwareConnected];
+	
+	//[statusLabel setText:(isConnected ? @"Connected" : @"Not Connected")];
+	//[sendC3Button setEnabled:isConnected];
+}
+
+- (void)midiInput:(MZMIDIMessage *)message
+{
+	//[inputLabel setText:[message logDescription]];
+}
+
+
+
+
+-(void) midiSetupChanged {
+	self.midiEndPoint = [self getMIDIEndPoint];
 }
 
 
@@ -134,7 +196,7 @@
 	
 		//NSLog(@"AmosMIDIManager: Play note. %i %i", note, vel);
 		
-		[libdsmi writeMIDIMessage:NOTE_ON MIDIChannel:0 withData1:note withData2:vel];
+		[libdsmi writeMIDIMessage:NOTE_ON MIDIChannel:midiChannelWiFi withData1:note withData2:vel];
 		
 		[controller.midiOnOffButton playNote];
 		
@@ -143,29 +205,113 @@
 		//NSDictionary *userInfo =  [NSDictionary dictionaryWithObject:tNote forKey:@"note"];
 		
 		//[NSTimer scheduledTimerWithTimeInterval:.5 target:self selector:@selector(stopNoteByTimer:) userInfo:userInfo repeats:NO];
-	
-	}
-	
-}
-
-- (void)stopNoteByTimer:(NSTimer*)theTimer  {
-	
-	if (self.isMIDIOn) {
-	
-		//NSLog(@"AmosMIDIManager: stopNoteByTimer.");
-	
-		NSNumber *note = [[theTimer userInfo] objectForKey:@"note"];
-	
-		[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:[note intValue] withData2:30];
-	}
 		
+		
+		if (self.midiEndPoint != nil) {
+			
+			[self.midiEndPoint addSender:self];
+			
+			MIDIPacketList packetList;
+			
+			packetList.numPackets = 1;
+			
+			MIDIPacket* firstPacket = &packetList.packet[0];
+			
+			firstPacket->timeStamp = 0;	// send immediately
+			
+			firstPacket->length = 3;
+			
+			firstPacket->data[0] = NOTE_ON | midiChannelUSB;
+			
+			firstPacket->data[1] = note;
+			
+			firstPacket->data[2] = vel;
+			
+			[self.midiEndPoint processMIDIPacketList:&packetList sender:self];
+			
+			[self.midiEndPoint removeSender:self];
+		}
+		
+		if ( self.isMIDIMobilizerConnected ) {
+		
+			MZMIDINoteOnMessage *noteOn = [MZMIDINoteOnMessage message];
+			
+			[noteOn setTimestamp:0]; // don't really NEED to do this, but we're doing it for symmetry
+			[noteOn setChannel:midiChannelMIDIMobilizer]; // remember, channels are NOT 0-based, they are READABLE-based
+			[noteOn setNote:note]; // 60 = C3
+			[noteOn setVelocity:vel];
+			
+			// we need to reset the clock so that the note on message acts as the start of
+			// a new stream of messages. any messages with timestamps > 0 are going to be (and SHOULD be)
+			// in relation to the "first" message sent after the resetClock method is called.
+			// NOTE: the first message delivered after a resetClock message MUST have a timestamp of 0
+			[[MZController sharedController] resetClock];
+			[[MZController sharedController] sendMessages:[NSArray arrayWithObjects:noteOn, nil]];
+		
+		}
+		
+		
+	}
+	
 }
 
 - (void)endNote:(int)note {
+	
 	if (self.isMIDIOn) {
 
-		[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:note withData2:30];
+		[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:midiChannelWiFi withData1:note withData2:0];
+
+		
+		if (self.midiEndPoint != nil) {
+			
+			[self.midiEndPoint addSender:self];
+			
+			MIDIPacketList packetList;
+			
+			packetList.numPackets = 1;
+			
+			MIDIPacket* firstPacket = &packetList.packet[0];
+			
+			firstPacket->timeStamp = 0;	// send immediately
+			
+			firstPacket->length = 3;
+			
+			firstPacket->data[0] = NOTE_OFF | midiChannelUSB;
+			
+			firstPacket->data[1] = note;
+			
+			firstPacket->data[2] = 0;
+			
+			[self.midiEndPoint processMIDIPacketList:&packetList sender:self];
+			
+			[self.midiEndPoint removeSender:self];
+		}
+		
+		
+		if ( self.isMIDIMobilizerConnected ) {
+			
+			
+			MZMIDINoteOffMessage *noteOff = [MZMIDINoteOffMessage message];
+			
+			[noteOff setTimestamp:0]; // == 1 second after the note on - the "first" message
+			[noteOff setChannel:midiChannelMIDIMobilizer];
+			[noteOff setNote:note];
+			
+			// we need to reset the clock so that the note on message acts as the start of
+			// a new stream of messages. any messages with timestamps > 0 are going to be (and SHOULD be)
+			// in relation to the "first" message sent after the resetClock method is called.
+			// NOTE: the first message delivered after a resetClock message MUST have a timestamp of 0
+			[[MZController sharedController] resetClock];
+			[[MZController sharedController] sendMessages:[NSArray arrayWithObjects:noteOff, nil]];
+			
+		}
+	
 	}
+	
+	
+	
+	
+	
 }
 
 
@@ -184,17 +330,15 @@
 		}
 	}
 	
-	int startingOctave = 0;
-	int numberOfOctaves = 9;
 	
 	midiNoteRange = [[NSMutableArray alloc] init];
-	for (int i = 0; i < numberOfOctaves; i++) {
+	for (int i = 0; i < octaveCount; i++) {
 		
 		for (NoteSetting *setting in baseNotes) {
 			
 			NoteSetting *note = [[NoteSetting alloc] init];
-			note.value = setting.value + (i*12);
-			note.label =  [NSString stringWithFormat:@"%@%i", setting.label, startingOctave + i];
+			note.value = setting.value + ((octaveStart+i)*12);
+			note.label =  [NSString stringWithFormat:@"%@%i", setting.label, octaveStart + i];
 			[midiNoteRange addObject:note];
 			
 			//NSLog(@"%@ %i", note.label, note.value);
@@ -213,9 +357,43 @@
 }
 
 - (void)stopMIDI {
+	
 	// Send off messages to every note
 	for (int i = 0; i < 127; i++) {
+		
 		[libdsmi writeMIDIMessage:NOTE_OFF MIDIChannel:0 withData1:i withData2:0];
+		
+		if (self.midiEndPoint != nil) {
+			
+			[self.midiEndPoint addSender:self];
+			
+			MIDIPacketList packetList;
+			
+			packetList.numPackets = 1;
+			
+			MIDIPacket* firstPacket = &packetList.packet[0];
+			
+			firstPacket->timeStamp = 0;	// send immediately
+			
+			firstPacket->length = 3;
+			
+			firstPacket->data[0] = NOTE_OFF | midiChannelUSB;
+			
+			firstPacket->data[1] = i;
+			
+			firstPacket->data[2] = 0;
+			
+			[self.midiEndPoint processMIDIPacketList:&packetList sender:self];
+			
+			[self.midiEndPoint removeSender:self];
+		}
+		
+		if ( self.isMIDIMobilizerConnected ) {
+			
+			[[MZController sharedController] stop];
+			
+		}
+		
 	}
 	
 }
@@ -225,7 +403,63 @@
 	self.isMIDIOn = !self.isMIDIOn;	
 	[self stopMIDI];
 	
-	
 }
+
+- (void) setOctaveCount:(int)oCount {
+	octaveCount = oCount;
+}
+
+- (void) setOctaveStart:(int)oStart {
+	octaveStart = oStart;
+}
+
+- (int) getOctaveCount {
+	return octaveCount;
+}
+
+- (int) getOctaveStart {
+	return octaveStart;
+}
+
+
+- (PYMIDIEndpoint*) getMIDIEndPoint {
+	
+	PYMIDIManager*  manager = [PYMIDIManager sharedInstance];
+	NSArray* endpointArray = [manager realDestinations];
+	NSEnumerator* enumerator = [endpointArray objectEnumerator];
+	PYMIDIEndpoint *endpoint;
+	PYMIDIEndpoint *selectedEndPoint = nil;
+	
+	
+	while (endpoint = [enumerator nextObject]) {
+		
+		if ([endpoint displayName] != nil) {
+			
+			// NSLog(@"%@", [endpoint displayName]);
+						
+			NSString *name = [endpoint displayName];
+			
+			if ([@"Network Session 1" isEqualToString:name]) {
+				selectedEndPoint = nil;
+			} else {
+				selectedEndPoint = endpoint;
+			}
+			
+		}
+	}
+	
+	self.midiEndPoint = selectedEndPoint;
+	
+	return selectedEndPoint;
+	
+	/*
+	UIAlertView *myAlert = [[UIAlertView alloc] initWithTitle:@"MIDI" message:allNames delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"OK", nil];
+	[myAlert show];
+	[myAlert release];
+	*/
+		
+}
+
+
 
 @end

@@ -13,6 +13,7 @@
 	UILabel *bpmLabel;
 	UILabel *octaveStartLabel;
 	UILabel *octaveCountLabel;
+	UISlider *octaveStartControl;
 }
 
 

@@ -131,8 +131,6 @@
 						  ];}];
 	
 	
-	//AmosAppDelegate *delegate = [[UIApplication sharedApplication] delegate];
-	//[delegate.midiManager playNote:noteValue withVelocity:vel];
 	 
 	
 }

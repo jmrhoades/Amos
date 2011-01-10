@@ -28,10 +28,10 @@
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
 	
-	NSLog(@"convertToGL %@", [[UIDevice currentDevice] orientation]);
+	//NSLog(@"convertToGL %@", [[UIDevice currentDevice] orientation]);
 
 	
-	midiManager = [[AmosMIDIManager alloc] init];
+	self.midiManager = [[AmosMIDIManager alloc] init];
 
 	modeA = [[ModeAViewController alloc] init];
 	[window addSubview:[modeA view]];

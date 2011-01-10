@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Box2D/Box2D.h>
 
-@interface AmosUIViewBody : UIView <UIGestureRecognizerDelegate> {
+@interface AmosUIViewBody : UIView <UIGestureRecognizerDelegate, UIPopoverControllerDelegate> {
 	
 	b2World *world;
 	b2Body *groundBody;
@@ -31,7 +31,6 @@
 @property (nonatomic) b2DistanceJoint *distanceJoint;
 @property (nonatomic) float mouseJointMaxForce;
 @property (nonatomic) int noteValue;
-
 
 -(void) setWorld:(b2World *)world withGroundBody:(b2Body *)aGroundBody;
 -(void) pan:(UIPanGestureRecognizer *)gestureRecognizer;

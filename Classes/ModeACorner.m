@@ -134,6 +134,7 @@
 
 
 - (void)dealloc {
+	[background release];
     [super dealloc];
 }
 

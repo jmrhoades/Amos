@@ -38,7 +38,7 @@
 		
 		mouseJointMaxForce = 350.0f;
 		
-		self.noteValue = 48;
+		self.noteValue = 60;
 		
     }
     return self;
